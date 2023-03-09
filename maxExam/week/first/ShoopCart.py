@@ -73,9 +73,6 @@ def showShopCartInfo(shopCart: list):
 
     return countMoney
 
-
-
-
 def savaMoney():
     """
     存款
