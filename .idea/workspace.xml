@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="" />
+    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/maxExam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maxExam/week/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maxExam/week/first/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxExam/firstWeek/ShoopCart.py" beforeDir="false" afterPath="$PROJECT_DIR$/maxExam/week/first/ShoopCart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxExam/firstWeek/goods" beforeDir="false" afterPath="$PROJECT_DIR$/maxExam/week/first/goods" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxExam/firstWeek/w1.md" beforeDir="false" afterPath="$PROJECT_DIR$/maxExam/week/first/w1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxExam/firstWeek/第一次周末大作业：购物车（张珵）.md" beforeDir="false" afterPath="$PROJECT_DIR$/maxExam/week/first/第一次周末大作业：购物车（张珵）.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,21 +38,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day11_函数名的运用_迭代器",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day11_函数名的运用_迭代器&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="R2CodingForPython" is-module-sdk="true">
@@ -61,14 +70,36 @@
       <recent name="$PROJECT_DIR$/day06_id、is、==区别，代码块及缓存机制(小数据池)、集合、深浅copy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/maxExam/week/first" />
+      <recent name="$PROJECT_DIR$/maxExam" />
+      <recent name="$PROJECT_DIR$/week" />
       <recent name="$PROJECT_DIR$/maxExam/firstWeek" />
       <recent name="$PROJECT_DIR$/day08_文件操作" />
-      <recent name="$PROJECT_DIR$/day03_循环和分支" />
-      <recent name="$PROJECT_DIR$/day06_id、is、==区别，代码块及缓存机制(小数据池)、集合、深浅copy/d1_set" />
-      <recent name="$PROJECT_DIR$/day04_列表、元素/d1_list" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ShoopCart">
+  <component name="RunManager" selected="Python.ShoopCart (1)">
+    <configuration name="ShoopCart (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maxExam/week/first" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maxExam/week/first/ShoopCart.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ShoopCart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,28 +136,6 @@
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day09_函数/exam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day09_函数/exam/demo6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ShoopCart (1)" />
         <item itemvalue="Python.ShoopCart" />
         <item itemvalue="Python.demo9" />
         <item itemvalue="Python.demo8" />
         <item itemvalue="Python.demo7" />
-        <item itemvalue="Python.demo6" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +247,7 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$06_.coverage" NAME="06_字符串索引、切片 Coverage Results" MODIFIED="1677996417874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$7_.coverage" NAME="7.字典的其他操作 Coverage Results" MODIFIED="1678018684840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05_字典" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1678234074891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09_函数/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$ShoopCart__1_.coverage" NAME="ShoopCart (1) Coverage Results" MODIFIED="1678370095083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maxExam/week/first" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$ScreenRecord.coverage" NAME="ScreenRecord Coverage Results" MODIFIED="1678198350265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/screenRecord" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$2_.coverage" NAME="2.集合的交并差、子集和超集 Coverage Results" MODIFIED="1678021842211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06_id、is、==区别，代码块及缓存机制(小数据池)、集合、深浅copy/d1_set" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$6_.coverage" NAME="6.字典元素查询 Coverage Results" MODIFIED="1678018000727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05_字典" />
