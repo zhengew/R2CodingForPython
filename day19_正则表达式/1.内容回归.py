@@ -30,3 +30,19 @@
 # 数据库 - 5天
 
 # 21天
+
+# * 函数形参角度：聚合
+def func(*args, **kwargs):
+    print(args) # ('lucy', '18', 'nv')
+    print(kwargs) # {'hoby': 'running', 'score': 100}
+
+
+func('lucy', '18', 'nv', hoby= 'running', score = 100)
+
+
+# * 函数调用，实参角度：打散
+
+def func2(*args):
+    print(args)
+
+func2(*[1, 2 ,3], *[4, 5, 6])
