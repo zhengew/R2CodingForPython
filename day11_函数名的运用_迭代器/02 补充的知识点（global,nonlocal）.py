@@ -5,14 +5,14 @@
 # func('alex')
 
 # 陷阱只针对于默认参数是可变的数据类型：
-# def func(name,alist=[]):
-#     alist.append(name)
-#     return alist
-#
-# ret1 = func('alex')
-# print(ret1,id(ret1))  # ['alex']
-# ret2 = func('太白金星')
-# print(ret2,id(ret2))  # ['太白金星']
+def func(name,alist=[]):
+    alist.append(name)
+    return alist
+
+ret1 = func('alex')
+print(ret1,id(ret1))  # ['alex']
+ret2 = func('太白金星')
+print(ret2,id(ret2))  # ['alex', '太白金星'] 4522228544
 
 # 如果你的默认参数指向的是可变的数据类型，那么你无论调用多少次这个默认参数，都是同一个。
 
