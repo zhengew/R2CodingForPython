@@ -1,3 +1,4 @@
+
 # -*- coding:utf-8 -*-
 # 开发人员: erwei.zheng
 # 开发时间: 2023/3/5 16:54
@@ -39,5 +40,6 @@ print(dict6)
 # 方式七 fromkeys
 didt7 = dict.fromkeys("123", "初始值")
 print(didt7) # {'1': '初始值', '2': '初始值', '3': '初始值'}
+
 
 

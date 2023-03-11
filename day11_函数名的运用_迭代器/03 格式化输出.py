@@ -22,11 +22,11 @@
 # print(msg)
 
 # 结合函数写：
-def _sum(a,b):
-    return a + b
-
-msg = f'最终的结果是：{_sum(10,20)}'
-print(msg)
+# def _sum(a,b):
+#     return a + b
+#
+# msg = f'最终的结果是：{_sum(10,20)}'
+# print(msg)
 # ! , : { } ;这些标点不能出现在{} 这里面。
 # 优点：
 #  1. 结构更加简化。

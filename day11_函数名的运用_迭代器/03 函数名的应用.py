@@ -82,12 +82,12 @@
 # func1(func)
 
 # 5. 函数名可以作为函数的返回值
-def func():
-    print('in func')
-
-def func1(x): # x = func
-    print('in func1')
-    return x
-
-ret = func1(func)  # func
-ret()  # func()
+# def func():
+#     print('in func')
+#
+# def func1(x): # x = func
+#     print('in func1')
+#     return x
+#
+# ret = func1(func)  # func
+# ret()  # func()
