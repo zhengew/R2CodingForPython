@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day12_生成器、生成器函数、yield、yield from、列表推导式、生成器表达式、内置函数I/exam/day12_作业.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_生成器、生成器函数、yield、yield from、列表推导式、生成器表达式、内置函数I/生成器经典案例.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/01 作业讲解.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/02 匿名函数lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/03 内置函数II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/04 闭包.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/day13 课堂笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/day13_今日内容.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam/内置函数demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam/匿名函数demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam/闭包.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/匿名函数_lambda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/闭包原理_内层函数对外层函数非全局变量的引用.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_生成器、生成器函数、yield、yield from、列表推导式、生成器表达式、内置函数I/day12_今日内容大纲.md" beforeDir="false" afterPath="$PROJECT_DIR$/day12_生成器、生成器函数、yield、yield from、列表推导式、生成器表达式、内置函数I/day12_今日内容大纲.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/01 作业讲解.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/01 作业讲解.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/03 内置函数II.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/03 内置函数II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/day13_今日内容.md" beforeDir="false" afterPath="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/day13_今日内容.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,29 @@
       <recent name="$PROJECT_DIR$/week" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day12_作业">
+  <component name="RunManager" selected="Python.闭包">
+    <configuration name="闭包" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam/闭包.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="04 内置函数I" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,28 +123,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12_生成器/04 内置函数I.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="列表推导式_生成器表达式demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day12_生成器/exam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12_生成器/exam/列表推导式_生成器表达式demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,28 +153,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day11作业" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11_函数名的运用_迭代器/exam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11_函数名的运用_迭代器/exam/day11作业.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="day12_作业" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generatorDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="匿名函数demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,12 +183,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day12_生成器/exam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12_生成器/exam/generatorDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam/匿名函数demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="内置函数demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam/内置函数demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.闭包" />
+        <item itemvalue="Python.内置函数demo" />
+        <item itemvalue="Python.匿名函数demo" />
         <item itemvalue="Python.day12_作业" />
         <item itemvalue="Python.04 内置函数I" />
-        <item itemvalue="Python.列表推导式_生成器表达式demo" />
-        <item itemvalue="Python.generatorDemo" />
-        <item itemvalue="Python.day11作业" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +242,7 @@
       <workItem from="1677982018665" duration="158000" />
       <workItem from="1677982187548" duration="22852000" />
       <workItem from="1678319252237" duration="1503000" />
-      <workItem from="1678371813134" duration="40467000" />
+      <workItem from="1678371813134" duration="51398000" />
     </task>
     <servers />
   </component>
@@ -260,7 +261,8 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$ShoopCart__1_.coverage" NAME="ShoopCart (1) Coverage Results" MODIFIED="1678370389344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maxExam/week/first" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$ScreenRecord.coverage" NAME="ScreenRecord Coverage Results" MODIFIED="1678198350265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/screenRecord" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$2_.coverage" NAME="2.字段创建方式 Coverage Results" MODIFIED="1678519362722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05_字典" />
-    <SUITE FILE_PATH="coverage/R2CodingForPython$.coverage" NAME="迭代器练习 Coverage Results" MODIFIED="1678525634922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11_函数名的运用_迭代器/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$demo.coverage" NAME="内置函数demo Coverage Results" MODIFIED="1678619607689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$.coverage" NAME="闭包 Coverage Results" MODIFIED="1678622896585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$generatorDemo.coverage" NAME="generatorDemo Coverage Results" MODIFIED="1678586764964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12_生成器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$6_.coverage" NAME="6.字典元素查询 Coverage Results" MODIFIED="1678018000727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05_字典" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$4_.coverage" NAME="4.字典元素修改 Coverage Results" MODIFIED="1678015853642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05_字典" />

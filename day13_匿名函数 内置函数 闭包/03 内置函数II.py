@@ -194,8 +194,8 @@ dic = {'a': 3, 'b': 2, 'c': 1}
 
 l2 = [('大壮', 76), ('雪飞', 70), ('纳钦', 94), ('张珵', 98), ('b哥',96)]
 # print(sorted(l2))
-# print(sorted(l2,key= lambda x:x[1]))  # 返回的是一个列表，默认从低到高
-# print(sorted(l2,key= lambda x:x[1],reverse=True))  # 返回的是一个列表，默认从低到高
+print(sorted(l2,key= lambda x:x[1]))  # 返回的是一个列表，默认从低到高
+print(sorted(l2,key= lambda x:x[1],reverse=True))  # 返回的是一个列表，默认从低到高
 
 
 # filter 列表推导式的筛选模式

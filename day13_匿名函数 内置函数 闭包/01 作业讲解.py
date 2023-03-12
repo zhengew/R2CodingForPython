@@ -25,6 +25,7 @@
 # l1 = ['alex', 'WuSir', '老男孩', '太白']
 # 有以下数据类型：
 #
+
 x = {'name':'alex',
      'Values':[{'timestamp':1517991992.94,'values':100,},
                {'timestamp': 1517992000.94,'values': 200,},
