@@ -26,6 +26,7 @@ status_dict = {
     'username': None,
     'status': False,
 }
+
 def login():
     """
     登录模块，3次登录失败，账户锁定
@@ -39,11 +40,14 @@ def login():
         login_pwd = input('请输入密码:').strip()
         if login_name in users and login_pwd == users[login_name]:
             login_status = True
+            status_dict['username'] = login_name
+            status_dict['status'] = login_status
             break
         else:
             index -= 1
             print(f'用户名或密码错误，剩余次数:{index}' if index > 0 else "用户被禁用，请联系管理员解锁～")
-    return {'username': login_name, 'status': login_status} if login_status == True else login_status
+
+    return login_status
 
 def register():
     return
@@ -56,13 +60,15 @@ def auth(f):
     :return:
     '''
     def inner(*args,**kwargs):
-        status = login()
-        if status:
-            status_dict['username'] = status.get('username', None)
-            status_dict['status'] = status.get('status', False)
+        if status_dict['status']:
             ret = f(*args, **kwargs)
             return ret
+        else:
+            if login():
+                ret = f(*args, **kwargs)
+                return ret
     return inner
+
 @auth
 def article():
     print('欢迎访问文章页面')
@@ -76,8 +82,9 @@ def dariy():
 def main():
     print(status_dict)
     article()  # inner()
-    # comment()  #inner()
-    # dariy()
+    print(status_dict)
+    comment()
+    dariy()
 
 if __name__ == '__main__':
     main()
