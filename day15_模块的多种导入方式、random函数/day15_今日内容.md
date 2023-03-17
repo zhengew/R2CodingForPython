@@ -64,10 +64,38 @@
 ## 8.相对导入
  - 针对某个项目中的不同模块之间进行导入，称为相对导入
    - 相对导入：同一个包下的不同模块(不同子包或同包)
-# .常用模块
- - time
- - datetime
+     - 同一个项目下的不同模块，对外界提供访问的模块需要使用本项目中的其他模块提供的成员，并且对外隐藏被引用的模块时，使用相对导入
+ - 语法：
+   - from 相对路径 import xxx
+   - 相对路径:
+     - . 表示当前路径
+     - .. 表示的是父路径
+     - ... 表示的父路径的父路径
+ - 相对导入实例:
+   ```python
+      # 相对导入同项目下的模块
+      # from ..z import zz            # 容易向外界暴露zz模块
+      from ..z.zz import *
+   ```
+ - 不使用相对导入，导入本项目中的模块实例:
+   ```python
+    # 不使用相对导入的方式，导入本项目中的模块
+    # 通过当前文件的路径找到z的路径
+    import os
+    import sys
+    sys.path.append(os.path.dirname(os.path.dirname(__file__)) + '/z')
+    from zz import *
+    ```
+
+ 
+# 9.常用模块
  - random
+   - 提供了和随机数获取相关的函数
+   - random.random():获取[0.0,1.0)范围内的浮点数
+   - random.randint(a,b):获取[a,b]范围内的一个整数
+   - random.uniform(a,b):获取[a,b)范围内的浮点数
+   - random.shuffle(x):把参数指定的数据中的元素打乱。参数必须是一个可变的数据类型。
+   - random.sample(x,k):从x中随机抽取k个数据，组成一个列表返回。
 
 # 4.今日总结
 
