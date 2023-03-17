@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="" />
+    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15_模块的多种导入方式、random函数/02 函数总结.py" beforeDir="false" afterPath="$PROJECT_DIR$/day15_模块的多种导入方式、random函数/02 函数总结.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxExam/week/second/mock_cnblogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/maxExam/week/second/mock_cnblogs.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +45,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day15_模块的多种导入方式、random函数",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day18_软件开发规范",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,11 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day18_软件开发规范" />
       <recent name="$PROJECT_DIR$/day15_模块的多种导入方式、random函数" />
       <recent name="$PROJECT_DIR$/day14_装饰器" />
       <recent name="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包" />
       <recent name="$PROJECT_DIR$/day12_生成器" />
-      <recent name="$PROJECT_DIR$/day11_函数名的运用_迭代器/exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day11_函数名的运用_迭代器/exam" />

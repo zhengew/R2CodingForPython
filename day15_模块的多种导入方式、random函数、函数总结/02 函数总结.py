@@ -57,3 +57,8 @@
 # ret = wrapper('烧饼')
 # print(ret.__code__.co_freevars)
 
+def wrapper(f):
+    def inner(*args, **kwargs):
+        ret = f(*args, **kwargs)
+        return ret
+    return inner
