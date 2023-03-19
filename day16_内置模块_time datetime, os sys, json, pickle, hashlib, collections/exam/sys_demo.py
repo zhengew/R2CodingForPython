@@ -15,4 +15,8 @@ import sys
 # sys.path
 
 # 已经加载的模块
-print(sys.modules)
+# print(sys.modules)
+
+sys.argv[0] = input("请输入用户名:")
+sys.argv[1] = input("请输入密码: ")
+print(f'用户名:{sys.argv[0]}, 密码:{sys.argv[1]}')

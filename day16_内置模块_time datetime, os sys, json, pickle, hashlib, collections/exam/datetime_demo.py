@@ -52,6 +52,7 @@ print(res) # 2010-10-09
 t = datetime.datetime(2010, 10, 10, 10, 10, 59)
 td = datetime.timedelta(seconds=3)
 res = t + td
+
 print(res) # 2010-10-10 10:11:02
 
 
