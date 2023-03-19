@@ -112,7 +112,6 @@ def register(path: str):
         else:
             print('用户名只能由字母或数组组成，请重新输入～')
 
-
 def write_article():
     """
     创建文章
@@ -250,6 +249,10 @@ def logout():
     return
 
 def exit():
+    """
+    退出系统
+    :return:
+    """
     print(f'用户:{login_status["login_user"]}, 退出系统，欢迎再次访问博客园~' if login_status['login_user'] else "退出系统～")
     sys.exit()
 
