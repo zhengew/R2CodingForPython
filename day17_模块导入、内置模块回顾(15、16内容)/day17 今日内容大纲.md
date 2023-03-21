@@ -95,7 +95,7 @@
       - 被导入模块有独立的名称空间   `***`
 
         ```python
-        import tbjx
+        import tbjxim
         # name = 'alex'
         # print(name)
         # print(tbjx.name)
