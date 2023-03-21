@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam/日期相关练习.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/01 import 使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/02 from...import....py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/03 json模块.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/04 pickle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/05 hashlib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/day17 今日内容大纲.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/day17 今日内容大纲.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/json文件" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/json文件1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/mysql1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/oracle1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/register" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/tbjx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maxExam/sys_argv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/image/01_被导入的模块有独立的名称空间.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/image/第一次import模块执行三件事.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/image/被导入模块有自己独立命名空间_demo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam/datetime_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam/datetime_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam/sys_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam/sys_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam/time_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam/time_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +73,11 @@
       <recent name="$PROJECT_DIR$/day18_软件开发规范" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/image" />
       <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)" />
       <recent name="$PROJECT_DIR$/day11_函数名的运用_迭代器/exam" />
       <recent name="$PROJECT_DIR$/day11_函数名的运用_迭代器" />
       <recent name="$PROJECT_DIR$/maxExam/week/first" />
-      <recent name="$PROJECT_DIR$/maxExam" />
     </key>
   </component>
   <component name="RunManager" selected="Python.sys_demo">
