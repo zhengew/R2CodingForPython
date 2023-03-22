@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day18_软件开发规范/模版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19_正则表达式/1.内容回顾.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19_正则表达式/2.今日内容.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19_正则表达式/3,正则表达式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19_正则表达式/4.整理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19_正则表达式/5.re模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19_正则表达式/douban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19_正则表达式/file" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19_正则表达式/image/匹配手机号.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19_正则表达式/image/贪心算法和回溯算法.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19_正则表达式/image/身份证号.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19_正则表达式/正则量词？+*.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day18_软件开发规范/课上笔记 软件开发规范.md" beforeDir="false" afterPath="$PROJECT_DIR$/day18_软件开发规范/课上笔记 软件开发规范.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +54,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day18_软件开发规范",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day19_正则表达式",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,11 +74,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day19_正则表达式" />
       <recent name="$PROJECT_DIR$/day18_软件开发规范" />
       <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)" />
       <recent name="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections" />
       <recent name="$PROJECT_DIR$/maxExam/week/second" />
-      <recent name="$PROJECT_DIR$/day15_模块的多种导入方式、random函数" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/image" />
