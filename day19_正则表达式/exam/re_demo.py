@@ -26,12 +26,12 @@ if ret2:
 
 # 分组
 ## 预习一个现象 并找到答案 - 分组 ()
-str = 'abcd2023defgegg2122abd'
-ret3 = re.findall('2(\d)\d', str)
-print(ret3) # ['0', '1']
-
-ret4 = re.search('2(\d)(\d)', str)
-if ret4:
-    print(ret4.group())
-    print(ret4.group(1))
-    print(ret4.group(2))
+# str = 'abcd2023defgegg2122abd'
+# ret3 = re.findall('2(\d)\d', str)
+# print(ret3) # ['0', '1']
+#
+# ret4 = re.search('2(\d)(\d)', str)
+# if ret4:
+#     print(ret4.group())
+#     print(ret4.group(1))
+#     print(ret4.group(2))
