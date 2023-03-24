@@ -22,13 +22,12 @@ import re
 # print(ret)
 
 import re
-# ret=re.findall(r"\d+\.\d+|(\d+)","1-2*(60+(-40.35/5)-(-4*3))")
-# print(ret)
-# ret = ['1', '2', '60', '', '5', '4', '3','','']
-# ret.remove('')
-# print(ret)
-# ret = filter(lambda n:n,ret)
-# print(list(ret))
+ret=re.findall(r"\d+\.\d+|(\d+)","1-2*(60+(-40.35/5)-(-4*3))")
+print(ret) # ['1', '2', '60', '', '5', '4', '3']
+ret = ['1', '2', '60', '', '5', '4', '3','','']
+print(ret)
+ret = filter(lambda n:n,ret)
+print(list(ret)) # ['1', '2', '60', '5', '4', '3']
 
 # 分组命名(?P<组名>正则) (?P=组名)
 # 有的时候我们要匹配的内容是包含在不想要的内容之中的,
