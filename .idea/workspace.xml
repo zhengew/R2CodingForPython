@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day19_正则表达式/exam/re_demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day19_正则表达式/exam/re_demo3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/1.内容回顾.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/2.今日内容.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/3.re模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/4.re模块的拾遗.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/5.爬虫的例子.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/6.计算器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/7.递归函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/day20作业（张珵）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/move_info7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day19_正则表达式/exam/re_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day19_正则表达式/exam/re_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day19_正则表达式/exam/re_demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/day19_正则表达式/exam/re_demo3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +53,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day19_正则表达式",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day20_re模块用法、递归函数、待参数装饰器/exam",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
+      <recent name="$PROJECT_DIR$/day20" />
       <recent name="$PROJECT_DIR$/day19_正则表达式" />
       <recent name="$PROJECT_DIR$/day18_软件开发规范" />
       <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)" />
-      <recent name="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections" />
-      <recent name="$PROJECT_DIR$/maxExam/week/second" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/image" />
