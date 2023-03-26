@@ -5,13 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/RecursionError_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/filter_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/finditer_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/计算器第一天.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/a/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/a/a2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/a/b/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/a/b/c/c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/day20_re练习题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/day20_递归相关练习题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/lianjia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/lianjia_bk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/re_计算器练习_demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/匹配表达式中的乘法和除法.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/带参数装饰器_demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/带参数装饰器练习.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/递归_三级菜单.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/递归练习题.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/1.内容回顾.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/2.今日内容.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/3.递归习题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/4.递归习题2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/5.shutil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/6.logging模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam/res_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/lianjia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/lianjia_bk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/outer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/outer/inner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/outer/inner/s21day21tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/outer/sag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/outer_z.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/s21day21tmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day19_正则表达式/exam/re_demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/day19_正则表达式/exam/re_demo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/4.re模块的拾遗.py" beforeDir="false" afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/4.re模块的拾遗.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/6.计算器.py" beforeDir="false" afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/6.计算器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/day20作业（张珵）.md" beforeDir="false" afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/day20作业（张珵）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/filter_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/filter_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +77,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day20_re模块用法、递归函数、待参数装饰器/exam",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day21",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,11 +97,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day21" />
       <recent name="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
       <recent name="$PROJECT_DIR$/day20" />
       <recent name="$PROJECT_DIR$/day19_正则表达式" />
       <recent name="$PROJECT_DIR$/day18_软件开发规范" />
-      <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/image" />
@@ -83,8 +111,8 @@
       <recent name="$PROJECT_DIR$/maxExam/week/first" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RecursionError_demo">
-    <configuration name="4.re模块的拾遗" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.res_demo">
+    <configuration name="6.计算器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +125,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/4.re模块的拾遗.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/6.计算器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RecursionError_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="7.递归函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,12 +142,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/RecursionError_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/7.递归函数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,6 +200,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="day20_递归相关练习题" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/day20_递归相关练习题.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="day20_re练习题" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/day20_re练习题.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="内置函数demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,7 +266,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="filter_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="res_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,56 +274,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/filter_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="finditer_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam/finditer_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="re_demo3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day19_正则表达式/exam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day19_正则表达式/exam/re_demo3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam/res_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RecursionError_demo" />
-        <item itemvalue="Python.4.re模块的拾遗" />
-        <item itemvalue="Python.filter_demo" />
-        <item itemvalue="Python.finditer_demo" />
-        <item itemvalue="Python.re_demo3" />
+        <item itemvalue="Python.res_demo" />
+        <item itemvalue="Python.day20_re练习题" />
+        <item itemvalue="Python.6.计算器" />
+        <item itemvalue="Python.day20_递归相关练习题" />
+        <item itemvalue="Python.7.递归函数" />
       </list>
     </recent_temporary>
   </component>
@@ -295,8 +323,9 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$re_demo3.coverage" NAME="re_demo3 Coverage Results" MODIFIED="1679580576002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19_正则表达式/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$import_demo1.coverage" NAME="import_demo1 Coverage Results" MODIFIED="1678973156750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maxExam/modul_import_demo" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$1_unicode.coverage" NAME="1.unicode对不同编码类型的相互转换 Coverage Results" MODIFIED="1678103256940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07_数据类型转换" />
-    <SUITE FILE_PATH="coverage/R2CodingForPython$7_.coverage" NAME="7.字典的其他操作 Coverage Results" MODIFIED="1678018684840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05_字典" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$day20_.coverage" NAME="day20_递归相关练习题 Coverage Results" MODIFIED="1679736834077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1678234074891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09_函数/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$7_.coverage" NAME="7.递归函数 Coverage Results" MODIFIED="1679728093707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$generatorDemo.coverage" NAME="generatorDemo Coverage Results" MODIFIED="1678586764964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12_生成器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$wrapper3.coverage" NAME="wrapper3 Coverage Results" MODIFIED="1678924202395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15_模块的多种导入方式、random函数/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$4_.coverage" NAME="4.字典元素修改 Coverage Results" MODIFIED="1678015853642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05_字典" />
@@ -310,10 +339,14 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1679141756370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$1_tuple.coverage" NAME="1.tuple Coverage Results" MODIFIED="1678003743200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04_列表、元素/d2_tuple" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo7.coverage" NAME="demo7 Coverage Results" MODIFIED="1678886706357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_装饰器/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$day20_re.coverage" NAME="day20_re练习题 Coverage Results" MODIFIED="1679818906766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$day132.coverage" NAME="day13作业2 Coverage Results" MODIFIED="1678709467336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$res_demo.coverage" NAME="res_demo Coverage Results" MODIFIED="1679822714518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$1_utf_8GBk.coverage" NAME="1.utf-8转GBk Coverage Results" MODIFIED="1678025540631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07_数据类型转换" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$mock_cnblogs.coverage" NAME="mock_cnblogs Coverage Results" MODIFIED="1679441453794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maxExam/week/second" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$_demo2.coverage" NAME="带参数装饰器_demo2 Coverage Results" MODIFIED="1679717651318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$4_re.coverage" NAME="4.re模块的拾遗 Coverage Results" MODIFIED="1679666180027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$_.coverage" NAME="递归_三级菜单 Coverage Results" MODIFIED="1679727021552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$time_demo.coverage" NAME="time_demo Coverage Results" MODIFIED="1679142101008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$hashlib_demo1.coverage" NAME="hashlib_demo1 Coverage Results" MODIFIED="1679441449540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1678108990493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07_数据类型转换/exam" />
@@ -344,9 +377,9 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$2_.coverage" NAME="2.字段创建方式 Coverage Results" MODIFIED="1678519362722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05_字典" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo.coverage" NAME="简单的装饰器demo Coverage Results" MODIFIED="1678629331348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_装饰器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$.coverage" NAME="日期相关练习 Coverage Results" MODIFIED="1679224916685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam" />
-    <SUITE FILE_PATH="coverage/R2CodingForPython$6_.coverage" NAME="6.字典元素查询 Coverage Results" MODIFIED="1678018000727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05_字典" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$6_.coverage" NAME="6.计算器 Coverage Results" MODIFIED="1679741961989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$timer.coverage" NAME="timer装饰器 Coverage Results" MODIFIED="1678716678106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_装饰器/exam" />
-    <SUITE FILE_PATH="coverage/R2CodingForPython$filter_demo.coverage" NAME="filter_demo Coverage Results" MODIFIED="1679665558064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$filter_demo.coverage" NAME="filter_demo Coverage Results" MODIFIED="1679708857386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$2_loopDemo2.coverage" NAME="2.loopDemo2 Coverage Results" MODIFIED="1677995884666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$sysDemo.coverage" NAME="sysDemo Coverage Results" MODIFIED="1678972639889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15_模块的多种导入方式、random函数/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$RecursionError_demo.coverage" NAME="RecursionError_demo Coverage Results" MODIFIED="1679668565310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
