@@ -8,16 +8,14 @@ Counter():计数器
 
 from collections import namedtuple,defaultdict,Counter
 # namedtuple()
-# Rectangle = namedtuple('Rectangle_class',['length','width'])
-# #
-# r = Rectangle(10,5)
-# # 通过属性访问元组的元素
-# print(r.length)
-# print(r.width)
-#
-# # 通过索引的方式访问元素
-# print(r[0])
-# print(r[1])
+Rectangle = namedtuple('Rectangle_class',['length','width'])
+r = Rectangle(10,5)
+# 通过属性访问元组的元素
+print(r.length)
+print(r.width)
+# 通过索引的方式访问元素
+print(r[0])
+print(r[1])
 
 # defautldict:
 # 创建一个字典的方式:
@@ -26,23 +24,23 @@ from collections import namedtuple,defaultdict,Counter
 # d = {k:v for k,v in [(1,2),(3,4)]}
 # print(d)
 # defaultdict()
-# d = defaultdict(int,name='Andy',age=10)
-# print(d['name'])
-# print(d['age'])
-# print(d['addr'])            # {'addr':0} 也会被添加
-# print(d)
+d = defaultdict(int,name='Andy',age=10)
+print(d['name'])
+print(d['age'])
+print(d['addr'])            # {'addr':0} 也会被添加
+print(d)
 
 # 自定义函数充当第一个参数:
 # 要求,不能有参数
-# def f():
-#     return 'hello'
-#
-# d = defaultdict(f,name='Andy',age=10)
-# print(d['addr'])
-# print(d)
+def f():
+    return 'hello'
+
+d = defaultdict(f,name='Andy',age=10)
+print(d['addr']) # hello
+print(d) # defaultdict(<function f at 0x10dd45750>, {'name': 'Andy', 'age': 10, 'addr': 'hello'})
 
 # Counter:计数器
 c = Counter('abcdefabccccdd')
-print(c)
-print(c.most_common(3))
+print(c) # Counter({'c': 5, 'd': 3, 'a': 2, 'b': 2, 'e': 1, 'f': 1})
+print(c.most_common(3)) # [('c', 5), ('d', 3), ('a', 2)]
 
