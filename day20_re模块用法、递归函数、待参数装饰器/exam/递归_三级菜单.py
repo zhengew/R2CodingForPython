@@ -2,6 +2,7 @@
 # 开发人员: erwei.zheng
 # 开发时间: 2023/3/25 14:50
 # 文件名称: 递归_三级菜单.py
+import shutil
 
 menu = {
     '北京': {
@@ -47,4 +48,12 @@ menu = {
     '山东': {},
 }
 
-print(menu)
+# print(menu)
+
+
+total, used, free = shutil.disk_usage('.')
+print(f"当前磁盘共: {round(total/1073741824, 2)}GB, 已使用: {round(used/1073741824, 2)}GB, 剩余:{round(free/1073741824, 2)}GB")
+# 当前磁盘共: 465.63GB, 已使用: 417.49GB, 剩余:48.14GB
+
+print(globals())
+print(locals())
