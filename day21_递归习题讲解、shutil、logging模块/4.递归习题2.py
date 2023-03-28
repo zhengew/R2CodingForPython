@@ -60,22 +60,22 @@ menu = {
     },
     '山东': {},
 }
-# def menu_func(menu):
-#     flag= True
-#     while flag:
-#         for name in menu:
-#             print(name)
-#         key = input('>>>').strip()  # 北京
-#         if menu.get(key):
-#             dic = menu[key]
-#             flag = menu_func(dic)    # menu_func(menu['北京'])
-#         elif key.upper() == 'B':   # back回退   quit退出
-#             return True
-#         elif key.upper() == 'Q':
-#             return False
-#
-# menu_func(menu)
-# print('wahaha')
+def menu_func(menu):
+    flag= True
+    while flag:
+        for name in menu:
+            print(name)
+        key = input('>>>').strip()  # 北京
+        if menu.get(key):
+            dic = menu[key]
+            flag = menu_func(dic)    # menu_func(menu['北京'])
+        elif key.upper() == 'B':   # back回退   quit退出
+            return True
+        elif key.upper() == 'Q':
+            return False
+
+menu_func(menu)
+print('wahaha')
 
 def menu_func(menu):
     while True:
