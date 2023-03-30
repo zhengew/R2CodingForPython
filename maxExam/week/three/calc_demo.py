@@ -55,8 +55,8 @@ def cal_add_and_sub(regex: str, expression: str):
         elif ret.group(2) == '-':
             result = str(float(ret.group(1)) - float(ret.group(3)))
         expression = expression.replace(ret.group(0), result)
-        # return expression.replace(ret.group(0), result)
     return expression
+
 def cal_inner_bracket(regex: str, expression: str):
     """
     小括号内的表达式
@@ -64,22 +64,39 @@ def cal_inner_bracket(regex: str, expression: str):
     :param expression:
     :return:
     """
-    ret = re.finditer(regex, expression)
-    for i in ret:
-        print(i.group())
+
+    while True:
+        bracket_flag = re.findall('[()]', expression)
+        if bracket_flag:
+            expression = re.sub("\s", "", expression)  # 表达式去空白
+            ret = re.finditer(regex, expression)
+            print(expression)
+            for i in ret:
+                inner_exp = i.group(1)
+                ret1= cal_mul_and_div(mul_and_div_regex, inner_exp)
+                ret2 = cal_add_and_sub(add_and_sub_regex, ret1)
+                print(ret2)
+                expression = expression.replace(i.group(), ret2)
+            print(expression)
+        else:
+            break
+
+    return expression
 
 
 
 if __name__ == '__main__':
-
-    exp = "9-2*5/3 + 7 /3*99/4*2998 +10 * 568/14"
-    res = cal_mul_and_div(mul_and_div_regex, exp)
-    print(res)
-    exp = "9-3.3333333333333335-173134.50000000003+405.7142857142857"
-    res = cal_add_and_sub(add_and_sub_regex, exp)
-    print(res)
+    #
+    # exp = "9-2*5/3 + 7 /3*99/4*2998 +10 * 568/14"
+    # res = cal_mul_and_div(mul_and_div_regex, exp)
+    # print(res)
+    # exp = "9-3.3333333333333335-173134.50000000003+405.7142857142857"
+    # res = cal_add_and_sub(add_and_sub_regex, exp)
+    # print(res)
 
     exp = "1 - 2 * ( (60-30 +(-40/5) * (9-2*5/3 + 7 /3*99/4*2998 +10 * 568/14 )) - (-4*3)/ (16-3*2))"
+
+    # exp = "(60-30 +(-40/5) * (9-2*5/3 + 7 /3*99/4*2998 +10 * 568/14 ))"
     res = cal_inner_bracket(inner_bracket_regex, exp)
 
     # ret = re.findall('(-\d+(?:\.\d+)?)', exp)
