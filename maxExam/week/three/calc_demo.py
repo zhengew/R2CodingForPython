@@ -20,7 +20,7 @@
 
 import re
 # 正则表达式
-mul_and_div_regex = "(-?\d+(?:\.\d+)?)([*]|[/])([-]?\d+(?:\.\d+)?)"
+mul_and_div_regex = "(\d+(?:\.\d+)?)([*]|[/])([-]?\d+(?:\.\d+)?)"
 add_and_sub_regex = "(-?\d+(?:\.\d+)?)([-]|[+])(-?\d+(?:\.\d+)?)"
 inner_bracket_regex = "[(]([^()]+)[)]"
 def cal_mul_and_div(regex: str, expression: str):
@@ -33,8 +33,11 @@ def cal_mul_and_div(regex: str, expression: str):
     expression = re.sub("\s", "", expression) # 表达式去空白
     while '*' in expression or '/' in expression:
         ret = re.search(regex, expression)
+        # print(ret.group())
         if ret.group(2) == '*':
+            # print(f'{ret.group(1)}, {ret.group(3)}')
             result = str(float(ret.group(1)) * float(ret.group(3)))
+            # print(result)
         elif ret.group(2) == '/':
             result = str(float(ret.group(1)) / float(ret.group(3)))
         expression = expression.replace(ret.group(0), result)
@@ -64,40 +67,29 @@ def cal_inner_bracket(regex: str, expression: str):
     :param expression:
     :return:
     """
-
-    while True:
+    bracket_flag = re.findall('[()]', expression)
+    while bracket_flag:
+        expression = re.sub("\s", "", expression)  # 表达式去空白
+        ret = re.finditer(regex, expression)
+        for i in ret:
+            inner_exp = i.group(1)
+            ret1= cal_mul_and_div(mul_and_div_regex, inner_exp)
+            ret2 = cal_add_and_sub(add_and_sub_regex, ret1)
+            expression = expression.replace(i.group(), ret2)
         bracket_flag = re.findall('[()]', expression)
-        if bracket_flag:
-            expression = re.sub("\s", "", expression)  # 表达式去空白
-            ret = re.finditer(regex, expression)
-            print(expression)
-            for i in ret:
-                inner_exp = i.group(1)
-                ret1= cal_mul_and_div(mul_and_div_regex, inner_exp)
-                ret2 = cal_add_and_sub(add_and_sub_regex, ret1)
-                print(ret2)
-                expression = expression.replace(i.group(), ret2)
-            print(expression)
-        else:
-            break
-
+        # print(expression)
     return expression
 
 
+def run(expression: str):
+    exp_inner = cal_inner_bracket(inner_bracket_regex, expression)
+    exp_mul_div = cal_mul_and_div(mul_and_div_regex, exp_inner)
+    result = cal_add_and_sub(add_and_sub_regex, exp_mul_div)
+    return result
+
 
 if __name__ == '__main__':
-    #
-    # exp = "9-2*5/3 + 7 /3*99/4*2998 +10 * 568/14"
-    # res = cal_mul_and_div(mul_and_div_regex, exp)
-    # print(res)
-    # exp = "9-3.3333333333333335-173134.50000000003+405.7142857142857"
-    # res = cal_add_and_sub(add_and_sub_regex, exp)
-    # print(res)
-
     exp = "1 - 2 * ( (60-30 +(-40/5) * (9-2*5/3 + 7 /3*99/4*2998 +10 * 568/14 )) - (-4*3)/ (16-3*2))"
-
-    # exp = "(60-30 +(-40/5) * (9-2*5/3 + 7 /3*99/4*2998 +10 * 568/14 ))"
-    res = cal_inner_bracket(inner_bracket_regex, exp)
-
-    # ret = re.findall('(-\d+(?:\.\d+)?)', exp)
-    # print(ret)
+    result = 1 - 2 * ( (60-30 +(-40/5) * (9-2*5/3 + 7 /3*99/4*2998 +10 * 568/14 )) - (-4*3)/ (16-3*2))
+    ret = run(exp)
+    print(ret, result, ret==str(result))
