@@ -19,6 +19,11 @@
 """
 
 import re
+import logging
+
+# 日志级别
+logging.basicConfig(level=logging.DEBUG)
+
 # 正则表达式
 mul_and_div_regex = "(\d+(?:\.\d+)?)([*]|[/])([-]?\d+(?:\.\d+)?)"
 add_and_sub_regex = "(-?\d+(?:\.\d+)?)([-]|[+])(-?\d+(?:\.\d+)?)"
@@ -33,13 +38,12 @@ def cal_mul_and_div(regex: str, expression: str):
     expression = re.sub("\s", "", expression) # 表达式去空白
     while '*' in expression or '/' in expression:
         ret = re.search(regex, expression)
-        # print(ret.group())
         if ret.group(2) == '*':
-            # print(f'{ret.group(1)}, {ret.group(3)}')
             result = str(float(ret.group(1)) * float(ret.group(3)))
-            # print(result)
         elif ret.group(2) == '/':
             result = str(float(ret.group(1)) / float(ret.group(3)))
+        # 打印表达式执行结果
+        logging.debug(f'计算乘法和除法： {ret.group(1)} {ret.group(2)} {ret.group(3)} == {result}')
         expression = expression.replace(ret.group(0), result)
     return expression
 
@@ -58,6 +62,8 @@ def cal_add_and_sub(regex: str, expression: str):
         elif ret.group(2) == '-':
             result = str(float(ret.group(1)) - float(ret.group(3)))
         expression = expression.replace(ret.group(0), result)
+        # 打印表达式执行结果
+        logging.debug(f'计算加法和减法： {ret.group(1)} {ret.group(2)} {ret.group(3)} == {result}')
     return expression
 
 def cal_inner_bracket(regex: str, expression: str):
@@ -79,7 +85,6 @@ def cal_inner_bracket(regex: str, expression: str):
         bracket_flag = re.findall('[()]', expression)
         # print(expression)
     return expression
-
 
 def run(expression: str):
     exp_inner = cal_inner_bracket(inner_bracket_regex, expression)
