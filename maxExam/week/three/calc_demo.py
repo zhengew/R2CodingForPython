@@ -73,7 +73,7 @@ def cal_inner_bracket(regex: str, expression: str):
         ret = re.finditer(regex, expression)
         for i in ret:
             inner_exp = i.group(1)
-            ret1= cal_mul_and_div(mul_and_div_regex, inner_exp)
+            ret1 = cal_mul_and_div(mul_and_div_regex, inner_exp)
             ret2 = cal_add_and_sub(add_and_sub_regex, ret1)
             expression = expression.replace(i.group(), ret2)
         bracket_flag = re.findall('[()]', expression)
