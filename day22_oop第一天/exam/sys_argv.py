@@ -65,23 +65,26 @@ def main():
     主程序
     :return:
     """
-    name = sys.argv[1]
-    pwd = sys.argv[2]
-    command = sys.argv[3]
-    source_path = sys.argv[4]
+    if len(sys.argv) >= 5: # sys.argv 终端是一个列表，第0个元素是脚本的路径，第一个元素开始是需要用户输入的命令
+        name = sys.argv[1]
+        pwd = sys.argv[2]
+        command = sys.argv[3]
+        source_path = sys.argv[4]
 
-    match command:
-        case 'cp':
-            res = copy_self(source_path, to_path=sys.argv[5])
-            print(res)
-        case 'rename':
-            res = rename_self(source_path, to_path=sys.argv[5])
-            print(res)
-        case 'rm':
-            res = remove_self(source_path)
-            print(res)
-        case _:
-            print(f'[{command}] 命令不存在～')
+        match command:
+            case 'cp':
+                res = copy_self(source_path, to_path=sys.argv[5])
+                print(res)
+            case 'rename':
+                res = rename_self(source_path, to_path=sys.argv[5])
+                print(res)
+            case 'rm':
+                res = remove_self(source_path)
+                print(res)
+            case _:
+                print(f'[{command}] 命令不存在～')
+    else:
+        print('您输入的命令无效～')
 
 if __name__ == '__main__':
     main()

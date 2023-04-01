@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="" />
+    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day23/1.内容回顾.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/2.作业讲解_函数相关的.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/3.作业讲解_面向对象相关.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/4.计算器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/5.今日内容.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/6.python里的大问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/7.命名空间问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/8.组合.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/exam/count_class_new_obj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/exam/user_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/exam/userinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/exam/对象组合_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/images/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/images/demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/images/类指针.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/images/通过对象名的方式给对象增加属性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/userinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/作业.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day22_oop第一天/exam/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/day22_oop第一天/exam/Circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day22_oop第一天/exam/Users.py" beforeDir="false" afterPath="$PROJECT_DIR$/day22_oop第一天/exam/Users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day22_oop第一天/exam/sys_argv.py" beforeDir="false" afterPath="$PROJECT_DIR$/day22_oop第一天/exam/sys_argv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day22_oop第一天/exam/walk_练习题.py" beforeDir="false" afterPath="$PROJECT_DIR$/day22_oop第一天/exam/walk_练习题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxExam/week/third/calc_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/maxExam/week/third/calc_demo.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +71,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day22",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day23/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,11 +91,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day23/images" />
+      <recent name="$PROJECT_DIR$/day23" />
+      <recent name="$PROJECT_DIR$/day22_oop第一天/exam" />
       <recent name="$PROJECT_DIR$/day22" />
       <recent name="$PROJECT_DIR$/day21" />
-      <recent name="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
-      <recent name="$PROJECT_DIR$/day20" />
-      <recent name="$PROJECT_DIR$/day19_正则表达式" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/image" />
@@ -78,8 +105,8 @@
       <recent name="$PROJECT_DIR$/maxExam/week/first" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.calc_demo">
-    <configuration name="3.re模块" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.demo1">
+    <configuration name="Users" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,12 +114,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day22_oop第一天/exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/3.re模块.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day22_oop第一天/exam/Users.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6.二分查找" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="对象组合_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,12 +136,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam/recursion_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day23/exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam/recursion_demo/6.二分查找.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day23/exam/对象组合_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="calc_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="count_class_new_obj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,12 +180,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maxExam/week/three" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day23/exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maxExam/week/three/calc_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day23/exam/count_class_new_obj.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="os_module_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,12 +202,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day23/images" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam/os_module_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day23/images/demo1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sys_argv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="user_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,12 +224,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day22_oop第一天/exam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day23/exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day22_oop第一天/exam/sys_argv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day23/exam/user_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.calc_demo" />
-        <item itemvalue="Python.3.re模块" />
-        <item itemvalue="Python.sys_argv" />
-        <item itemvalue="Python.6.二分查找" />
-        <item itemvalue="Python.os_module_demo" />
+        <item itemvalue="Python.demo1" />
+        <item itemvalue="Python.user_demo" />
+        <item itemvalue="Python.Users" />
+        <item itemvalue="Python.对象组合_demo" />
+        <item itemvalue="Python.count_class_new_obj" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +274,7 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$import_demo1.coverage" NAME="import_demo1 Coverage Results" MODIFIED="1678973156750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maxExam/modul_import_demo" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$1_unicode.coverage" NAME="1.unicode对不同编码类型的相互转换 Coverage Results" MODIFIED="1678103256940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07_数据类型转换" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$os_module_demo.coverage" NAME="os_module_demo Coverage Results" MODIFIED="1679924118519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam" />
-    <SUITE FILE_PATH="coverage/R2CodingForPython$sys_argv.coverage" NAME="sys_argv Coverage Results" MODIFIED="1680046619357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22_oop第一天/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$sys_argv.coverage" NAME="sys_argv Coverage Results" MODIFIED="1680326669437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22_oop第一天/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$day20_.coverage" NAME="day20_递归相关练习题 Coverage Results" MODIFIED="1679736834077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1678234074891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09_函数/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$7_.coverage" NAME="7.递归函数 Coverage Results" MODIFIED="1679728093707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器" />
@@ -263,7 +290,7 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1678231978293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09_函数/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$03_II.coverage" NAME="03 内置函数II Coverage Results" MODIFIED="1679919507383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13_匿名函数 内置函数 闭包" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$1_.coverage" NAME="1.内容回归 Coverage Results" MODIFIED="1678406582804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19_正则表达式" />
-    <SUITE FILE_PATH="coverage/R2CodingForPython$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1679141756370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1680358827526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23/images" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$1_tuple.coverage" NAME="1.tuple Coverage Results" MODIFIED="1678003743200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04_列表、元素/d2_tuple" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$logging_demo.coverage" NAME="logging_demo Coverage Results" MODIFIED="1679874146268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo7.coverage" NAME="demo7 Coverage Results" MODIFIED="1678886706357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_装饰器/exam" />
@@ -280,6 +307,7 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1678108990493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07_数据类型转换/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$day11.coverage" NAME="day11作业 Coverage Results" MODIFIED="1678544099303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11_函数名的运用_迭代器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$3_re.coverage" NAME="3.re模块 Coverage Results" MODIFIED="1680096395748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$count_class_new_obj.coverage" NAME="count_class_new_obj Coverage Results" MODIFIED="1680336731711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$07_.coverage" NAME="07_字符串常用方法 Coverage Results" MODIFIED="1677998483217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo2__1_.coverage" NAME="demo2 (1) Coverage Results" MODIFIED="1678109724362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07_数据类型转换/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$whilefor.coverage" NAME="while循环模拟for循话机制 Coverage Results" MODIFIED="1678527388495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11_函数名的运用_迭代器/exam" />
@@ -295,7 +323,8 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$04_I.coverage" NAME="04 内置函数I Coverage Results" MODIFIED="1678592641048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12_生成器" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$hashlib_demo.coverage" NAME="hashlib_demo Coverage Results" MODIFIED="1679926350764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$02_global_nonlocal.coverage" NAME="02 补充的知识点（global,nonlocal） Coverage Results" MODIFIED="1678542690676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11_函数名的运用_迭代器" />
-    <SUITE FILE_PATH="coverage/R2CodingForPython$_demo.coverage" NAME="装饰器应用_demo Coverage Results" MODIFIED="1678883890619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_装饰器/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$_demo.coverage" NAME="对象组合_demo Coverage Results" MODIFIED="1680338845100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$walk_.coverage" NAME="walk_练习题 Coverage Results" MODIFIED="1680329430447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22_oop第一天/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$02_.coverage" NAME="02_函数的初识 Coverage Results" MODIFIED="1678194355906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09_函数" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$globals_locals_demo1.coverage" NAME="globals_locals_demo1 Coverage Results" MODIFIED="1678514865894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11_函数名的运用_迭代器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$1_loopDemo1.coverage" NAME="1.loopDemo1 Coverage Results" MODIFIED="1677995730912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02/exam" />
@@ -306,7 +335,7 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$os_demo.coverage" NAME="os_demo Coverage Results" MODIFIED="1679145423219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$2_.coverage" NAME="2.字段创建方式 Coverage Results" MODIFIED="1678519362722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05_字典" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo.coverage" NAME="简单的装饰器demo Coverage Results" MODIFIED="1678629331348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_装饰器/exam" />
-    <SUITE FILE_PATH="coverage/R2CodingForPython$.coverage" NAME="递归练习题 Coverage Results" MODIFIED="1679961613823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$.coverage" NAME="人狗大战 Coverage Results" MODIFIED="1680220341687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22_oop第一天/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$6_.coverage" NAME="6.二分查找 Coverage Results" MODIFIED="1680014363566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21_递归习题讲解、shutil、logging模块/exam/recursion_demo" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$timer.coverage" NAME="timer装饰器 Coverage Results" MODIFIED="1678716678106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_装饰器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$filter_demo.coverage" NAME="filter_demo Coverage Results" MODIFIED="1679708857386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器/exam" />
@@ -319,17 +348,20 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$05_.coverage" NAME="05 迭代器 Coverage Results" MODIFIED="1678523667196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11_函数名的运用_迭代器" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$re_demo.coverage" NAME="re_demo Coverage Results" MODIFIED="1679528189419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19_正则表达式/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$collections_demo.coverage" NAME="collections_demo Coverage Results" MODIFIED="1679926694593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$Circle.coverage" NAME="Circle Coverage Results" MODIFIED="1680330365573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22_oop第一天/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$3_.coverage" NAME="3.创建不可变集合 Coverage Results" MODIFIED="1678022078430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06_id、is、==区别，代码块及缓存机制(小数据池)、集合、深浅copy/d1_set" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$datetime_demo.coverage" NAME="datetime_demo Coverage Results" MODIFIED="1679223890865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$day12_.coverage" NAME="day12_作业 Coverage Results" MODIFIED="1678605278821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12_生成器、生成器函数、yield、yield from、列表推导式、生成器表达式、内置函数I/exam" />
-    <SUITE FILE_PATH="coverage/R2CodingForPython$calc_demo.coverage" NAME="calc_demo Coverage Results" MODIFIED="1680134447882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maxExam/week/three" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$calc_demo.coverage" NAME="calc_demo Coverage Results" MODIFIED="1680331524338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maxExam/week/third" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$re_demo2.coverage" NAME="re_demo2 Coverage Results" MODIFIED="1679573470642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19_正则表达式/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$user_demo.coverage" NAME="user_demo Coverage Results" MODIFIED="1680352879770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1678751967041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14_装饰器/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$match_case.coverage" NAME="match_case Coverage Results" MODIFIED="1677995298312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$serialization_demo.coverage" NAME="serialization_demo Coverage Results" MODIFIED="1679211851369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$d3_.coverage" NAME="d3_深浅拷贝区别 Coverage Results" MODIFIED="1678024545860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06_id、is、==区别，代码块及缓存机制(小数据池)、集合、深浅copy" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$4_enumerate.coverage" NAME="4.enumerate枚举值 Coverage Results" MODIFIED="1678023238556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03_循环和分支" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$wrapper4.coverage" NAME="wrapper4 Coverage Results" MODIFIED="1678924905928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15_模块的多种导入方式、random函数/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$Users.coverage" NAME="Users Coverage Results" MODIFIED="1680348254863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22_oop第一天/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$1_id____is_.coverage" NAME="1.id == is 区别 Coverage Results" MODIFIED="1678023843747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06_id、is、==区别，代码块及缓存机制(小数据池)、集合、深浅copy/d2_id、==、is作用和区别" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo9.coverage" NAME="demo9 Coverage Results" MODIFIED="1678317821980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09_函数/exam" />
   </component>
