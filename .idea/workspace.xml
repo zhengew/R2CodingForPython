@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day23_oop_类的命名空间_组合(实例对象作为另一个类的实例对象属性)/exam/cirque_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/1.内容回顾.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/2.计算器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/3.今日内容.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/4.继承.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/5.知识点的补充.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/6.pickle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/exam/animal_cat_dog_demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/exam/cat_dog_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/exam/day24作业（张珵）.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/exam/pickle_serialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/exam/piople_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/exam/think_question1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/exam/think_question2_派生属性.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/exam/type_instance区别.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/images/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/images/继承_子类调用父类的同名方法.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/pickle_file" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/userinfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/作业.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day24_oop_继承super/exam/human_dog_wars/people.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
