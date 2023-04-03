@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day25/1.早默写.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/2.早默写讲解.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/3.今日内容.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/4.内容回顾.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/5.类的继承顺序.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/6.作业.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/6.父类对子类的约束.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/7.多态和鸭子类型.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/exam/my_pickle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/exam/队列和栈_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/主动抛异常.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/作业.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/计算器_张珵_13行版.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25/计算器_张珵_20行版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25/images/继承内存图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/human_dog_wars/people.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承super/exam/human_dog_wars/people.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +47,14 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day25",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -97,7 +82,7 @@
       <recent name="$PROJECT_DIR$/day11_函数名的运用_迭代器/exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.my_pickle">
+  <component name="RunManager" selected="Python.队列和栈_demo">
     <configuration name="5.知识点的补充" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,8 +217,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.my_pickle" />
         <item itemvalue="Python.队列和栈_demo" />
+        <item itemvalue="Python.my_pickle" />
         <item itemvalue="Python.pickle_serialization" />
         <item itemvalue="Python.type_instance区别" />
         <item itemvalue="Python.5.知识点的补充" />
