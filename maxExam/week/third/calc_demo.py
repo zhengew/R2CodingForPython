@@ -87,6 +87,11 @@ def cal_inner_bracket(regex: str, expression: str):
     return expression
 
 def run(expression: str):
+    """
+    四则运算主程序
+    :param expression:
+    :return:
+    """
     exp_inner = cal_inner_bracket(inner_bracket_regex, expression)
     exp_mul_div = cal_mul_and_div(mul_and_div_regex, exp_inner)
     result = cal_add_and_sub(add_and_sub_regex, exp_mul_div)
