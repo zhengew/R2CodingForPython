@@ -13,4 +13,4 @@
     # 名字 品种 血条 攻击力
     # 技能 : 舔
 """
-class People(object):
+class People(object): pass
