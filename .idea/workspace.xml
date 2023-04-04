@@ -5,8 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day25/images/继承内存图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25/images/单继承_深度优先.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25/images/小乌龟模型的广度优先_类指针走五步.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25/images/经典类和新式类继承关系.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/1.内容回顾.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/1.内容回顾.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/2.计算器.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/2.计算器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/3.今日内容.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/3.今日内容.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/4.继承.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/4.继承.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/5.知识点的补充.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/5.知识点的补充.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/6.pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/6.pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/animal_cat_dog_demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/animal_cat_dog_demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/cat_dog_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/cat_dog_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/day24作业（张珵）.md" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/day24作业（张珵）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/human_dog_wars/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/human_dog_wars/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/human_dog_wars/people.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/human_dog_wars/people.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/pickle_serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/pickle_serialization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/piople_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/piople_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/student_info" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/student_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/think_question1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/think_question1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/think_question2_派生属性.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/think_question2_派生属性.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/exam/type_instance区别.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/exam/type_instance区别.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/images/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/images/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/images/继承_子类调用父类的同名方法.png" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/images/继承_子类调用父类的同名方法.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/pickle_file" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/pickle_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/userinfo" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/userinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_oop_继承super/作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24_oop_继承/作业.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day25/images/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/day25/images/对象和类的命名空间问题.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +82,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Python",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -244,6 +272,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/R2CodingForPython$7_.coverage" NAME="7.递归函数 Coverage Results" MODIFIED="1679728093707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器" />
