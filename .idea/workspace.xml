@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/json_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/对象和类的内存空间_demo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/对象和类的内存空间_demo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/对象和类的内存空间_demo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/对象和类的内存空间_demo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/对象和类的内存空间_demo6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/封装json模块.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/封装json类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/封装pickle类.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/封装pickle类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/类和对象的命名空间.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/继承方式实现队列和栈.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/队列和栈_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/day25作业.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/4.内容回顾.py" beforeDir="false" afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/4.内容回顾.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/作业" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +86,7 @@
       <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.类和对象的命名空间">
+  <component name="RunManager" selected="Python.day25作业">
     <configuration name="类和对象的命名空间" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,28 +131,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="队列和栈_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/队列和栈_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,6 +145,28 @@
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="day25作业" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/day25作业.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day25作业" />
         <item itemvalue="Python.类和对象的命名空间" />
         <item itemvalue="Python.封装json类" />
         <item itemvalue="Python.json_demo" />
         <item itemvalue="Python.封装pickle类" />
-        <item itemvalue="Python.队列和栈_demo" />
       </list>
     </recent_temporary>
   </component>
