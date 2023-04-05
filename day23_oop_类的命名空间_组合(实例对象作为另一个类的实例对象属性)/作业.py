@@ -42,8 +42,8 @@ print(A.Country)
 
 (3)
 class A:
-    Country = '中国'     # 静态变量/静态属性 存储在类的命名空间里的
-    def __init__(self,name,age,country):  # 绑定方法 存储在类的命名空间里的
+    Country = '中国'
+    def __init__(self,name,age,country):
         self.name = name
         self.age = age
         self.Country = country
@@ -60,8 +60,8 @@ print(A.Country)
 
 (4)
 class A:
-    Country = '中国'     # 静态变量/静态属性 存储在类的命名空间里的
-    def __init__(self,name,age,country):  # 绑定方法 存储在类的命名空间里的
+    Country = '中国'
+    def __init__(self,name,age,country):
         self.name = name
         self.age = age
     def Country(self):
@@ -71,6 +71,7 @@ a = A('alex',83,'印度')
 b = A('wusir',74,'泰国')
 print(a.Country)
 print(a.Country())
+print(A.__dict__)
 
 # 第二大题:基于圆形类实现一个圆环类,要求接收参数 外圆半径和内圆半径
 # 完成方法 :计算环形面积和环形周长(公式自己上网查)
