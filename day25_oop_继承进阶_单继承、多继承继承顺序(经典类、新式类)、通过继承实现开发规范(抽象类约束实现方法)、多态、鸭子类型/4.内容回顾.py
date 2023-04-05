@@ -75,14 +75,14 @@
 # b = B()
 # b.func()   # b  自己有不用父类的
 
-# 例2
+# 例1
 # class A:
 #     def func(self):print('a')
 # class B(A):pass
 # b = B()
 # b.func()   # a  自己没有用父类的
 
-# 例3
+# 例2
 # class A:
 #     def func(self):print('a')
 # class B(A):
@@ -92,7 +92,7 @@
 # b = B()
 # b.func()     # a,b  先执行B.func,调用了A.func打印a,然后回到B.func打印b
 
-# 例4
+# 例3
 # class A:
 #     def func(self):print('a')
 # class B(A):
