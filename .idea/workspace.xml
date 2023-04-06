@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/作业6题干.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/0.作业讲解.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/1.内容回顾.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/2.今日内容.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/3.super方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/4.封装.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/5.property.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/6.反射.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/7.反射记忆.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/8.反射的例子.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/9.反射的另一个函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/day26作业（张珵）.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/images/鸭子类型解释2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/作业1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/作业2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/作业3_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/login_demo/Account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/login_demo/Users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/login_demo/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/day25作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/day25作业.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +59,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.selected.configurable": "fileTemplates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -105,7 +87,7 @@
       <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/image" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day25作业">
+  <component name="RunManager" selected="Python.Account">
     <configuration name="类和对象的命名空间" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,6 +102,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/类和对象的命名空间.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/login_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/login_demo/Account.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,35 +242,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="封装pickle类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/exam_demo/封装pickle类.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Account" />
         <item itemvalue="Python.day25作业" />
         <item itemvalue="Python.类和对象的命名空间" />
         <item itemvalue="Python.封装json类" />
         <item itemvalue="Python.json_demo" />
-        <item itemvalue="Python.封装pickle类" />
       </list>
     </recent_temporary>
   </component>
