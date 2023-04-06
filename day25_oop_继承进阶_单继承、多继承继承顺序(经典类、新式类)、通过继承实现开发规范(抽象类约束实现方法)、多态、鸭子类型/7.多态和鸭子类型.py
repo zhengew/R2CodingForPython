@@ -35,18 +35,20 @@
 # 所以如果想让两个类型的对象都可以传,那么必须让这两个类继承自一个父类,在制定类型的时候使用父类来指定
 
 # 鸭子类型
-# class list:
-#     def __init__(self,*args):
-#         self.l = [1,2,3]
-#     def __len__(self):
-#         n = 0
-#         for i in self.l:
-#             n+= 1
-#         return n
-# l = [1,2,3]
-# l.append(4)
-# def len(obj):
-#     return obj.__len__()
+class list:
+    def __init__(self,*args):
+        self.l = [1,2,3]
+    def __len__(self):
+        n = 0
+        for i in self.l:
+            n+= 1
+        return n
+l = [1,2,3]
+l.append(4)
+def len(obj):
+    return obj.__len__()
+
+print(len(l))
 
 # 所有实现了__len__方法的类,在调用len函数的时候,obj都说是鸭子类型
 # 迭代器协议 __iter__ __next__ 是迭代器
@@ -80,4 +82,3 @@
 #     return obj.__len__()
 
 # super是重要的
-
