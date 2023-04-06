@@ -29,6 +29,6 @@ def get_file_size(path: str):
     return file_size_sum
 
 if __name__ == '__main__':
-    path = "."
+    path = "/home/zew/PycharmProjects/R2CodingForPython/day22_oop第一天/exam"
     file_size_sum = get_file_size(path)
     print(file_size_sum)
