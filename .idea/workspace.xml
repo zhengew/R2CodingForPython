@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/day25作业.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/作业6题干.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/0.作业讲解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/1.内容回顾.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/2.今日内容.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/3.super方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/4.封装.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/5.property.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/6.反射.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/7.反射记忆.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/8.反射的例子.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/9.反射的另一个函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/day26作业（张珵）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/images/鸭子类型解释2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/作业1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/作业2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/作业3_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/作业" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/day25作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/day25作业.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day26",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,18 +91,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day26" />
+      <recent name="$PROJECT_DIR$/day26/exam" />
+      <recent name="$PROJECT_DIR$/day24_oop_继承/exam" />
       <recent name="$PROJECT_DIR$/day25" />
       <recent name="$PROJECT_DIR$/day24_oop_继承super/exam" />
-      <recent name="$PROJECT_DIR$/day24_oop_继承super" />
-      <recent name="$PROJECT_DIR$/day23/images" />
-      <recent name="$PROJECT_DIR$/day23" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam" />
       <recent name="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/memory_graph" />
       <recent name="$PROJECT_DIR$/day24_oop_继承super/images" />
       <recent name="$PROJECT_DIR$/day23/images" />
       <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)/image" />
-      <recent name="$PROJECT_DIR$/day17_模块导入、内置模块回顾(15、16内容)" />
     </key>
   </component>
   <component name="RunManager" selected="Python.day25作业">

@@ -10,25 +10,25 @@
 # Python2中的经典类遵循深度优先规则，Python2和Python3中的新式类遵循广度优先规则
 
 # **3.看代码写结果
-class Base1:
-    def f1(self):
-        print('base1.f1')
-    def f2(self):
-        print('base1.f2')
-    def f3(self):
-        print('base1.f3')
-        self.f1()
-
-class Base2:
-    def f1(self):
-        print('base2.f1')
-class Foo(Base1, Base2):
-    def f0(self):
-        print('foo.f0')
-        self.f3()
-
-obj = Foo()
-obj.f0()
+# class Base1:
+#     def f1(self):
+#         print('base1.f1')
+#     def f2(self):
+#         print('base1.f2')
+#     def f3(self):
+#         print('base1.f3')
+#         self.f1()
+#
+# class Base2:
+#     def f1(self):
+#         print('base2.f1')
+# class Foo(Base1, Base2):
+#     def f0(self):
+#         print('foo.f0')
+#         self.f3()
+#
+# obj = Foo()
+# obj.f0()
 
 """
 解释：
@@ -84,34 +84,34 @@ base.f3
 2. 为每个用户创建1个对象，并添加到列表中。
 3. 当列表中的添加 3个对象后，跳出循环并以此循环打印所有用户的姓名和邮箱
 """
-# import re
-#
-# class Users(object):
-#     """用户类"""
-#     user_list = []
-#     def __init__(self, name, password, email):
-#         self.name = name
-#         self.password = password
-#         self.email = email
-#
-# def create_users():
-#     email_regex = "^\w+@([\da-zA-Z]+[.])+?(com|cn)$"
-#     while True:
-#         user = input("请输入用户名:")
-#         pwd = input("请输入密码:")
-#         email = input("请输入邮箱:")
-#         if re.match(email_regex, email):
-#             obj = Users(user, pwd, email)
-#             Users.user_list.append(obj)
-#             if len(Users.user_list) == 3:
-#                 for user in Users.user_list:
-#                     print(f'用户名:{user.name}, 邮箱:{user.email}')
-#                 break
-#         else:
-#             print(f'邮箱不符合规范～{email}')
-#
-#
-# create_users()
+import re
+
+class Users(object):
+    """用户类"""
+    user_list = []
+    def __init__(self, name, password, email):
+        self.name = name
+        self.password = password
+        self.email = email
+
+def create_users():
+    email_regex = "^\w+@([\da-zA-Z]+[.])+?(com|cn)$"
+    while True:
+        user = input("请输入用户名:")
+        pwd = input("请输入密码:")
+        email = input("请输入邮箱:")
+        if re.match(email_regex, email):
+            obj = Users(user, pwd, email)
+            Users.user_list.append(obj)
+            if len(Users.user_list) == 3:
+                for user in Users.user_list:
+                    print(f'用户名:{user.name}, 邮箱:{user.email}')
+                break
+        else:
+            print(f'邮箱不符合规范～{email}')
+
+
+create_users()
 
 # **7 看代码写结果
 # class Base:
