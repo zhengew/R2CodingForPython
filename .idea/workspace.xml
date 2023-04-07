@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/images/property_sertter装饰器.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/images/登录模块反射思考题.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/images/类中的私有方法在调用是总会在私有方法前面拼接_类名.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/1.内容回顾.py" beforeDir="false" afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/1.内容回顾.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +55,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day26",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
