@@ -7,7 +7,6 @@
 目标：理解super在单继承中的用法
 super 在单继承中就是找父类
 """
-
 class Animal(object):
     def __init__(self, name, age):
         self.name = name
@@ -18,7 +17,7 @@ class Animal(object):
 class Cat(Animal):
     def __init__(self, name, age, eye_color):
         super(Cat, self).__init__(name, age)
-        self.eye_color = eye_color
+        self.eye_color = eye_color # 派生属性
     def sleep(self):
         super(Cat,self).eat()
         print(f'{self.name}开始睡觉～')

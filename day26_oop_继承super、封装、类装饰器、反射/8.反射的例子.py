@@ -42,4 +42,7 @@ pay('alex',400,'WeChat')
 pay('alex',400,'Alipay')
 pay('alex',400,'Apple')
 pay('alex',400,'QQpay')
+print(sys.modules)
+for k, v in sys.modules.items():
+    print(k, v)
 

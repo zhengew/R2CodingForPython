@@ -80,7 +80,7 @@ class Goods:
     def price(self):
         return self.__price * self.discount
 
-    @price.setter
+    @price.setters
     def price(self,new_value):
         if isinstance(new_value,int):
             self.__price = new_value
@@ -93,3 +93,4 @@ print(apple.price)
 apple.price = 'ashkaksk'
 del apple.price   # 并不能真的删除什么,只是调用对应的被@price.deleter装饰的方法而已
 print(apple.price)
+print(apple.__dict__)
