@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/作业1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/作业2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/作业3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/作业4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/作业2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/作业2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/作业3_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/作业3_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +38,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2MZd4gDwfh8NrchDW9rDOT13UX2" />
   <component name="ProjectLevelVcsManager">
@@ -84,7 +90,7 @@
       <recent name="$PROJECT_DIR$/day23/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.反射的例子_归一化设计接口">
+  <component name="RunManager" selected="Python.作业4">
     <configuration name="反射三大器的应用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2.反射当前文件(脚本)中的成员" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="作业1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,12 +121,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/反射_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/反射_demo/2.反射当前文件(脚本)中的成员.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/作业1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3.反射类中的成员" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="作业2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,12 +143,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/反射_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/反射_demo/3.反射类中的成员.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/作业/作业2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4.反射对象的属性和绑定方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="作业4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,12 +165,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/反射_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/反射_demo/4.反射对象的属性和绑定方法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/作业4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.作业4" />
+        <item itemvalue="Python.作业2" />
+        <item itemvalue="Python.作业1" />
         <item itemvalue="Python.反射的例子_归一化设计接口" />
         <item itemvalue="Python.反射三大器的应用" />
-        <item itemvalue="Python.4.反射对象的属性和绑定方法" />
-        <item itemvalue="Python.3.反射类中的成员" />
-        <item itemvalue="Python.2.反射当前文件(脚本)中的成员" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680939691736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
+      <created>1680939912734</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680939912734</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

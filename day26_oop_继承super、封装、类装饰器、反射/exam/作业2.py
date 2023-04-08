@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# @author: erwei.zheng
+# @file: 作业2.py
+# @datatime: 2023/4/8 16:37
+
 class User:
     def __init__(self,name,age,sex):
         self.name = name
