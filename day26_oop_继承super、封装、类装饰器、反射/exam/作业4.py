@@ -11,12 +11,10 @@
 import pickle
 import json
 import sys
-
 from abc import ABCMeta, abstractmethod
 class Serialize(object, metaclass=ABCMeta):
     def __init__(self, path):
         self.path = path
-
     @abstractmethod
     def dump(self):
         """子类重写序列化方法"""
@@ -25,7 +23,6 @@ class Serialize(object, metaclass=ABCMeta):
     def load(self):
         """子类重写反序列化方法"""
         pass
-
 class MyPickle(Serialize):
     def dump(self, obj):
         """序列化对象"""
@@ -62,13 +59,13 @@ def serialize(method: str, path):
         class_obj = getattr(sys.modules['__main__'], method)(path)
         return class_obj
 
-class User(object):
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
 
 if __name__ == '__main__':
+    class User(object):
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+
     pickle_path = "pickle_path"
     obj = MyPickle(pickle_path)
 
