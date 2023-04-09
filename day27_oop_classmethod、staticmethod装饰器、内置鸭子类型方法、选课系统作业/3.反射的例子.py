@@ -27,3 +27,7 @@ while True:
         getattr(f,File.lst[num-1][1])()
 
 
+# 用反射完成
+# python xx.py cp path1 path2
+# python xx.py rm path
+# python xx,py mv path1 path2

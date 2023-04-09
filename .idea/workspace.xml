@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/封装json_pickle模块2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/封装pickle_json模块.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/作业4.py" beforeDir="false" afterPath="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam/作业4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/3.反射的例子.py" beforeDir="false" afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/3.反射的例子.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day26_oop_继承super、封装、类装饰器、反射/exam",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day27",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,11 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day27" />
       <recent name="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam" />
       <recent name="$PROJECT_DIR$/day26" />
       <recent name="$PROJECT_DIR$/day26/exam" />
       <recent name="$PROJECT_DIR$/day24_oop_继承/exam" />
-      <recent name="$PROJECT_DIR$/day25" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam" />
