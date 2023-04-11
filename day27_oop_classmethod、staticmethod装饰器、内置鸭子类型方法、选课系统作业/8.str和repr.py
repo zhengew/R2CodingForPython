@@ -3,14 +3,14 @@
 #         self.name = name
 #         self.price = price
 #         self.period = period
-#     def __str__(self):
-#         return self.name
+    # def __str__(self):
+    #     return self.name
 # python = Course('python',21800,'6 months')
 # linux = Course('linux',19800,'5 months')
 # mysql = Course('mysql',12800,'3 months')
 # go = Course('go',15800,'4 months')
 # print(go)
-
+#
 # for index,c in enumerate(lst,1):
 #     print(index,c)
 # num = int(input('>>>'))

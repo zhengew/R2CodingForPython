@@ -1,4 +1,4 @@
-# classmethod  被装饰的方法会成为一个静态方法
+# classmethod  被装饰的方法会成为一个类方法
 # class Goods:
 #     __discount = 0.8
 #     def __init__(self):
