@@ -5,15 +5,18 @@
 
 """
 # 用反射完成
-# python xx.py cp path1 path2
-# python xx.py rm path
-# python xx,py mv path1 path2
+# python3 xx.py cp path1 path2
+# python3 xx.py rm path
+# python3 xx,py mv path1 path2
 """
 import os
 import sys
 import shutil
 
 class FileOper(object):
+    """
+    文件的拷贝、删除、剪切
+    """
     @staticmethod
     def cp(path1: str, path2: str):
         """拷贝文件"""
@@ -59,8 +62,15 @@ def run():
             obj = getattr(FileOper, sys.argv[1])
             if callable(obj):
                 obj(path=sys.argv[2])
-run()
+
 if __name__ == '__main__':
+    run()
+    """
+        python3 file_operate.py cp testcp a
+        python3 file_operate.py mv a/testcp b
+        python3 file_operate.py rm a/testcp
+        """
+
     # FileOper.cp(r'file_operate.py', 'a')
     # f = open('a/test1', mode='w', encoding='utf-8')
     # f.close()
@@ -71,12 +81,6 @@ if __name__ == '__main__':
     # f = open('a/test3', mode='w', encoding='utf-8')
     # f.close()
     # FileOper.mv('a/test3', 'b')
-    pass
-    """
-    python3 file_operate.py cp testcp a
-    python3 file_operate.py mv a/testcp b
-    python3 file_operate.py rm a/testcp
-    """
 
 
 
