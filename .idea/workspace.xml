@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/classmethod_demo/1.在类方法中实例化对象.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/classmethod_demo/1.在类方法中实例化对象，并返回实例对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo/__call__.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo/__call__demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo/__len__.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo/__len__demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/4.两个装饰器函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/4.两个装饰器函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/classmethod_demo/classmethod装饰器_demo.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/reflection/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/reflection/file_operate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/single_instance/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/single_instance/单例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/反射例子/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/反射例子/单例_饿汉单例.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/反射的例子.py" beforeDir="false" afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/反射例子/反射的例子.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/作业.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +50,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="R2CodingForPython" is-module-sdk="true">
@@ -86,15 +84,15 @@
       <recent name="$PROJECT_DIR$/day26" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/single_instance" />
+      <recent name="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/反射例子" />
       <recent name="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam" />
       <recent name="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam" />
       <recent name="$PROJECT_DIR$/day25_oop_继承进阶_单继承、多继承继承顺序(经典类、新式类)、通过继承实现开发规范(抽象类约束实现方法)、多态、鸭子类型/exam/memory_graph" />
-      <recent name="$PROJECT_DIR$/day24_oop_继承super/images" />
-      <recent name="$PROJECT_DIR$/day23/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__len__demo">
-    <configuration name="反射的例子" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.file_operate">
+    <configuration name="单例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,34 +100,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/single_instance" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/反射的例子.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1.在类方法中实例化对象，并返回实例对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/classmethod_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/classmethod_demo/1.在类方法中实例化对象，并返回实例对象.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/single_instance/单例.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__call__demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="__repr__demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,7 +149,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo/__call__demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo/__repr__demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__len__demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="__str__应用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,7 +171,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo/__len__demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo/__str__应用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__str__demo2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/鸭子类型_demo/__str__demo2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,7 +224,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="classmethod装饰器_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="file_operate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,12 +232,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/classmethod_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/reflection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/classmethod_demo/classmethod装饰器_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/reflection/file_operate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__len__demo" />
-        <item itemvalue="Python.__call__demo" />
-        <item itemvalue="Python.1.在类方法中实例化对象，并返回实例对象" />
-        <item itemvalue="Python.反射的例子" />
-        <item itemvalue="Python.classmethod装饰器_demo" />
+        <item itemvalue="Python.file_operate" />
+        <item itemvalue="Python.单例" />
+        <item itemvalue="Python.__str__应用" />
+        <item itemvalue="Python.__repr__demo" />
+        <item itemvalue="Python.__str__demo2" />
       </list>
     </recent_temporary>
   </component>
