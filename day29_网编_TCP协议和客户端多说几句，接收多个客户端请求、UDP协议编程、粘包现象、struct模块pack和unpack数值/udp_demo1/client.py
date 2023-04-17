@@ -6,6 +6,6 @@ while True:
     msg = input('>>>')
     if msg.upper() == 'Q':break
     sk.sendto(msg.encode('utf-8'),server)
-    msg = sk.recv(1024).decode('utf-8')
+    msg = sk.recv(1024)
     if msg.upper() == 'Q':break
     print(msg)

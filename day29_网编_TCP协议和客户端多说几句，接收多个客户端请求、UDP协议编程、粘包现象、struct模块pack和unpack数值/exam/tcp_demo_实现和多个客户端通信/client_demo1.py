@@ -9,13 +9,17 @@
 import socket
 
 sk = socket.socket()
-sk.connect(('192.168.0.103', 9094))
+sk.connect(('192.168.0.103', 9094)) # 三次握手
+print(sk)
+
 while True:
     send_msg = input('>>>')
     sk.send(send_msg.encode('utf-8'))
+    if send_msg.upper() == 'Q':
+        break
     recv_msg = sk.recv(1024).decode('utf-8')
     if recv_msg.upper() == 'Q':
         break
     print(recv_msg)
 
-sk.close()
+sk.close() # 四次挥手

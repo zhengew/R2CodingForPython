@@ -15,18 +15,18 @@ sk.bind(('192.168.0.103', 9094))
 sk.listen()
 
 while True: # 实现与多个客户端通信
-    conn, addr = sk.accept() # 与当前建立链接的客户端进行三次握手
+    conn, addr = sk.accept() # 客户端进行三次握手
     print(conn)
     while True:
         msg = conn.recv(1024)
         if msg.decode('utf-8').upper() == 'Q':
-            conn.send(msg)
+            break
         print(msg.decode('utf-8'))
         send_msg = input('>>>>').strip()
+        conn.send(send_msg.encode('utf-8'))
         if send_msg.upper() == 'Q':
             break
-        conn.send(send_msg.encode('utf-8'))
-    conn.close()
+    conn.close() # 四次挥手
 
 sk.close()
 
