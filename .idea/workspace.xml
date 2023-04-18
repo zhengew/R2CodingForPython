@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/struct_demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/struct_demo/struct_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_实现和多个客户端通信/TCP协议实现与多个客户端通信.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/udp_demo1/UDP协议服务端与多个可回单会话.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/images/TCP粘包现象.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/基于TCP协议的登陆认证/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_一对一通信/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_一对一通信/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_一对一通信/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo/server_demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_一对一通信/server_demo2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_实现和多个客户端通信/client_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_实现和多个客户端通信/client_demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_实现和多个客户端通信/server_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_实现和多个客户端通信/server_demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/udp_demo1/TCP协议_服务端和客户端一对一通信.png" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_一对一通信/TCP协议_服务端和客户端一对一通信.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/udp_demo1/client_udp_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/udp_demo1/client_udp_demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/udp_demo1/server_udp_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/udp_demo1/server_udp_demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/udp_demo1/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/udp_demo1/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_解决粘包问题_demo/client_解决粘包.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_解决粘包问题_demo/client_解决粘包.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_解决粘包问题_demo/server_解决粘包.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_解决粘包问题_demo/server_解决粘包.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +59,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,7 +87,7 @@
       <recent name="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.struct_demo">
+  <component name="RunManager" selected="Python.client_解决粘包">
     <configuration name="4.struct模块" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="client_解决粘包" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,12 +140,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/udp_demo1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_解决粘包问题_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/udp_demo1/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_解决粘包问题_demo/client_解决粘包.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server_udp_demo1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="server_解决粘包" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,12 +184,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/udp_demo1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_解决粘包问题_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/udp_demo1/server_udp_demo1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_解决粘包问题_demo/server_解决粘包.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.client_解决粘包" />
+        <item itemvalue="Python.server_解决粘包" />
         <item itemvalue="Python.struct_demo" />
         <item itemvalue="Python.4.struct模块" />
         <item itemvalue="Python.client_udp_demo1" />
-        <item itemvalue="Python.server_udp_demo1" />
-        <item itemvalue="Python.client" />
       </list>
     </recent_temporary>
   </component>

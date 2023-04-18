@@ -13,26 +13,31 @@
 import socket
 import struct
 
-sk = socket.socket()
-sk.bind(('192.168.0.103', 8086))
-sk.listen()
+sk = socket.socket()                            # 创建socket对象
+sk.bind(('127.0.0.1', 8087))                    # 服务端申请系统资源 绑定端口
+sk.listen()                                     # 监听服务
 
 while True:
-    conn, addr = sk.accept()
+    conn, addr = sk.accept()                    # 服务端三次握手
     print(conn)
-    while True:
+    while True:                                 # 服务端接收和发送消息
         # 服务端接收客户端发送的自定义协议字节长度(unpack回来的元组第一元素)
-        recv_byte_length = struct.unpack('i', conn.recv(4))[0]
+        recv_byte_length = struct.unpack('i', conn.recv(4))[0]  # 接收客户端自定义协议的字节串长度，并unpack回来，取返回值元组的第0个元素
         print(recv_byte_length)
-        recv_msg = conn.recv(recv_byte_length)
+        recv_msg = conn.recv(recv_byte_length) # 接收客户端发送的指定长度的字节串
+        if recv_msg.decode('utf-8').upper() == 'Q':
+            break
         print(recv_msg.decode('utf-8'))
 
+        # 服务端向客户端发送消息，先发送消息字节串长度再发编码后的消息
         send_msg = input('>>>').strip()
         send_byte_length = struct.pack('i', len(send_msg.encode('utf-8')))
         conn.send(send_byte_length)
         conn.send(send_msg.encode('utf-8'))
+        if send_msg.upper() == 'Q':
+            break
 
-    conn.close()
+    conn.close()                                # 服务端进行四次挥手
 
-sk.close()
+sk.close()                                      # 关闭服务端
 
