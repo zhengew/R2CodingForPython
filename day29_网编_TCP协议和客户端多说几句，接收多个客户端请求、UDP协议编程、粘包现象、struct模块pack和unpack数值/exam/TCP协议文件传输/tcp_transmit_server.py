@@ -11,7 +11,6 @@ import socket
 import struct
 import pickle
 import os
-import sys
 
 
 sk = socket.socket()

@@ -14,5 +14,5 @@
 import socket
 
 sk = socket.socket(type=socket.SOCK_DGRAM)
-sk.bind(('127.0.0.1', 8081))
+sk.bind(('192.168.0.103', 8081))
 # 怎么实现消息的分发呢？
