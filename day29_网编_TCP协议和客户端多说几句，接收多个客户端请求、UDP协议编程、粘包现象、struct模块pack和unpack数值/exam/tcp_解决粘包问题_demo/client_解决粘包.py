@@ -17,14 +17,12 @@ while True:
     print(send_byte_length)
     sk.send(send_byte_length)           # 自定义协议，约定客户端发送消息的长度，避免黏包
     sk.send(send_msg.encode('utf-8'))
-    if send_msg.upper() == 'Q':
-        break
+    if send_msg.upper() == 'Q':break
 
     # 接收服务端发送的消息（自定义协议）
     recv_byte_length = struct.unpack('i', sk.recv(4))[0]
     recv_msg = sk.recv(recv_byte_length).decode('utf-8')
-    if recv_msg.upper() == 'Q':
-        break
+    if recv_msg.upper() == 'Q':break
     print(recv_msg)
 
 sk.close()                              # 客户端进行四次挥手
