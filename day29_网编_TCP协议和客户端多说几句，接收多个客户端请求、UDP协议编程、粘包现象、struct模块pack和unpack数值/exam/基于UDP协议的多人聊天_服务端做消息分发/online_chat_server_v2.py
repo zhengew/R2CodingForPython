@@ -10,3 +10,9 @@
 2.能识别用户
 3.用户下线后给出提示，上线后可以查看离线消息
 """
+
+import socket
+
+sk = socket.socket(type=socket.SOCK_DGRAM)
+sk.bind(('127.0.0.1', 8081))
+# 怎么实现消息的分发呢？
