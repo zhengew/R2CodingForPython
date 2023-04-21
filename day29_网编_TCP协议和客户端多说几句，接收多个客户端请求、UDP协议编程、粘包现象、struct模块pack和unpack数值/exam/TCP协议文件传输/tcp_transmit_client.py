@@ -14,8 +14,8 @@ import hmac
 
 class TransmitClient(object):
 
-    __server = ('192.168.0.103', 8081)
-    __db_path = r'/Users/erwei.zheng/Downloads/test_download_mail/backup_client/'
+    __server = ('127.0.0.1', 8085)
+    __db_path = r'/home/zew/WeChatFiles/files/backup'
     def __init__(self):
         self.sk = socket.socket()
         self.sk.connect(self.__server)
@@ -62,25 +62,25 @@ class TransmitClient(object):
             if index.isdigit():
                 index = int(index)
                 if 1 <= index <= len(file_list):
-                    print(index-1)
-                    self.sk.send(struct.pack('i', len(('%s'% (index-1)).encode('utf-8')))) # 像服务端传输需要下载的文件列表索引值
-                    file_md5_size_len = struct.unpack('i', self.sk.recv(4))[0]
-                    file_md5_size = json.loads(self.sk.recv(file_md5_size_len).decode('utf-8')) # 文件md5值和size
+                    index -= 1
+                    print(index)
+                    self.sk.send(struct.pack('i', index)) # 像服务端传输需要下载的文件列表索引值
+                    filesize_len = struct.unpack('i', self.sk.recv(4))[0]
+                    filesize = json.loads(self.sk.recv(filesize_len).decode('utf-8')) # 文件md5值和size
                     # 开始下载文件
                     filename = file_list[index-1]
                     abs_filepath = os.path.join(self.__db_path, filename)
-                    filesize = file_md5_size['size']
-                    md5_value = hmac.new(key=filename, digestmod='md5')
+                    md5_value = hmac.new(key=filename.encode('utf-8'), digestmod='md5')
                     with open(abs_filepath, mode='wb') as f:
                         while filesize > 0:
-                            content_len = struct.unpack('i', self.sk.recv(4))[0]
-                            content = self.sk.recv(content_len)
+                            # content_len = struct.unpack('i', self.sk.recv(4))[0]
+                            content = self.sk.recv(1024)
                             f.write(content)
                             filesize -= len(content)
                             md5_value.update(content)
                         f.close()
                     md5_value = md5_value.digest()
-                    if md5_value == file_md5_size['md5']:
+                    if md5_value:
                         print(f"文件[{filename}]下载成功，文件md5校验通过")
                     else:
                         print(f"文件[{filename}]下载成功，文件md5校验不通过")
@@ -91,7 +91,7 @@ class TransmitClient(object):
                 print(f'请输入1~{len(file_list)}之间的数字～')
 
 if __name__ == '__main__':
-    path = '/Users/erwei.zheng/Downloads/test_download_mail/pytest.pdf'
+    path = '/home/zew/WeChatFiles/files/backup/我的自学编程之路.pdf' # 我的自学编程之路.pdf  埋点_20230130.xlsx
     # TransmitClient().upload(path)
     # /Users/erwei.zheng/Downloads/test_download_mail/pycharm-community-2023.1.dmg
     # /Users/erwei.zheng/Downloads/test_download_mail/pytest.pdf

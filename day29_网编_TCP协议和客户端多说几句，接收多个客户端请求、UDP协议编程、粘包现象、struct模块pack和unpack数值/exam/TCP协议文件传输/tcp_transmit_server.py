@@ -15,8 +15,8 @@ import os
 
 class TransmitServer(object):
 
-    __server = ('192.168.0.103', 8081)  # 服务端地址
-    __dbpath = r'/Users/erwei.zheng/Downloads/test_download_mail/backup/'   # 服务端存储文件路径
+    __server = ('127.0.0.1', 8085)  # 服务端地址
+    __dbpath = r'/home/zew/WeChatFiles/files/backup/db_back'   # 服务端存储文件路径
     __dbfiles = dict() # 服务器端存储文件的filename, md5, size
     def __init__(self):
         self.sk = socket.socket()
@@ -42,7 +42,7 @@ class TransmitServer(object):
                 filesize -= len(content)
             f.close()
 
-        file_hash = self.conn.recv(16)
+        file_hash = self.conn.recv(16) # byte类型在给客户端传输md5值是会json序列化失败
         TransmitServer.__dbfiles[filename] = {'md5':file_hash, 'size': file_info['filesize']}
         print(self.__dbfiles[filename])
         print(f'文件[{filename}]已接收完毕～')
@@ -66,17 +66,17 @@ class TransmitServer(object):
         # 需要给客户端传输一个文件的hash值，验证数据完整性；在去发送文件
         print(self.__dbfiles)
         filename = file_lst[file_index]
-        file_md5_size = json.dumps(self.__dbfiles[filename]).encode('utf-8')
-        print(file_md5_size)
-        self.conn.send(struct.pack('i', len(file_md5_size)))
-        self.conn.send(file_md5_size) # 向客户端传输文件md5值和size
+        file_size = json.dumps(self.__dbfiles[filename]['size']).encode('utf-8')
+        print(file_size)
+        self.conn.send(struct.pack('i', len(file_size)))
+        self.conn.send(file_size) # 向客户端传输文件md5值和size
         # 开始上传文件
         filesize = self.__dbfiles[filename]['size']
         with open(file_abs_path, mode='rb') as f:
             while filesize > 0:
                 content = f.read(1024)
                 filesize -= len(content)
-                self.sk.send(struct.pack('i', len(content)))  # 先发送长度
+                # self.sk.send(struct.pack('i', len(content)))  # 先发送长度
                 self.sk.send(content)
             f.close()
         print(f'文件[{filename}]传输完毕～')
