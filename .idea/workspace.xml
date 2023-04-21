@@ -5,45 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/1.内容回顾.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/2.今日内容.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/3.验证客户端的合法性.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/4.socketserver模块.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/5.作业.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/exam/day30作业（张珵）.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/images/多人聊天思路.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/images/客户端合法性验证.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/socketserver模块/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/socketserver模块/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/socketserver模块/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/作业讲解/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/作业讲解/题目2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/作业讲解/题目2/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/作业讲解/题目2/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输/tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输2/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输2/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输2/tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输3_解决粘包问题/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输3_解决粘包问题/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输3_解决粘包问题/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/基于tcp协议的文件传输3_解决粘包问题/tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/验证客户端合法性/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/验证客户端合法性/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/验证客户端合法性/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/commons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/db/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/db/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/db_back/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/db_back/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/tcp_transmit_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/tcp_transmit_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/tcp_transmit_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/tcp_transmit_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/基于UDP协议的多人聊天_服务端做消息分发/online_chat_server_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/基于UDP协议的多人聊天_服务端做消息分发/online_chat_server_v2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,11 +80,11 @@
       <recent name="$PROJECT_DIR$/day29/exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输" />
       <recent name="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo" />
       <recent name="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_实现和多个客户端通信" />
       <recent name="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/single_instance" />
       <recent name="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/反射例子" />
-      <recent name="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam" />
     </key>
   </component>
   <component name="RunManager" selected="Python.tcp_transmit_client">
@@ -137,72 +102,6 @@
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/作业讲解/题目2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/作业讲解/题目2/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="online_chart_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/基于UDP协议的多人聊天" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/基于UDP协议的多人聊天/online_chart_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/作业讲解/题目2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/作业讲解/题目2/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,9 +158,6 @@
       <list>
         <item itemvalue="Python.tcp_transmit_client" />
         <item itemvalue="Python.tcp_transmit_server" />
-        <item itemvalue="Python.client" />
-        <item itemvalue="Python.server" />
-        <item itemvalue="Python.online_chart_client" />
       </list>
     </recent_temporary>
   </component>
@@ -314,6 +210,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
     <option name="LAST_COMMIT_MESSAGE" value="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/tcp_transmit_server.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/R2CodingForPython$7_.coverage" NAME="7.递归函数 Coverage Results" MODIFIED="1679728093707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20_re模块用法、递归函数、待参数装饰器" />
