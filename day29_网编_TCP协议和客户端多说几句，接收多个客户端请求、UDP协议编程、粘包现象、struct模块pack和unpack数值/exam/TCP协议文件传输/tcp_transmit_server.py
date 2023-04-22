@@ -16,13 +16,16 @@ import struct
 import json
 import hmac
 import os
-from commons import *
+from commons import Commons
+
 class TransmitServer(object):
     sk = socket.socket()
-    server = ('192.168.0.103', 8081)
+    server = ('192.168.0.103', 8082)
     sk.bind(server)
     sk.listen()
-    users_path = r'./db/userinfo' # 存储已注册用户信息
+    users_path = r'./db/userinfo'       # 存储已注册用户信息
+    fileinfo_path = r'./db/fileinfo'    # 存储服务端文件信息
+    file_db_path = r'/Users/erwei.zheng/Downloads/test_download_mail/backup/' # 服务端文件存储路径
     login_status = {'login_name': None, 'status': False}
 
     def register(self, user_dict: dict):
@@ -57,9 +60,28 @@ class TransmitServer(object):
                 break
         return self.login_status['status'] # 返回登录状态
 
-    @classmethod
-    def download(cls):
-        print('in server download')
+    def download(self):
+        """
+        服务端接收客户端上传的文件
+        :return:
+        """
+        # 接收客户端待上传的文件信息
+        file_info_blen = struct.unpack('i',self.conn.recv(4))[0]
+        file_info = json.loads(self.conn.recv(file_info_blen).decode('utf-8'))
+        logging.debug(f'客户端上传的文件信息:{file_info}')
+        # 将文件信息写入到 ./db/fileinfo,如果存在就更新文件信息
+        Commons.update_fileinfo(self.fileinfo_path, file_info)
+        # 写入文件
+        size = file_info['size']
+        file_abspath = os.path.join(self.file_db_path, file_info['file_name'])
+        with open(file_abspath, mode='wb') as f:
+            while size > 0:
+                content = self.conn.recv(2048)
+                size -= len(content)
+                f.write(content)
+            f.close()
+        logging.info(f"{file_info['file_name']}文件接收完毕～")
+
 
     @classmethod
     def upload(cls):
@@ -95,12 +117,12 @@ class TransmitServer(object):
                     elif func_name == 'upload':
                         func_name = 'download'
                     # 反射函数
-                    if hasattr(cls, func_name):
-                        func = getattr(cls, func_name)
+                    if hasattr(s, func_name):
+                        func = getattr(s, func_name)
                         if callable(func):
                             if func():
                                 break
-            logging.debug(f"用户退出登录:{cls.login_status}")
+            logging.debug(f"用户退出登录:{s.login_status}")
             logging.debug(f'验证客户端断开链接:{s.conn}')
             s.conn.close()
             logging.debug(f'验证客户端断开链接:{s.conn}')

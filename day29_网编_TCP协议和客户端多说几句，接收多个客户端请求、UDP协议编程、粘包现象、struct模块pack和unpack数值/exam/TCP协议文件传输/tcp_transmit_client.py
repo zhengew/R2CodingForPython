@@ -38,11 +38,13 @@ import struct
 import json
 import os
 import hmac
+import logging
+logging.basicConfig(level=logging.DEBUG)
 
 class TransmitClient(object):
 
     sk = socket.socket()
-    sk.connect(('192.168.0.103', 8081))
+    # sk.connect(('192.168.0.103', 8081))
     __commands = [('注册', 'register'), ('上传', 'upload'), ('下载', 'download'), ('退出', 'exit')]
     __login_name = None
 
@@ -55,6 +57,23 @@ class TransmitClient(object):
         """
         name, pwd = args
         return hmac.new(key=name.encode('utf-8'), msg=pwd.encode('utf-8'), digestmod='md5').hexdigest()
+
+    @staticmethod
+    def get_file_md5(filename: str, filesize: int, filepath: str):
+        """
+        待上传文件md5值
+        :param path:
+        :return: md5值，32位字符串
+        """
+        h = hmac.new(key=filename.encode('utf-8'), digestmod='md5')
+        with open(filepath, mode='rb') as f:
+            while filesize > 0:
+                content = f.read(1024)
+                h.update(content)
+                filesize -= len(content)
+            f.close()
+        return h.hexdigest()
+
 
     @classmethod
     def login(cls):
@@ -80,8 +99,34 @@ class TransmitClient(object):
         print('in register')
     @classmethod
     def upload(cls):
-        """上传"""
-        print('in upload')
+        """
+        上传
+       {'file_name': 'test.txt', 'size':1000, 'md5_value': xxx}
+       /Users/erwei.zheng/Downloads/test_download_mail/backup_client/pycharm-community-2023.1.dmg
+        :return:
+        """
+        try:
+            # 待上传的文件信息发送给服务端
+            filepath = input('请输入文件绝对路径: ').strip()
+            filename = os.path.basename(filepath)
+            size = os.path.getsize(filepath)
+            logging.debug(f'文件大小:{size}')
+            md5_value = cls.get_file_md5(filename, size, filepath)
+            file_info = json.dumps({'file_name': filename, 'size':size, 'md5_value': md5_value})
+            file_info_blen = struct.pack('i', len(file_info.encode('utf-8')))
+            cls.sk.send(file_info_blen)
+            cls.sk.send(file_info.encode('utf-8'))
+            # 开始上传文件
+            with open(filepath, mode='rb') as f:
+                while size > 0:
+                    content = f.read(2048)
+                    size -= len(content)
+                    cls.sk.send(content)
+                f.close()
+            print(f'[{filename}]文件上传完毕～')
+        except FileExistsError:
+            print(f'[{filename}]文件不存在～')
+
     @classmethod
     def download(cls):
         """下载"""
@@ -122,6 +167,7 @@ class TransmitClient(object):
     @classmethod
     def run(cls):
         while True:
+            cls.sk.connect(('192.168.0.103', 8082))
             if cls.login():
                 print(f'欢迎[{cls.__login_name}]登录文件传输平台～')
                 cls.show_commands()
@@ -129,8 +175,14 @@ class TransmitClient(object):
             else:
                 print('用户名或密码错误～')
                 break
-        cls.sk.close()
+        cls.sk.close() # 断开链接
 
 if __name__ == '__main__':
     TransmitClient.run()
 
+    # name = 'pycharm-community-2023.1.dmg'
+    # path = r'/Users/erwei.zheng/Downloads/test_download_mail/backup_client/pycharm-community-2023.1.dmg'
+    # size = os.path.getsize(path)
+    # print(size)
+    # m = TransmitClient.get_file_md5(name, size, path)
+    # print(m) # 435db82441cb1a0fa0c3b9f7628edcfb
