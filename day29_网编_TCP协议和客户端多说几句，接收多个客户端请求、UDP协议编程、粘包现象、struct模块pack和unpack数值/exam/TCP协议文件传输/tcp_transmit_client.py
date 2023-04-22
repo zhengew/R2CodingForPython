@@ -5,6 +5,33 @@
 
 """
 目标:文件传输客户端
+1.客户端用户注册功能
+    1.用户名
+        1>校验用户是否被注册，如已注册，提示用户重新输入
+    2.密码: md5加密, hmac模块，key=name, msg=pwd, 加密算法 md5
+    3.注册成功，向服务端传输{'name': 'axle', 'pwd_md5': xxx}
+    4.返回功能选择页面
+2.客户端登录验证：
+    1>向服务端传输{'login_name': 'alex', pwd_md5: md5加密的hash值}
+    2>如果服务端校验通过，可继续选择其他功能，否则断开连接
+3.客户上传文件
+    1>客户输入文件路径
+    2>传输文件信息的json串{'file_name': 'test.txt', 'size':1000, 'md5_value': xxx}
+        2.1> 需要写一个获取md5加密值的函数
+4.文件下载
+    1>服务端提供可下载的文件列表
+        1.1>[文件名1, 文件名2, ....]
+    2.服务端提供客户端需下载的文件信息
+        2.1>{'file_name: 'test1.txt', 'size': 1000, 'md5_value': xxx}
+5.退出登录
+    1>客户端断开链接
+    2>客户端断开链接时，服务端需要更新用户登录状态
+6.用户上传或下载完后，返回功能选择页面
+    1>上传文件
+    2>下载文件
+    3>退出登录
+
+
 """
 import socket
 import struct
@@ -14,89 +41,96 @@ import hmac
 
 class TransmitClient(object):
 
-    __server = ('127.0.0.1', 8085)
-    __db_path = r'/home/zew/WeChatFiles/files/backup'
-    def __init__(self):
-        self.sk = socket.socket()
-        self.sk.connect(self.__server)
-    def upload(self, filepath):
-        """
-        客户端文件上传
-        :return:
-        """
-        if os.path.exists(filepath) and os.path.isfile(filepath):
-            filename = os.path.basename(filepath)
-            filesize = os.path.getsize(filepath)
-            file_info = {'filename': filename, 'filesize': filesize}
-            file_info_byte = json.dumps(file_info).encode('utf-8')
-            self.sk.send(struct.pack('i',len(file_info_byte)))
-            self.sk.send(file_info_byte)
-            # 开始上传文件
-            file_hash = hmac.new(key=filename.encode('utf-8'), digestmod='md5')
-            with open(filepath, mode='rb') as f:
-                while filesize > 0:
-                    content = f.read(1024)
-                    filesize -= len(content)
-                    self.sk.send(struct.pack('i', len(content))) # 先发送长度
-                    self.sk.send(content)
-                    file_hash.update(content)
-                f.close()
-                file_hash = file_hash.digest() # 上传文件的hash值
-                self.sk.send(file_hash)
-            print(f'文件[{filename}]已上传至服务器～')
-        else:
-            print(f"{filepath}文件或路径不存在～")
+    sk = socket.socket()
+    sk.connect(('192.168.0.103', 8081))
+    __commands = [('注册', 'register'), ('上传', 'upload'), ('下载', 'download'), ('退出', 'exit')]
+    __login_name = None
 
-    def download(self):
+    @staticmethod
+    def get_md5(*args, **kwargs):
         """
-        客户端下载服务端的文件
+        :param args:
+        :param kwargs:
+        :return: md5加密后的hash值，32位的字符串
+        """
+        name, pwd = args
+        return hmac.new(key=name.encode('utf-8'), msg=pwd.encode('utf-8'), digestmod='md5').hexdigest()
+
+    @classmethod
+    def login(cls):
+        """
+        登录认证 {'login_name': 'alex', pwd_md5: md5加密的hash值}
+        :return: 返回值 1-登录成功， 0-登录失败
+        """
+        login_name = input('用户名:').strip()
+        login_pwd = input('密码: ').strip()
+        cls.__login_name = login_name # 客户端保存当前登录用户名
+        # 向服务端发送登录用户信息
+        login_info = {'login_name': login_name, 'pwd_md5': cls.get_md5(login_name, login_pwd)}
+        login_info = json.dumps(login_info) # 序列化
+        login_info_blen = struct.pack('i', len(login_info.encode('utf-8')))
+        cls.sk.send(login_info_blen)
+        cls.sk.send(login_info.encode('utf-8'))
+        # 接收服务端发送的登录认证结果, 1-成功 2-失败
+        return struct.unpack('i', cls.sk.recv(4))[0]
+
+    @classmethod
+    def register(cls):
+        """注册"""
+        print('in register')
+    @classmethod
+    def upload(cls):
+        """上传"""
+        print('in upload')
+    @classmethod
+    def download(cls):
+        """下载"""
+        print('in download')
+
+    @classmethod
+    def exit(cls):
+        """退出"""
+        print(f'[{cls.__login_name}]退出系统～')
+        cls.__login_name = None
+        return True
+
+    @classmethod
+    def show_commands(cls):
+        """
+        客户端用户选择功能列表
         :return:
         """
-        file_list_len = struct.unpack('i', self.sk.recv(4))[0]
-        file_list = json.loads(self.sk.recv(file_list_len).decode('utf-8')) # 文件列表
-        print(file_list)
         while True:
-            for id, file in enumerate(file_list, 1):
-                print(f"{id}: {file}")
-            index = input('请输入需要下载的文件序号: ')
-            if index.isdigit():
-                index = int(index)
-                if 1 <= index <= len(file_list):
-                    index -= 1
-                    print(index)
-                    self.sk.send(struct.pack('i', index)) # 像服务端传输需要下载的文件列表索引值
-                    filesize_len = struct.unpack('i', self.sk.recv(4))[0]
-                    filesize = json.loads(self.sk.recv(filesize_len).decode('utf-8')) # 文件md5值和size
-                    # 开始下载文件
-                    filename = file_list[index-1]
-                    abs_filepath = os.path.join(self.__db_path, filename)
-                    md5_value = hmac.new(key=filename.encode('utf-8'), digestmod='md5')
-                    with open(abs_filepath, mode='wb') as f:
-                        while filesize > 0:
-                            # content_len = struct.unpack('i', self.sk.recv(4))[0]
-                            content = self.sk.recv(1024)
-                            f.write(content)
-                            filesize -= len(content)
-                            md5_value.update(content)
-                        f.close()
-                    md5_value = md5_value.digest()
-                    if md5_value:
-                        print(f"文件[{filename}]下载成功，文件md5校验通过")
-                    else:
-                        print(f"文件[{filename}]下载成功，文件md5校验不通过")
+            for id, command in enumerate(cls.__commands, 1):
+                print(f'{id}: {command[0]}')
+            try:
+                index = int(input('请选择功能: ').strip()) - 1
+                if hasattr(cls, cls.__commands[index][1]):
+                    # 把客户端要执行的函数名发送给服务端
+                    func_name = cls.__commands[index][1]
+                    func_name_blen = struct.pack('i', len(func_name.encode('utf-8')))
+                    cls.sk.send(func_name_blen)
+                    cls.sk.send(func_name.encode('utf-8'))
+                    # 反射函数
+                    func = getattr(cls, func_name)
+                    if callable(func):
+                        if func():
+                            break
+            except Exception:
+                print('您选择的功能不存在，请重新输入～')
 
-                else:
-                    print(f'请输入1~{len(file_list)}之间的数字～')
+    @classmethod
+    def run(cls):
+        while True:
+            if cls.login():
+                print(f'欢迎[{cls.__login_name}]登录文件传输平台～')
+                cls.show_commands()
+                break
             else:
-                print(f'请输入1~{len(file_list)}之间的数字～')
+                print('用户名或密码错误～')
+                break
+        cls.sk.close()
 
 if __name__ == '__main__':
-    path = '/home/zew/WeChatFiles/files/backup/我的自学编程之路.pdf' # 我的自学编程之路.pdf  埋点_20230130.xlsx
-    # TransmitClient().upload(path)
-    # /Users/erwei.zheng/Downloads/test_download_mail/pycharm-community-2023.1.dmg
-    # /Users/erwei.zheng/Downloads/test_download_mail/pytest.pdf
-    obj = TransmitClient()
-    while True:
-        obj.upload(path)
-        while True:
-            obj.download()
+    TransmitClient.run()
+
