@@ -11,3 +11,5 @@
     # 1.会背
     # 2.知道代码从哪儿开始 当客户端来链接的时候直接和handle中的代码交互self.request == conn
 
+import os
+os.urandom()
