@@ -105,9 +105,6 @@ class TransmitServer(object):
                 size -= len(content)
                 self.conn.send(content)
 
-
-
-
     @classmethod
     def exit(cls):
         cls.login_status['login_name'] = None

@@ -149,13 +149,23 @@ class TransmitClient(object):
             # 写入文件
             size = download_file['size']
             file_abspath = os.path.join(cls.__download_path, download_file['file_name'])
+            m = hmac.new(key=download_file['file_name'].encode('utf-8'), digestmod='md5')
             with open(file_abspath, mode='wb') as f:
                 while size > 0:
                     content = cls.sk.recv(2048)
                     size -= len(content)
                     f.write(content)
+                    m.update(content)
                 f.close()
-            logging.debug(f"{download_file['file_name']}文件下载完毕～")
+            # md5校验文件
+            md5_value = m.hexdigest()
+            logging.debug(f"服务端MD5：{download_file['md5_value']},客户端MD5: {md5_value}")
+            if md5_value == download_file['md5_value']:
+                print(f'{download_file["file_name"]}文件校验通过，下载完毕')
+            else:
+                print(f'{download_file["file_name"]}文件校验不通过，请重新下载完毕')
+                os.remove(file_abspath)
+
         except Exception:
             print(f'您要下载的文件不存在～')
 
