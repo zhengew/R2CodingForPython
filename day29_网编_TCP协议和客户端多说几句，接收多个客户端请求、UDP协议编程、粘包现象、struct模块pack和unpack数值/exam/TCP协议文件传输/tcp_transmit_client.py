@@ -47,7 +47,8 @@ class TransmitClient(object):
     # sk.connect(('192.168.0.103', 8081))
     __commands = [('注册', 'register'), ('上传', 'upload'), ('下载', 'download'), ('退出', 'exit')]
     __login_name = None
-    __download_path = r'/home/zew/WeChatFiles/files/backup/db_client/'
+    # __download_path = r'/home/zew/WeChatFiles/files/backup/db_client/'
+    __download_path = r'/Users/erwei.zheng/Downloads/test_download_mail/backup_client'
 
     @staticmethod
     def get_md5(*args, **kwargs):
@@ -97,7 +98,21 @@ class TransmitClient(object):
     @classmethod
     def register(cls):
         """注册"""
-        print('in register')
+        name = input('用户名: ').strip()
+        pwd = input('密码: ').strip()
+        pwd_md5 = hmac.new(key=name.encode('utf-8'), msg=pwd.encode('utf-8'), digestmod='md5').hexdigest()
+        # 发送注册用户信息
+        user_dict = json.dumps({'name':name, 'pwd_md5':pwd_md5}, ensure_ascii=False)
+        user_dict_len = struct.pack('i', len(user_dict.encode('utf-8')))
+        cls.sk.send(user_dict_len)
+        cls.sk.send(user_dict.encode('utf-8'))
+        # 判断是否注册成功，0-注册失败 1-注册成功
+        state = struct.unpack('i', cls.sk.recv(4))[0]
+        if state:
+            print(f"用户{name}注册成功～")
+        else:
+            print(f"用户{name}已被注册，请更换用户名重新注册～")
+
     @classmethod
     def upload(cls):
         """
@@ -169,7 +184,6 @@ class TransmitClient(object):
         except Exception:
             print(f'您要下载的文件不存在～')
 
-
     @classmethod
     def exit(cls):
         """退出"""
@@ -205,7 +219,7 @@ class TransmitClient(object):
     @classmethod
     def run(cls):
         while True:
-            cls.sk.connect(('127.0.0.1', 8084))
+            cls.sk.connect(('192.168.0.103', 8082))
             if cls.login():
                 print(f'欢迎[{cls.__login_name}]登录文件传输平台～')
                 cls.show_commands()

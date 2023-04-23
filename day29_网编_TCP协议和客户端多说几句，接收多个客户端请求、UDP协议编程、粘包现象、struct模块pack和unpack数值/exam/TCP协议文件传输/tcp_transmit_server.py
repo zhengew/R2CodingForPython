@@ -20,29 +20,32 @@ from commons import Commons
 
 class TransmitServer(object):
     sk = socket.socket()
-    server = ('127.0.0.1', 8084)
+    server = ('192.168.0.103', 8082)
     sk.bind(server)
     sk.listen()
     users_path = r'./db/userinfo'       # 存储已注册用户信息
     fileinfo_path = r'./db/fileinfo'    # 存储服务端文件信息
-    # file_db_path = r'/Users/erwei.zheng/Downloads/test_download_mail/backup/' # 服务端文件存储路径
-    file_db_path = r'/home/zew/WeChatFiles/files/backup/' # 服务端存储文件路径
+    file_db_path = r'/Users/erwei.zheng/Downloads/test_download_mail/backup/' # 服务端文件存储路径
+    # file_db_path = r'/home/zew/WeChatFiles/files/backup/' # 服务端存储文件路径
     login_status = {'login_name': None, 'status': False}
 
-    def register(self, user_dict: dict):
+    def register(self):
         """
         用户注册
         已注册的用户信息 {'name': 'axle', 'pwd_md5': xxx}...
-        :param user: 客户端传输的用户信息 {'name': 'axle', 'pwd_md5': xxx}
+        :param user_dict: 客户端传输的注册用户信息 {'name': 'axle', 'pwd_md5': xxx}
         :return: 0-用户已注册， 1-用户注册成功
         """
-        # 用户已注册，返回False
-        for user in Commons.pickle_load(self.users_path):
-            if user_dict['name'] == user['name']:
-                return 0
-        # 用户未注册，注册信息写入用户文件，返回True
-        Commons.pickle_dump(self.users_path, user_dict)
-        return 1
+        # 判断用户是否已注册过，默认1未注册过
+        state = struct.pack('i', 1)
+        user_dict_blen = struct.unpack('i', self.conn.recv(4))[0]
+        user_dict = json.loads(self.conn.recv(user_dict_blen).decode('utf-8'))
+        if user_dict['name'] in [user['name'] for user in Commons.pickle_load(self.users_path)]:
+            state = struct.pack('i', 0)
+        else:
+            # 用户未注册，注册信息写入用户文件
+            Commons.pickle_dump(self.users_path, user_dict)
+        self.conn.send(state)
 
     def login(self, login_info: dict):
         """
@@ -159,14 +162,14 @@ if __name__ == '__main__':
     # else:
     #     print(len(r1))
     #     print(2222)
-    pwd = hmac.new(key='alex'.encode('utf-8'), msg='123456'.encode('utf-8'), digestmod='md5').hexdigest()
-    alex = {'name': 'alex', 'pwd_md5': pwd}
-    path = 'db/userinfo'
-    # Commons.pickle_dump(path,alex)
-
-    for user in Commons.pickle_load(path):
-        print(user)
-        print(user['name'])
+    # pwd = hmac.new(key='alex'.encode('utf-8'), msg='123456'.encode('utf-8'), digestmod='md5').hexdigest()
+    # alex = {'name': 'alex', 'pwd_md5': pwd}
+    # path = 'db/userinfo'
+    # # Commons.pickle_dump(path,alex)
+    #
+    # for user in Commons.pickle_load(path):
+    #     print(user)
+    #     print(user['name'])
 
 
 
