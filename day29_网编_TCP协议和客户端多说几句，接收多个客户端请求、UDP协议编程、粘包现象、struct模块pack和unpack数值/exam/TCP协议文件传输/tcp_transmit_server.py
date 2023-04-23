@@ -20,12 +20,13 @@ from commons import Commons
 
 class TransmitServer(object):
     sk = socket.socket()
-    server = ('192.168.0.103', 8082)
+    server = ('127.0.0.1', 8084)
     sk.bind(server)
     sk.listen()
     users_path = r'./db/userinfo'       # 存储已注册用户信息
     fileinfo_path = r'./db/fileinfo'    # 存储服务端文件信息
-    file_db_path = r'/Users/erwei.zheng/Downloads/test_download_mail/backup/' # 服务端文件存储路径
+    # file_db_path = r'/Users/erwei.zheng/Downloads/test_download_mail/backup/' # 服务端文件存储路径
+    file_db_path = r'/home/zew/WeChatFiles/files/backup/' # 服务端存储文件路径
     login_status = {'login_name': None, 'status': False}
 
     def register(self, user_dict: dict):
@@ -80,12 +81,32 @@ class TransmitServer(object):
                 size -= len(content)
                 f.write(content)
             f.close()
-        logging.info(f"{file_info['file_name']}文件接收完毕～")
+        logging.info(f"{file_info['file_name']}文件传输完毕～")
+
+    def upload(self):
+        """
+        服务端向客户端发送文件
+        :return:
+        """
+        # 向客户端传输服务端存储的文件列表
+        dbfiles_info = Commons.get_dbfiles_info(self.fileinfo_path)
+        dbfiles_info_blen = struct.pack('i', len(json.dumps(dbfiles_info).encode('utf-8')))
+        logging.debug(f"服务端文件下载列表:{dbfiles_info}")
+        self.conn.send(dbfiles_info_blen)
+        self.conn.send(json.dumps(dbfiles_info).encode('utf-8'))
+        # 接收客户要下载的文件信息
+        download_file_blen = struct.unpack('i', self.conn.recv(4))[0]
+        download_file = json.loads(self.conn.recv(download_file_blen).decode('utf-8'))
+        size = download_file['size']
+        file_abs_path = os.path.join(self.file_db_path, download_file['file_name']) # 文件绝对路径
+        with open(file_abs_path, mode='rb') as f:
+            while size > 0:
+                content = f.read(1024)
+                size -= len(content)
+                self.conn.send(content)
 
 
-    @classmethod
-    def upload(cls):
-        print('in server upload')
+
 
     @classmethod
     def exit(cls):

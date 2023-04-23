@@ -47,6 +47,7 @@ class TransmitClient(object):
     # sk.connect(('192.168.0.103', 8081))
     __commands = [('注册', 'register'), ('上传', 'upload'), ('下载', 'download'), ('退出', 'exit')]
     __login_name = None
+    __download_path = r'/home/zew/WeChatFiles/files/backup/db_client/'
 
     @staticmethod
     def get_md5(*args, **kwargs):
@@ -130,7 +131,34 @@ class TransmitClient(object):
     @classmethod
     def download(cls):
         """下载"""
-        print('in download')
+        # 接收服务端存储的文件列表
+        dbfiles_info_blen = struct.unpack('i', cls.sk.recv(4))[0]
+        dbfiles_info = json.loads(cls.sk.recv(dbfiles_info_blen).decode('utf-8'))
+        # logging.debug(f"服务端文件下载列表:{dbfiles_info}\n")
+
+        # 客户端传输要下载的文件名
+        try:
+            files = [file['file_name'] for file in dbfiles_info]
+            for id, file in enumerate(files, 1):
+                print(f"{id}: {file}")
+            index = int(input('请输入要下载的文件ID: ').strip()) - 1
+            download_file = dbfiles_info[index]
+            download_file_blen = struct.pack('i', len(json.dumps(download_file, ensure_ascii=False).encode('utf-8')))
+            cls.sk.send(download_file_blen)
+            cls.sk.send(json.dumps(download_file, ensure_ascii=False).encode('utf-8'))
+            # 写入文件
+            size = download_file['size']
+            file_abspath = os.path.join(cls.__download_path, download_file['file_name'])
+            with open(file_abspath, mode='wb') as f:
+                while size > 0:
+                    content = cls.sk.recv(2048)
+                    size -= len(content)
+                    f.write(content)
+                f.close()
+            logging.debug(f"{download_file['file_name']}文件下载完毕～")
+        except Exception:
+            print(f'您要下载的文件不存在～')
+
 
     @classmethod
     def exit(cls):
@@ -167,7 +195,7 @@ class TransmitClient(object):
     @classmethod
     def run(cls):
         while True:
-            cls.sk.connect(('192.168.0.103', 8082))
+            cls.sk.connect(('127.0.0.1', 8084))
             if cls.login():
                 print(f'欢迎[{cls.__login_name}]登录文件传输平台～')
                 cls.show_commands()

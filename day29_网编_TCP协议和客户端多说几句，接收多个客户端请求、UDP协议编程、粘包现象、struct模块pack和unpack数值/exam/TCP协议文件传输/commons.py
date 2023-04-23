@@ -33,7 +33,7 @@ class Commons(object):
         :return:
         """
         with open(path, mode='at', encoding='utf-8') as f:
-            f.write(json.dumps(obj) + '\n')
+            f.write(json.dumps(obj, ensure_ascii=False) + '\n')
 
     @staticmethod
     def json_load(path: str):
@@ -58,16 +58,23 @@ class Commons(object):
             with open(back_file, mode='wt', encoding='utf-8') as f:
                 for info in cls.json_load(path):
                     if info['file_name'] == fileinfo['file_name']:
-                        f.write(json.dumps(fileinfo)+'\n')
+                        f.write(json.dumps(fileinfo, ensure_ascii=False)+'\n')
                     else:
-                        f.write(json.dumps(info) + '\n')
+                        f.write(json.dumps(info, ensure_ascii=False) + '\n')
                 f.close()
             os.remove(path)
             os.rename(back_file, path)
         else:
             Commons.json_dump(path, fileinfo)
 
-
+    @classmethod
+    def get_dbfiles_info(cls, path: str):
+        """
+        读取服务端存储的文件信息
+        :param path: ./db/fileinfo
+        :return: 文件信息列表:[{"file_name": "我的自学编程之路.pdf", "size": 33143, "md5_value": "7a571a0fed4dae6b4174e9a23a5970ff"}, ...]
+        """
+        return sorted([file for file in cls.json_load(path)], key=lambda x: x['file_name'])
 
 
 
@@ -75,11 +82,16 @@ if __name__ == '__main__':
     alex = {'name': 'alxe', 'age': 18}
     path = 'db/userinfo'
     # Commons.pickle_dump(path,alex)
+    '''
+    /home/zew/WeChatFiles/files/我的自学编程之路.pdf
+    /home/zew/WeChatFiles/files/8、债券交易用户故事2022-01-30.docx
+    '''
+    # for user in Commons.pickle_load(path):
+    #     print(user)
+    #     print(user['name'])
 
-    for user in Commons.pickle_load(path):
-        print(user)
-        print(user['name'])
-
-
+    path = r'./db/fileinfo'
+    ret = Commons.get_dbfiles_info(path)
+    print(ret)
 
 
