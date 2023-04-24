@@ -37,7 +37,7 @@ class Commons(object):
         :param login_pwd:
         :return:
         """
-        h = hmac.new(key=public_key.encode('utf-8'), msg=private_key.encode('utf-8')
+        h = hmac.new(key=private_key.encode('utf-8'), msg=login_pwd.encode('utf-8'), digestmod='md5')
         return h.hexdigest()
 
 if __name__ == '__main__':

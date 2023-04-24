@@ -21,6 +21,9 @@ class Transmit(socketserver.BaseRequestHandler):
     __public_key = '我爱你中国'
     __private_key = "我爱你中国"
     __users_path = 'userinfo' # 用户信息存储文件
+
+    __login_status = {'login_name':None, 'status':False}
+
     def handle(self):
         conn = self.request
         print(conn)
@@ -37,13 +40,16 @@ class Transmit(socketserver.BaseRequestHandler):
         login_info = json.loads(conn.recv(login_info_blen).decode('utf-8'))
         logging.debug(f"登陆用户信息:{login_info}")
 
+        # 服务端摘要认证，更新登录状态
         for user in Commons.get_all_users(cls.__users_path):
-            if user['name'] == login_info['login_name']:
-                if user['pwd'] == Commons.get_md5(cls.__private_key, login_info['pwd']):
-                    pass
-
-
-        conn.send(b'hello')
+            if user['name'] == login_info['login_name'] and \
+                    user['pwd'] == Commons.get_md5(cls.__private_key, login_info['pwd']):
+                cls.__login_status['login_name'] = login_info['login_name']
+                cls.__login_status['status'] = True
+        logging.debug(f'服务端怎么初始化属性？{cls.__login_status}')
+        # 认证通过发送1，失败发送0
+        login_state = struct.pack('i', 1) if cls.__login_status['status'] else struct.pack('i', 0)
+        conn.send(login_state)
 
 
 if __name__ == '__main__':

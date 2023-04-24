@@ -22,7 +22,10 @@ class TransmitClient(object):
 
     @classmethod
     def login(cls):
-        """登陆"""
+        """
+        登录认证
+        :return: 1-认证通过 0-认证失败
+        """
         login_name = input('用户名:').strip()
         login_pwd = input('密码:').strip()
         md5_pwd = hmac.new(key=cls.__public_key.encode('utf-8'), msg=login_pwd.encode('utf-8'), digestmod='md5').hexdigest()
@@ -31,11 +34,15 @@ class TransmitClient(object):
         cls.sk.send(login_info_blen)
         cls.sk.send(login_info.encode('utf-8'))
         logging.debug(f"登陆用户信息{login_info}")
-        msg = cls.sk.recv(1024)
-        print(msg)
+        # 登录认证结果
+        login_state = struct.unpack('i', cls.sk.recv(4))[0]
+        return login_state
     @classmethod
     def run(cls):
-        cls.login()
+        if cls.login():
+            print('认证通过～')
+        else:
+            print('认证失败～')
         cls.sk.close()
 
 
