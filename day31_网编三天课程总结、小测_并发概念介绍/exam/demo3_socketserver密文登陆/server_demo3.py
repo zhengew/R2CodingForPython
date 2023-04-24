@@ -40,7 +40,7 @@ class Transmit(socketserver.BaseRequestHandler):
         for user in Commons.get_all_users(cls.__users_path):
             if user['name'] == login_info['login_name']:
                 if user['pwd'] == Commons.get_md5(cls.__private_key, login_info['pwd']):
-
+                    pass
 
 
         conn.send(b'hello')
