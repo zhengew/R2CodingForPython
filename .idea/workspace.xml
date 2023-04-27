@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/1.内容回顾.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/2.今日内容.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/3.作业.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/4.进程的概念.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/5.multiprocessing模块.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/images/同步和异步.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/images/同步非阻塞.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/images/进程的三状态图_阻塞或时间片结束.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/作业讲解/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/作业讲解/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/作业讲解/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/作业讲解/userinfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/使用多进程实现并发的socketserver/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/使用多进程实现并发的socketserver/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/使用多进程实现并发的socketserver/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day32",
+    "last_opened_file_path": "/home/zew/PyProjects/R2CodingForPy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,11 +68,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/day32" />
       <recent name="$PROJECT_DIR$/day31_网编三天课程总结、小测_并发概念介绍/exam" />
       <recent name="$PROJECT_DIR$/day31" />
       <recent name="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/exam/scoketserver实现TCP协议文件上传" />
       <recent name="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/db" />
+      <recent name="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo" />
@@ -237,8 +218,8 @@
     <list>
       <item itemvalue="Python.client_demo3" />
       <item itemvalue="Python.server_demo3" />
-      <item itemvalue="Python.tcp_transmit_server (1)" />
       <item itemvalue="Python.tcp_transmit_client" />
+      <item itemvalue="Python.tcp_transmit_server (1)" />
       <item itemvalue="Python.tcp_transmit_server" />
     </list>
     <recent_temporary>
