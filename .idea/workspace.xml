@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/images/celery分布式框架生产者消费者模型.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/images/生产者消费者模型_爬虫例子.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -52,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day33",
+    "last_opened_file_path": "/home/zew/PyProjects/R2CodingForPy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,11 +75,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/day33" />
-      <recent name="$PROJECT_DIR$/day32" />
       <recent name="$PROJECT_DIR$/day31_网编三天课程总结、小测_并发概念介绍/exam" />
       <recent name="$PROJECT_DIR$/day31" />
       <recent name="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/exam/scoketserver实现TCP协议文件上传" />
+      <recent name="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/db" />
+      <recent name="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo" />
@@ -86,51 +89,7 @@
       <recent name="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Process类的其他方法">
-    <configuration name="Process类的其他方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33/exam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33/exam/Process类的其他方法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="面向对象方式开启进程_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33/exam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33/exam/面向对象方式开启进程_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.client_demo3">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="同步非阻塞demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="server_demo3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,12 +142,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/同步非阻塞" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day31_网编三天课程总结、小测_并发概念介绍/exam/demo3_socketserver密文登陆" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/同步非阻塞/同步非阻塞demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day31_网编三天课程总结、小测_并发概念介绍/exam/demo3_socketserver密文登陆/server_demo3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,20 +156,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="同步阻塞demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tcp_transmit_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/同步阻塞" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/同步阻塞/同步阻塞demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/tcp_transmit_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multiprocessing_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tcp_transmit_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,12 +186,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/multiprocessing模块" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/exam/scoketserver实现TCP协议文件上传" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/multiprocessing模块/multiprocessing_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/exam/scoketserver实现TCP协议文件上传/tcp_transmit_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tcp_transmit_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/tcp_transmit_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,19 +223,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Process类的其他方法" />
-      <item itemvalue="Python.面向对象方式开启进程_demo" />
       <item itemvalue="Python.client_demo3" />
-      <item itemvalue="Python.multiprocessing_demo" />
-      <item itemvalue="Python.同步非阻塞demo" />
+      <item itemvalue="Python.server_demo3" />
+      <item itemvalue="Python.tcp_transmit_client" />
+      <item itemvalue="Python.tcp_transmit_server (1)" />
+      <item itemvalue="Python.tcp_transmit_server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Process类的其他方法" />
-        <item itemvalue="Python.面向对象方式开启进程_demo" />
-        <item itemvalue="Python.同步非阻塞demo" />
-        <item itemvalue="Python.multiprocessing_demo" />
         <item itemvalue="Python.client_demo3" />
+        <item itemvalue="Python.server_demo3" />
+        <item itemvalue="Python.tcp_transmit_client" />
+        <item itemvalue="Python.tcp_transmit_server (1)" />
+        <item itemvalue="Python.tcp_transmit_server" />
       </list>
     </recent_temporary>
   </component>
