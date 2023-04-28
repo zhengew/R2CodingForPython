@@ -5,74 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/进程的调度算法_多级反馈算法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/images/进程的三状态图_阻塞或时间片结束.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/images/进程的调度算法_多级反馈算法.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/1.内容回顾.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/2.今日内容.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/3.开启进程的另一种方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/4.process类的其他方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/5.守护进程.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/6.抢票的例子_锁.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/7.队列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/exam/Process类的其他方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/exam/面向对象方式开启进程_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/images/守护进程(daemon在start之前设置)随着主进程代码的执行结束而结束.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/images/抢票例子-数据不安全问题.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/images/锁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/images/锁_拿钥匙、还钥匙.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33/ticket" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/images/celery分布式框架生产者消费者模型.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/images/生产者消费者模型_爬虫例子.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/1.内容回顾.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/1.内容回顾.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/2.今日内容.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/2.今日内容.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/3.作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/3.作业.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/4.进程的概念.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/4.进程的概念.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/5.multiprocessing模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/5.multiprocessing模块.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/multiprocessing_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/multiprocessing_demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/multiprocessing模块/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/multiprocessing模块/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/multiprocessing模块/linux开启子进程_主进程中不需要判断__name__.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/multiprocessing模块/linux开启子进程_主进程中不需要判断__name__.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/multiprocessing模块/multiprocessing_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/multiprocessing模块/multiprocessing_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/multiprocessing模块/进程之间数据隔离.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/multiprocessing模块/进程之间数据隔离.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/multiprocessing模块/进程之间的数据是内存隔离的.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/multiprocessing模块/进程之间的数据是内存隔离的.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/使用多进程实现并发的socket的server端/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/使用多进程实现并发的socket的server端/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/使用多进程实现并发的socket的server端/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/使用多进程实现并发的socket的server端/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/使用多进程实现并发的socket的server端/多进程实现server端.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/使用多进程实现并发的socket的server端/多进程实现server端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/使用多进程实现并发的socket的server端/多进程实现并发的socket的server端.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/使用多进程实现并发的socket的server端/多进程实现并发的socket的server端.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/同步阻塞/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/同步阻塞/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/同步阻塞/同步阻塞.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/同步阻塞/同步阻塞.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/同步阻塞/同步阻塞demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/同步阻塞/同步阻塞demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/同步非阻塞/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/同步非阻塞/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/同步非阻塞/同步非阻塞.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/同步非阻塞/同步非阻塞.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/同步非阻塞/同步非阻塞demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/同步非阻塞/同步非阻塞demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/子进程绑定方法.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/子进程绑定方法.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/子进程绑定方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/子进程绑定方法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/子进程绑定方法传递参数.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/子进程绑定方法传递参数.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/子进程绑定方法传递参数.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/子进程绑定方法传递参数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/开启多个子进程.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/开启多个子进程.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/开启多个子进程join多个子进程.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/开启多个子进程join多个子进程.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/开启多个子进程join多个子进程.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/开启多个子进程join多个子进程.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/进程三状态图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/进程之间数据隔离.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/进程之间数据隔离.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/exam/进程之间数据隔离的例子.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/exam/进程之间数据隔离的例子.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/images/linux开启子进程会复制主进程内存空间中存储的数据.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/images/linux开启子进程会复制主进程内存空间中存储的数据.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/images/windows开启进程.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/images/windows开启进程.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/images/同步和异步.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/images/同步和异步.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/images/同步阻塞join.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/images/同步阻塞join.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/images/同步非阻塞.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/images/同步非阻塞.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/images/并发异步非阻塞_start方法.png" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/images/并发异步非阻塞_start方法.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/images/进程的三状态图_阻塞或时间片结束.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/images/进程的调度算法_多级反馈算法.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/作业讲解/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/作业讲解/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/作业讲解/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/作业讲解/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/作业讲解/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/作业讲解/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/作业讲解/userinfo" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/作业讲解/userinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/使用多进程实现并发的socketserver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/使用多进程实现并发的socketserver/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/使用多进程实现并发的socketserver/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/使用多进程实现并发的socketserver/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day32_并发编程_进程概念、multiprocessing模块/使用多进程实现并发的socketserver/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/day32_并发编程_进程概念、进程三状态图、进程调度算法、multiprocessing模块、Process类/使用多进程实现并发的socketserver/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
