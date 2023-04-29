@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/关闭进程/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/关闭进程/terminate关闭进程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/关闭进程/关闭进程.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/守护进程/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/守护进程/守护进程.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/守护进程/开启守护进程，并要求守护进程在某个子进程结束后再结束.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/开启进程方式/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/开启进程方式/以面向对象方式开启进程(继承Process类重写run方法).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/开启进程方式/函数式开启进程并传递参数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/开启进程方式/函数式方式开启进程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/开启进程方式/面向对象方式开启子进程并传递参数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/ticket" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/with上下文管理器创建互斥锁.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/代码层面加锁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/代码层面加锁.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/购票例子_互斥锁解决进程之间数据安全问题.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/购票例子掩饰进程之间的数据安全问题.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/进程之间数据安全问题例子.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/通过with上下文管理器创建互斥锁.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/6.抢票的例子_锁.py" beforeDir="false" afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/6.抢票的例子_锁.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/ticket" beforeDir="false" afterPath="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/ticket" afterDir="false" />
-    </list>
+    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,23 +41,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/zew/PyProjects/R2CodingForPy&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/zew/PyProjects/R2CodingForPy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="R2CodingForPython" is-module-sdk="true">
@@ -106,8 +82,8 @@
       <recent name="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.进程之间数据安全问题例子">
-    <configuration name="代码层面加锁" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.队列">
+    <configuration name="队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,12 +91,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/进程之间的通信IPC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/代码层面加锁.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/进程之间的通信IPC/队列.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,28 +127,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="守护进程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/守护进程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/守护进程/守护进程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="6.抢票的例子_锁" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,6 +141,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/6.抢票的例子_锁.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7.队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/7.队列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/进程之间的通信IPC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/进程之间的通信IPC/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,42 +215,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="with上下文管理器创建互斥锁" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/with上下文管理器创建互斥锁.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.6.抢票的例子_锁" />
-      <item itemvalue="Python.with上下文管理器创建互斥锁" />
-      <item itemvalue="Python.代码层面加锁" />
-      <item itemvalue="Python.守护进程" />
+      <item itemvalue="Python.7.队列" />
+      <item itemvalue="Python.__init__" />
       <item itemvalue="Python.进程之间数据安全问题例子" />
+      <item itemvalue="Python.队列" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.队列" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.7.队列" />
         <item itemvalue="Python.进程之间数据安全问题例子" />
         <item itemvalue="Python.6.抢票的例子_锁" />
-        <item itemvalue="Python.with上下文管理器创建互斥锁" />
-        <item itemvalue="Python.代码层面加锁" />
-        <item itemvalue="Python.守护进程" />
       </list>
     </recent_temporary>
   </component>

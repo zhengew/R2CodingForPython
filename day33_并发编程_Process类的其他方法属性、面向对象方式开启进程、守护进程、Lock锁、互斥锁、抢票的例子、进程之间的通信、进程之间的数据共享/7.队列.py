@@ -49,38 +49,39 @@
 #     c1.start()
 #     p1.start()
 #
-# import time
-# import random
-# from multiprocessing import Queue,Process
-#
-# def consumer(q,name): # 消费者:通常取到数据之后还要进行某些操作
-#     while True:
-#         food = q.get()
-#         if food:
-#             print('%s吃了%s'%(name,food))
-#         else:break
-#
-# def producer(q,name,food): # 生产者:通常在放数据之前需要先通过某些代码来获取数据
-#     for i in range(10):
-#         foodi = '%s%s'%(food,i)
-#         print('%s生产了%s'%(name,foodi))
-#         time.sleep(random.random())
-#         q.put(foodi)
-#
-# if __name__ == '__main__':
-#     q = Queue()
-#     c1 = Process(target=consumer,args=(q,'alex'))
-#     c2 = Process(target=consumer,args=(q,'alex'))
-#     p1 = Process(target=producer,args=(q,'大壮','泔水'))
-#     p2 = Process(target=producer,args=(q,'b哥','香蕉'))
-#     c1.start()
-#     c2.start()
-#     p1.start()
-#     p2.start()
-#     p1.join()
-#     p2.join()
-#     q.put(None)
-#     q.put(None)
+import time
+import random
+from multiprocessing import Queue,Process, set_start_method
+
+def consumer(q,name): # 消费者:通常取到数据之后还要进行某些操作
+    while True:
+        food = q.get()
+        if food:
+            print('%s吃了%s'%(name,food))
+        else:break
+
+def producer(q,name,food): # 生产者:通常在放数据之前需要先通过某些代码来获取数据
+    for i in range(10):
+        foodi = '%s%s'%(food,i)
+        print('%s生产了%s'%(name,foodi))
+        time.sleep(random.random())
+        q.put(foodi)
+
+if __name__ == '__main__':
+    set_start_method('fork')
+    q = Queue()
+    c1 = Process(target=consumer,args=(q,'alex'))
+    c2 = Process(target=consumer,args=(q,'alex'))
+    p1 = Process(target=producer,args=(q,'大壮','泔水'))
+    p2 = Process(target=producer,args=(q,'b哥','香蕉'))
+    c1.start()
+    c2.start()
+    p1.start()
+    p2.start()
+    p1.join()
+    p2.join()
+    q.put(None)
+    q.put(None)
 
 
 
