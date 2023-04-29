@@ -28,6 +28,7 @@ if __name__ == '__main__':
     for i in range(10):
         Process(target=get_ticket,args=(i,lock)).start()
 
+
 # import time
 # from multiprocessing import Lock,Process
 # def func(i,lock):
