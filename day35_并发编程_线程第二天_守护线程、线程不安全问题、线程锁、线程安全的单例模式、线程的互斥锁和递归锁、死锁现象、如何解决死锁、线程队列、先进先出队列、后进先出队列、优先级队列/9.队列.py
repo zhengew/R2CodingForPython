@@ -1,5 +1,5 @@
-import queue   # 线程之间数据安全的容器队列
-from queue import Empty  # 不是内置的错误类型,而是queue模块中的错误
+# import queue   # 线程之间数据安全的容器队列
+# from queue import Empty  # 不是内置的错误类型,而是queue模块中的错误
 # q = queue.Queue(4)   # fifo 先进先出的队列
 # q.get()
 # q.put(1)
@@ -23,13 +23,13 @@ from queue import Empty  # 不是内置的错误类型,而是queue模块中的�
 # print(lq.get())
 # print(lq.get())
 #
-# from queue import PriorityQueue  # 优先级队列
-#
-# priq = PriorityQueue()
-# priq.put((2,'alex'))
-# priq.put((1,'wusir'))
-# priq.put((0,'太白'))
-#
-# print(priq.get())
-# print(priq.get())
-# print(priq.get())
+from queue import PriorityQueue  # 优先级队列
+
+priq = PriorityQueue()
+priq.put((2,'alex'))
+priq.put((1,'wusir'))
+priq.put((0,'太白'))
+
+print(priq.get())
+print(priq.get())
+print(priq.get())

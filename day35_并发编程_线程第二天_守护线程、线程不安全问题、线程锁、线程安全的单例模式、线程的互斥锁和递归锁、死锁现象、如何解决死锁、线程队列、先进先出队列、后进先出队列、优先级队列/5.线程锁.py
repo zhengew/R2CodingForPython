@@ -39,31 +39,31 @@
 释放锁
 '''
 
-# from threading import Thread,Lock
-# import time
-# n = []
-# def append():
-#     for i in range(500000):
-#         n.append(1)
-# def pop(lock):
-#     for i in range(500000):
-#         with lock:
-#             if not n:
-#                 time.sleep(0.0000001)    # 强制CPU轮转
-#             n.pop()
-#
-# t_l = []
-# lock = Lock()
-# for i in range(20):
-#     t1 = Thread(target=append)
-#     t1.start()
-#     t2 = Thread(target=pop,args=(lock,))
-#     t2.start()
-#     t_l.append(t1)
-#     t_l.append(t2)
-# for t in t_l:
-#     t.join()
-# print(n)
+from threading import Thread,Lock
+import time
+n = []
+def append():
+    for i in range(5000):
+        n.append(1)
+def pop(lock):
+    for i in range(5000):
+        with lock:
+            if not n:
+                time.sleep(0.0000001)    # 强制CPU轮转
+            n.pop()
+
+t_l = []
+lock = Lock()
+for i in range(20):
+    t1 = Thread(target=append)
+    t1.start()
+    t2 = Thread(target=pop,args=(lock,))
+    t2.start()
+    t_l.append(t1)
+    t_l.append(t2)
+for t in t_l:
+    t.join()
+print(n)
 
 
 # 不要操作全局变量,不要在类里操作静态变量
