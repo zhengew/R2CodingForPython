@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
+    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/1.内容回顾.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/2.今日内容.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/3.池.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/4.回调函数例子.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/5.协程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/6.协程的例子1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/7.asyncio模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/8.原理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/9.总结.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/exam/day36作业（张珵）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/基于gevent协程实现socket并发/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/基于gevent协程实现socket并发/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/基于gevent协程实现socket并发/server.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,13 +65,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/zew/PyProjects/R2CodingForPy",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day36",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,11 +85,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/day31_网编三天课程总结、小测_并发概念介绍/exam" />
-      <recent name="$PROJECT_DIR$/day31" />
-      <recent name="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/exam/scoketserver实现TCP协议文件上传" />
-      <recent name="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/TCP协议文件传输/db" />
-      <recent name="$PROJECT_DIR$/day30_网编_TCP协议完成文件上传下载、socketserver模块/exam" />
+      <recent name="$PROJECT_DIR$/day36" />
+      <recent name="$PROJECT_DIR$/day36/exam" />
+      <recent name="$PROJECT_DIR$/day35/exam" />
+      <recent name="$PROJECT_DIR$/day35" />
+      <recent name="$PROJECT_DIR$/day34" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo" />
@@ -82,8 +99,8 @@
       <recent name="$PROJECT_DIR$/day26_oop_继承super、封装、类装饰器、反射/exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.队列">
-    <configuration name="队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.优先级队列">
+    <configuration name="通过递归锁解决死锁" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,12 +108,100 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/进程之间的通信IPC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/exam/递归锁解决死锁" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/进程之间的通信IPC/队列.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/exam/递归锁解决死锁/通过递归锁解决死锁.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="先进先出队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/exam/队列" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/exam/队列/先进先出队列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="后进先出队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/exam/队列" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/exam/队列/后进先出队列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="优先级队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/exam/队列" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/exam/队列/优先级队列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9.队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/9.队列.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,72 +224,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/进程之间数据安全问题例子.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="6.抢票的例子_锁" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/6.抢票的例子_锁.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="7.队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/7.队列.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/进程之间的通信IPC" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/进程之间的通信IPC/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,19 +255,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.6.抢票的例子_锁" />
-      <item itemvalue="Python.7.队列" />
-      <item itemvalue="Python.__init__" />
-      <item itemvalue="Python.进程之间数据安全问题例子" />
-      <item itemvalue="Python.队列" />
+      <item itemvalue="Python.9.队列" />
+      <item itemvalue="Python.优先级队列" />
+      <item itemvalue="Python.先进先出队列" />
+      <item itemvalue="Python.后进先出队列" />
+      <item itemvalue="Python.通过递归锁解决死锁" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.队列" />
-        <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.7.队列" />
-        <item itemvalue="Python.进程之间数据安全问题例子" />
-        <item itemvalue="Python.6.抢票的例子_锁" />
+        <item itemvalue="Python.优先级队列" />
+        <item itemvalue="Python.后进先出队列" />
+        <item itemvalue="Python.先进先出队列" />
+        <item itemvalue="Python.9.队列" />
+        <item itemvalue="Python.通过递归锁解决死锁" />
       </list>
     </recent_temporary>
   </component>
