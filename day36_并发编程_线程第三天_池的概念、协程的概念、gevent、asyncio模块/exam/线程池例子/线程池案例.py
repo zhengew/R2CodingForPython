@@ -28,7 +28,6 @@ if __name__ == '__main__':
         'https://help.github.com/',
         'http://www.sina.com.cn/'
     ]
-
     # 线程池
     tp = ThreadPoolExecutor(5)
     for url in urls:
