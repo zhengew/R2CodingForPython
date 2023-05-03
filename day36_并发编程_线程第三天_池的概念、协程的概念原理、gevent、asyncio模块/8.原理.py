@@ -24,7 +24,6 @@ def run_until_complete(g1,g2):
             pass
         del time_dic[min_time]
 
-
 n = 1
 g1 = func(1)
 g2 = func(1.1)

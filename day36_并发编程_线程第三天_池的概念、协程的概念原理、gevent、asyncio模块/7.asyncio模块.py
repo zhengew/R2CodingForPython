@@ -8,4 +8,5 @@ async def func(name):
     print('end')
 
 loop = asyncio.get_event_loop()
+print(loop)
 loop.run_until_complete(asyncio.wait([func('alex'),func('太白')]))

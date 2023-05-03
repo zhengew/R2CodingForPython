@@ -97,7 +97,6 @@ def print_func(ret):       # 异步阻塞
 
 if __name__ == '__main__':
     tp = ThreadPoolExecutor(4)
-    futrue_l = {}
     for i in range(20):         # 异步非阻塞的
         ret = tp.submit(func,i,b=i+1)
         ret.add_done_callback(print_func)  # ret这个任务会在执行完毕的瞬间立即触发print_func函数,并且把任务的返回值对象传递到print_func做参数
