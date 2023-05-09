@@ -24,7 +24,7 @@ def run():
             while True:
                 for id, command in enumerate(clas_obj.command_list(), 1):
                     print(f"{id}: {command[0]}")
-                option = input('请选择:')
+                option = input('请选择:').strip()
                 if hasattr(clas_obj, clas_obj.command_list()[int(option)-1][1]):
                     ret = getattr(clas_obj, clas_obj.command_list()[int(option)-1][1])
                     if callable(ret):
