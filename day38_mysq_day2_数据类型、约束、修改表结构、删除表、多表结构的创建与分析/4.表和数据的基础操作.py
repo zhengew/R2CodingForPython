@@ -20,6 +20,7 @@
 # 查看表结构
     # desc 表名;
         # 能够查看到有多少个字段\类型\长度,看不到表编码,引擎,具体的约束信息只能看到一部分
-    # show create table 表名;
+    # show create table 表名; 参数 \G 格式化显示
         # 能查看字段\类型\长度\编码\引擎\约束
+        # show create table 表名 \G
 
