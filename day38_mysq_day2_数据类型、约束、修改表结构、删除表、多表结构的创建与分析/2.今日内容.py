@@ -12,7 +12,7 @@
     # 字符串 char,varchar
     # enum/set
         # enum 单选行为
-        # set  对选行为
+        # set  多选行为
 
 # 表的完整性约束
     # 约束某一个字段
