@@ -16,6 +16,15 @@
     #  select emp_name,salary*12 as annual_salary from employee;
 # 使用判断逻辑
     # case when语句 相当于 if条件判断句
+# select
+#     (
+#         case
+#         when emp_name = 'alex' then concat(emp_name, 'SB')
+#         when emp_name = 'jingliyang' then concat(emp_name, '女神')
+#         else concat(emp_name, '男神')
+#         end
+#     ) as new_name
+# from employee;
 
 # where 筛选所有符合条件的行
     # 比较运算符

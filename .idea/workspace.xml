@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day38_mysq_day2_数据类型、约束、修改表结构、删除表、多表结构的创建与分析/exam/ER图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day39_mysql_day3_增删改查/1.内容回顾.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day39_mysql_day3_增删改查/2.今日内容.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day39_mysql_day3_增删改查/3.数据的增删改.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day39_mysql_day3_增删改查/4.单表数据查询.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day39_mysql_day3_增删改查/5.作业.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day39_mysql_day3_增删改查/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day39_mysql_day3_增删改查/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day39_mysql_day3_增删改查/exam/查询练习.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day39_mysql_day3_增删改查/exam/查询练习2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day39_mysql_day3_增删改查、分组、聚合/exam/分组聚合练习.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day39_mysql_day3_增删改查、分组、聚合/4.单表数据查询.py" beforeDir="false" afterPath="$PROJECT_DIR$/day39_mysql_day3_增删改查、分组、聚合/4.单表数据查询.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
