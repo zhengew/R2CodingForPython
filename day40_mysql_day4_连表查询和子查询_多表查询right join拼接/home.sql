@@ -288,7 +288,7 @@ select tid from teacher where tname = '张磊老师'; -- 1
 select cid from course where teacher_id = (select tid from teacher where tname = '张磊老师');
 
 -- 查询学过张磊课程的学生id
-select student_id, course_id from score where course_id in (select cid from course where teacher_id = (select tid from teacher where tname = '张磊老师'));
+select distinct student_id from score where course_id in (select cid from course where teacher_id = (select tid from teacher where tname = '张磊老师'));
 
 -- 去重查询没学过张磊课程的学生的学号和姓名
 select sid, sname from student where sid not in (select distinct student_id from score where course_id in (select cid from course where teacher_id = (select tid from teacher where tname = '张磊老师')));
@@ -361,10 +361,4 @@ select s.student_id, stu.sname
 +------------+--------+
 11 rows in set (0.00 sec)
 
-
--- 查询学过
-select distinct stu.sid, stu.sname
- from student stu
- inner join () s1
- where s.course_id in ()
- order by stu.sid;
+-- 多表查询 right join 拼接右表结果
