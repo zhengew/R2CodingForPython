@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day40_mysql_day4_连表查询和子查询_多表查询right join拼接/images/连表查询.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、sql优化、慢日志/images/B+树_再平衡树的基础上_分支节点不存数据、叶子节点之间加入双向的地址链接.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、sql优化、慢日志/images/B+树_聚集索引(innodb支持)与非聚集索引.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、sql优化、慢日志/images/mysql存储过程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、sql优化、慢日志/images/二叉树_左边比父节点小右边比父节点大.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、sql优化、慢日志/images/平衡树.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、sql优化、慢日志/images/平衡树_总是根据数据的变化调整节点的位置.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、sql优化、慢日志/images/线性结构和树形结构root、branch、leaf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、sql优化、慢日志/images/读取一次硬盘的时间开销.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、联合索引和覆盖索引、索引合并、explain执行计划/exam/home2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、联合索引和覆盖索引、索引合并、explain执行计划/exam/home2.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
