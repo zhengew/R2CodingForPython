@@ -91,7 +91,7 @@ insert into score(student_id, course_id, num) values(1, 2, 0);
 select cid from course where cname = '生物'; -- 1
 select cid from course where cname = '物理'; -- 2
 select cid from course where cname = '体育'; -- 3
---
+-- pass
 
 **【更改为】按平均成绩从低到高显示所有学生的“生物”、“物理”、“体育”、"美术"四门的课程成绩，按如下形式显示： 学生ID,生物,物理,体育,美术,有效课程数,有效平均分；**
 
