@@ -5,7 +5,7 @@
     # mysqldump -uroot -p123 -h127.0.0.1 homework > D:\python_22\day42\tmp.sql
 
     # 恢复数据 在mysql中执行命令
-    # 切换到一个要备份的数据库中
+    # 切换到一个要备份的数据库中 ***
     # source D:\python_22\day42\tmp.sql
 
 # 备份库

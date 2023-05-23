@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/1.内容回顾.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/2.今日内容.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/3.pymysql模块.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/4.数据的备份和恢复.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/5.作业.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam/pymysql_exqm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/images/聚集索引与非聚集索引.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/tmp.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/tmp2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/images/execute拼接sql时使用拆包_sql拼接都是用%s、execute参数第一个是sql,第二参数是个可迭代的数据类型.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/images/mysql行级锁_begin - 开启事物_select语句for update结尾加上行级锁，行级锁加上之后在commit之前别人连查询都不可以了，直到commit之后.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/images/开启事物_行级锁实例（多句sql,先查后改操作需要开启事物，解决数据安全问题）.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、联合索引和覆盖索引、索引合并、explain执行计划/exam/home2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/day41_mysql_day5_索引、索引命中、联合索引和覆盖索引、索引合并、explain执行计划/exam/home2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/4.数据的备份和恢复.py" beforeDir="false" afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/4.数据的备份和恢复.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
