@@ -10,7 +10,6 @@
 import pymysql
 from warnings import filterwarnings
 import logging
-
 # 设置日志级别
 logging.basicConfig(level=logging.DEBUG)
 # 忽略mysql告警信息
@@ -58,10 +57,8 @@ class MysqlDB(object):
                 # 查询单条
                 data = self.cur.fetchone()
             return data
-
         except Exception as e:
             logging.debug('数据库连接失败,失败原因:%s' %e)
-
 
     def execute(self, sql: str, *args):
         """
