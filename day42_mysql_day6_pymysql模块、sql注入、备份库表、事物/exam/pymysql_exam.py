@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @author: erwei.zheng
-# @file: pymysql_exqm.py
+# @file: pymysql_exam.py
 # @datatime: 2023/5/22 22:11
 
 import pymysql

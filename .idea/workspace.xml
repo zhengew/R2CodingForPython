@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/images/execute拼接sql时使用拆包_sql拼接都是用%s、execute参数第一个是sql,第二参数是个可迭代的数据类型.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/images/mysql行级锁_begin - 开启事物_select语句for update结尾加上行级锁，行级锁加上之后在commit之前别人连查询都不可以了，直到commit之后.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/images/开启事物_行级锁实例（多句sql,先查后改操作需要开启事物，解决数据安全问题）.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam/演示pymysql模块.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/4.数据的备份和恢复.py" beforeDir="false" afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/4.数据的备份和恢复.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam/pymysql_exqm.py" beforeDir="false" afterPath="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam/pymysql_exam.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,9 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package_project/lib/python3.10/site-packages/pymysql/connections.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,7 +62,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,29 +90,7 @@
       <recent name="$PROJECT_DIR$/day27_oop_classmethod、staticmethod装饰器、内置鸭子类型方法、选课系统作业/exam/反射例子" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pymysql_exqm">
-    <configuration name="7.asyncio模块" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/7.asyncio模块.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.演示pymysql模块">
     <configuration name="8.原理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,29 +245,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/exam/gevent实现socket并发服务端" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/exam/gevent实现socket并发服务端/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pymysql_exqm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="演示pymysql模块" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,7 +258,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam/pymysql_exqm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam/演示pymysql模块.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="演示pymysql模块1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam/演示pymysql模块1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pymysql_exam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day42_mysql_day6_pymysql模块、sql注入、备份库表、事物/exam/pymysql_exam.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,19 +312,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.pymysql_exqm" />
-      <item itemvalue="Python.7.asyncio模块" />
+      <item itemvalue="Python.pymysql_exam" />
+      <item itemvalue="Python.演示pymysql模块" />
+      <item itemvalue="Python.演示pymysql模块1" />
       <item itemvalue="Python.asyncio模块协程demo" />
       <item itemvalue="Python.8.原理" />
-      <item itemvalue="Python.client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pymysql_exqm" />
+        <item itemvalue="Python.演示pymysql模块" />
+        <item itemvalue="Python.演示pymysql模块1" />
+        <item itemvalue="Python.pymysql_exam" />
         <item itemvalue="Python.8.原理" />
         <item itemvalue="Python.asyncio模块协程demo" />
-        <item itemvalue="Python.7.asyncio模块" />
-        <item itemvalue="Python.client" />
       </list>
     </recent_temporary>
   </component>
