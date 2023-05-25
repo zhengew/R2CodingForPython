@@ -108,10 +108,44 @@ select course_id 课程ID, max(num) 最高分, min(num) 最低分 from score gro
 3 rows in set (0.01 sec)
 
 7、按各科平均成绩从低到高和及格率的百分数从高到低顺序；
+-- 计算各科平积分及总人数
+select course_id, avg(num) as avg_score, count(1) as sum_num from score group by course_id;
+-- 计算各科及格人数
+select course_id, count(1) from score where num > 60 group by course_id;
+-- 连表计算及格率
+select t1.course_id, t1.avg_score, concat(round((t2.pass_num / t1.sum_num * 100), 2), '%') as pass_rate
+ from (select course_id, avg(num) as avg_score, count(1) as sum_num from score group by course_id) t1
+ left join (select course_id, count(1) as pass_num from score where num > 60 group by course_id) t2
+ on t1.course_id = t2.course_id
+ order by t1.avg_score asc, pass_rate desc;
++-----------+-----------+-----------+
+| course_id | avg_score | pass_rate |
++-----------+-----------+-----------+
+|         1 |   53.4167 | 58.33%    |
+|         3 |   64.4167 | 75.00%    |
+|         2 |   65.0909 | 72.73%    |
+|         4 |   85.2500 | 91.67%    |
++-----------+-----------+-----------+
+4 rows in set (0.00 sec)
 
 
 8、查询各科成绩前三名的记录:(不考虑成绩并列情况)
+-- 构造一张按成绩排序的表
+select sid, course_id,
+    (select num from score s2 where s2.course_id = s1.course_id order by num desc limit 0, 1) as first_num,
+    (select num from score s2 where s2.course_id = s1.course_id order by num desc limit 1, 1) as second_num,
+    (select num from score s2 where s2.course_id = s1.course_id order by num desc limit 2, 1) as third_num
+from score as s1
 
+-- 连表查询
+select t1.sid, t1.course_id, t1.student_id, t1.num
+from score t1 left join (
+    select sid, course_id,
+    (select num from score s2 where s2.course_id = s1.course_id order by num desc limit 0, 1) as first_num,
+    (select num from score s2 where s2.course_id = s1.course_id order by num desc limit 1, 1) as second_num,
+    (select num from score s2 where s2.course_id = s1.course_id order by num desc limit 2, 1) as third_num
+from score as s1
+ ) t2 on t1.sid = t2.sid where t1.num = t2.first_num or t1.num = t2.second_num or t1.num = t2.third_num order by t1.course_id, t1.num desc;
 
 
 9、查询每门课程被选修的学生数；
