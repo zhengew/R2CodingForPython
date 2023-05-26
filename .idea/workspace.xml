@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/块级标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/摩托.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/行内标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/images/行内标签.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/table表格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/块级标签.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/常用特殊符号.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/无序列表ul和有序列表ol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/标题列表标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/标题列表标签dl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/特殊符号.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/块级标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/块级标签.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +56,25 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/zew/PyProjects/R2CodingForPython/day43_前端第一天_html/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/zew/PyProjects/R2CodingForPython/day43_前端第一天_html/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="R2CodingForPython" is-module-sdk="true">
