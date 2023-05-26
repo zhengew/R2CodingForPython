@@ -5,19 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/checked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/checked属性.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/checked默认选中.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/form表单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/input标签_演示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/input标签readonly属性.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/readonly和disabled属性.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/select标签_单选和多选下拉框.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/select标签练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/table标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/table表格标签.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam/textarea_多行文本输入框练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43_前端第一天_html/exam/socket_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/01 选择器01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/02 form表单提交.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/03 css选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/04 组合选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/05 属性选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/06 分组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/07 伪类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/08 css选择器的优先级.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/09 css样式1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/10 文字属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/11 背景属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/12 小例子.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/day44笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS代码三种引入方式/CSS引入方式一_head标签里写.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS代码三种引入方式/CSS引入方式三_外部文件引入.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS代码三种引入方式/CSS引入方式二_内敛样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS代码三种引入方式/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS代码三种引入方式/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS基本选择器/ID选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS基本选择器/元素选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS基本选择器/类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/day44作业（张珵）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/yeye.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +82,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/zew/PyProjects/R2CodingForPython/day43_前端第一天_html/exam/html_exam",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day44_前端CSS第一天",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,6 +90,11 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "CSS"
+    ]
   }
 }]]></component>
   <component name="PyConsoleOptionsProvider">
@@ -89,11 +107,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day44_前端CSS第一天" />
+      <recent name="$PROJECT_DIR$/day44_前端CSS第一天/exam" />
       <recent name="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam" />
       <recent name="$PROJECT_DIR$/day43_前端第一天_html/images" />
       <recent name="$PROJECT_DIR$/day42" />
-      <recent name="$PROJECT_DIR$/day41_mysql_day5/exam" />
-      <recent name="$PROJECT_DIR$/day41_mysql_day5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/exam/进程池" />
@@ -104,28 +122,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.socket_server">
-    <configuration name="8.原理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/8.原理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="后进先出队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,6 +136,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/exam/队列/后进先出队列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8.原理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/8.原理.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,6 +321,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.后进先出队列" />
       <item itemvalue="Python.socket_server" />
       <item itemvalue="Python.pymysql_exam" />
       <item itemvalue="Python.演示pymysql模块" />
