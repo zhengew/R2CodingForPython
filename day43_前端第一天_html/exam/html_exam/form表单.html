@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>from表单</title>
+</head>
+<body>
+    <form actoin="http://172.17.0.1:8083">
+        <div>
+            <label for="username">用户名:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div>
+            <label for="password">密码:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="password" id="password", name="password">
+        </div>
+        <div>
+            <labe for="gender">性别:&nbsp;&nbsp;&nbsp;&nbsp;</labe>
+            <input type="radio" name="sex" id="gender" value="1" checked>男
+            <input type="radio" name="sex" id="gender" value="2">女
+        </div>
+        <div>
+            <label for="hoby">爱好:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="checkbox" id="hoby" name="hoby" value="1" checked="checked">抽烟
+            <input type="checkbox" id="hoby" name="hoby" value="2" checked>喝酒
+            <input type="checkbox" id="hoby" name="hobby" value="3">烫头
+        </div>
+        <div>
+            <!-- 单选下拉框-->
+            <label for="city">城市:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="city" id="city">
+                <option value="0" selected="selected"></option>
+                <option value="1">北京</option>
+                <option value="2">上海</option>
+                <option value="3">广州</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <!-- 多选下拉框-->
+            <label for="course">课程:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="course" id="course" multiple="multiple" data-ad-width="500">
+                <option value="0" selected></option>
+                <option value="1">python</option>
+                <option value="2">linux</option>
+                <option value="3">go</option>
+                <option value="4">dba</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <!-- textarea 多行文本 -->
+            <label for="comment">评论:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <textarea name="comment" id="comment" clos="300" rows="5">
+            </textarea>
+        </div>
+        <div>
+            <label for="file">文件:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="file" id="file" name="file">
+        </div>
+        <div>
+            <label for="date">日期:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <!-- hidden隐藏输入框-->
+            <label for="hidden">隐藏输入框:</label>
+            <input type="hidden" id="hidden" name="hidden">
+        </div>
+        <div>
+            <br>
+            <label for="submit"></label>
+            <input type="submit" id="submit" name="submit" value="提交">
+        </div>
+        <div>
+            <label for="reset"></label>
+            <input type="reset" id="reset" name="reset" value="重置">
+        </div>
+    </form>
+</body>
+</html>
