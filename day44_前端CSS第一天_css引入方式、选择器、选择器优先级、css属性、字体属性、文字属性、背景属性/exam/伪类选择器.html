@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类选择器</title>
+    <style>
+        a:link{ /*未访问*/
+            color: black;
+        }
+        a:visited{ /*访问过*/
+            color: pink;
+        }
+        a:hover{ /*悬浮*/
+            color: green;
+        }
+        a:active{ /*鼠标选中效果*/
+            color: red;
+        }
+        input:focus{ /*光标键入后的效果*/
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="username">用户名:</label>
+        <input type="text" id="username" name="username">
+    </div>
+    <div>
+        <a href="https://www.jd.com" target="_blank">京东</a>
+    </div>
+</body>
+</html>

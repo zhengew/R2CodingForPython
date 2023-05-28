@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>毗邻选择器</title>
+    <style>
+        /* 毗邻选择器：匹配紧挨着div标签的的同级别 a标签*/
+        div + a{
+            color: red;
+        }
+    </style>
+</head>
+    <body>
+        <a href="https://www.jd.com">京东</a>
+        <div>
+            <a href="https://www.taobao.com">淘宝</a>
+            <div>
+                这是个div
+            </div>
+            <a href="https://www.zhifubao.com">支付宝</a>
+        </div>
+        <a href="https://www.tianmao.com">天猫</a>
+    </body>
+</html>

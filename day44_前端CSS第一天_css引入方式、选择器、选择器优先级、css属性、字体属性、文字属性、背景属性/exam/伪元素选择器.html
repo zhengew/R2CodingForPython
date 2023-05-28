@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪元素选择器</title>
+    <style>
+          div:first-letter{ /*div标签首字母*/
+              font-size: 32px;
+              color: red;
+          }
+        p:before{ /*p标签前面插入内容*/
+            content:"?&nbsp;";
+            color: pink;
+            font-size: 32px;
+        }
+        p:after{ /*p标签后面插入内容*/
+            content:"。&nbsp;";
+            color: red;
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        伪元素选择器，first-letter;before;after;
+        <p>这是一个p标签</p>
+    </div>
+</body>
+</html>

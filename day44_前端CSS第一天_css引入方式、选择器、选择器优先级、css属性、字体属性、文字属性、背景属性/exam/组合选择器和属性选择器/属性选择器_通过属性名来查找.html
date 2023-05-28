@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器_通过属性名查找</title>
+    <style>
+        [title]{ /* 通过属性名来查找*/
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" cellpadding="2" cellspacing="0" width="500" title="student">
+        <thead>
+        <tr title="student_field">
+          <th>姓名</th>
+          <th>性别</th>
+          <th>年龄</th>
+        </tr>
+        </thead>
+      <tbody title="student_info">
+          <tr>
+              <td>大壮</td>
+              <td>男</td>
+              <td>18</td>
+          </tr>
+          <tr>
+              <td>于文洋</td>
+              <td>女</td>
+              <td>20</td>
+          </tr>
+          <tr>
+              <td>B哥</td>
+              <td>男</td>
+              <td>21</td>
+          </tr>
+      </tbody>
+      </table>
+</body>
+</html>
