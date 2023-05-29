@@ -4,58 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性/fengjing.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性/yeye.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性/字体属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性/字体属性.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性/宽度和高度.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性/文字属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性/文字属性.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性/背景属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性/背景属性.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性/高度和宽度属性.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS引入方式一_head标签引入.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS引入方式一_head标签里写css代码.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS引入方式三_head标签中引入css文件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS引入方式二_内敛样式属性-style.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/head标签里引入css样式文件.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/id选择器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/id选择器实例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/伪元素选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/伪元素选择器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/伪类选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/伪类选择器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/儿子选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/儿子选择器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/内敛样式属性sytle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/后代标签.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/后代选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/属性选择器_匹配标签属性名.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/属性选择器三种匹配方式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/弟弟选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/弟弟选择器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/毗邻选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/毗邻选择器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/类选择器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/组合选择器和属性选择器/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/组合选择器和属性选择器/属性选择器_查询包含某个属性名的标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/组合选择器和属性选择器/属性选择器_通过属性名对应的值来查找.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/组合选择器和属性选择器/属性选择器_通过属性名来查找.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/组合选择器和属性选择器/组合选择器_儿子选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/组合选择器和属性选择器/组合选择器_后代选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/组合选择器和属性选择器/组合选择器_弟弟选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/组合选择器和属性选择器/组合选择器_毗邻选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/选择器分组.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/类选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44_前端CSS第一天/选择器分组.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS代码三种引入方式/CSS引入方式一_head标签里写.html" beforeDir="false" afterPath="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS代码三种引入方式/CSS引入方式一_head标签里写.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day44_前端CSS第一天/exam/day44作业（张珵）.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
