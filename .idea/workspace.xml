@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
+    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/01 边框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/02 display属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/03 盒子模型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/04 margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/05 float浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/06 overflow溢出.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/07 圆形头像.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/08 定位position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/09 position固定定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/10 z-index玩模态对话框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/11 opacity透明度.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/day45笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天/meinv.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -54,13 +71,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day44_前端CSS第一天/exam/CSS属性",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day45_前端CSS第二天",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -79,11 +96,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day45_前端CSS第二天" />
       <recent name="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性" />
       <recent name="$PROJECT_DIR$/day44_前端CSS第一天" />
       <recent name="$PROJECT_DIR$/day44_前端CSS第一天/exam" />
       <recent name="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam" />
-      <recent name="$PROJECT_DIR$/day43_前端第一天_html/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性" />
@@ -293,12 +310,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.后进先出队列" />
-      <item itemvalue="Python.socket_server" />
-      <item itemvalue="Python.pymysql_exam" />
-      <item itemvalue="Python.演示pymysql模块" />
-      <item itemvalue="Python.演示pymysql模块1" />
       <item itemvalue="Python.8.原理" />
+      <item itemvalue="Python.后进先出队列" />
+      <item itemvalue="Python.演示pymysql模块1" />
+      <item itemvalue="Python.演示pymysql模块" />
+      <item itemvalue="Python.pymysql_exam" />
+      <item itemvalue="Python.socket_server" />
     </list>
     <recent_temporary>
       <list>
@@ -329,6 +346,7 @@
       <workItem from="1685268334771" duration="47000" />
       <workItem from="1685268395856" duration="347000" />
       <workItem from="1685268996235" duration="106000" />
+      <workItem from="1685365579966" duration="3100000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>
