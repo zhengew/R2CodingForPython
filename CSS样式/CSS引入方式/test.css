@@ -1,0 +1,8 @@
+
+.table {
+    background-color: pink;
+    font-family: '微软雅黑', '楷体', '宋体';
+    width: 200px;
+    text-align: center;
+    border-collapse: initial;
+}

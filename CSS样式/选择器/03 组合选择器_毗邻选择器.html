@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>毗邻选择器</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+        /* 毗邻选择器，永远只会匹配紧挨着它的选择器 */
+        div+a {
+            background-color: pink;
+            width: 100%;
+            height: 100%;
+            font-size: 32px;
+        }
+        /* 只会匹配最后一级的span标签*/
+        div+a+span+span {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <a href="">北京教育考试院</a>
+    <div><a href="" target="_blank" id="baidu">百度</a></div>
+    <div><a href="" target="_blank" id="jd">京东</a></div>
+    <div><a href="" target="_blank" id="taobao">淘宝</a></div>
+    <a href="">河北教育考试院</a>
+    <span>保定教育考试院</span>
+    <span>石家庄教育考试院</span>
+</body>
+</html>

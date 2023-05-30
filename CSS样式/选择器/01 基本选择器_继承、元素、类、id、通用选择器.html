@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本选择器</title>
+    <style>
+        /* 通用选择器 */
+
+
+        /* 继承选择器 */
+        body {
+            background-color: lightpink;
+            width: 100%;
+            height: 100%;
+        }
+        /* 元素选择器 */
+        h1 {
+            font-family: '微软雅黑', '楷体', '宋体';
+            font-size: 32px;
+            text-align: center;
+            color: orchid;
+        }
+        /* 类选择器 */
+        .c1, .c2, .c3 {
+            width: 100%;
+            height: 100%;
+            background-color: greenyellow!important; /* 最牛逼的优先级 */
+            font-family: '微软雅黑', '楷体', '宋体';
+            text-align: center;
+        }
+
+        /* id选择器 */
+        #id1 {
+            width: 100%;
+            height: 100%;
+            background-color: hotpink;
+            font-family: '微软雅黑', '楷体', '宋体';
+            text-align: center;
+        }
+
+        /*
+          选择器优先级： 继承选择器 0， 元素选择器 1， 类选择器 10， id选择器 100， 内敛样式 1000， 最牛逼的 样式后面写上 !important
+          选择器分组，只会累加，不会晋级，只是比同级别的优先级高
+         */
+    </style>
+</head>
+<body>
+    <h1>这是一个标题</h1>
+    <div title="t1" class="c1">窗前明月光</div>
+    <div title="t2" class="c2" id="id1">举头望明月<br>低头思故乡</div>
+    <div title="t3" class="c1" >疑是地上霜</div>
+    <div title="t4" class="c3">静夜思.李白</div>
+</body>
+</html>

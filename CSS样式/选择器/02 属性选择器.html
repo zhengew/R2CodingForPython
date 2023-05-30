@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器</title>
+    <style>
+        body {
+            background-color: lightpink;
+        }
+        /* 属性名 */
+        [title] {
+            font-family: '微软雅黑', '楷体', '宋体';
+            font-size: 16px;
+            text-align: center;
+            color: deeppink;
+        }
+        /* 属性值 */
+        [title=t1] {
+            font-family: '微软雅黑', '楷体', '宋体';
+            font-size: 32px;
+            text-align: center;
+            color: deeppink;
+        }
+
+        /* 标签的属性的值定位 */
+        div[title=t3] {
+            color: greenyellow;
+            background-color: #0f94f7;
+        }
+
+    </style>
+</head>
+<body>
+    <div title="t1">静夜思</div>
+    <div title="t2">床前明月光<br>疑是地上霜</div>
+    <div title="t3">举头望明月<br>低头思故乡</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弟弟选择器</title>
+    <style>
+        /* 弟弟选择器，可以指定多个弟弟，都会匹配到*/
+        div~ a,span {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <a href="">北京教育考试院</a>
+    <div><a href="" target="_blank" id="baidu">百度</a></div>
+    <div><a href="" target="_blank" id="jd">京东</a></div>
+    <div><a href="" target="_blank" id="taobao">淘宝</a></div>
+    <a href="">河北教育考试院</a>
+    <div></div>
+    <span>保定教育考试院</span>
+    <span>石家庄教育考试院</span>
+</body>
+</html>

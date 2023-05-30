@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后代选择器</title>
+    <style>
+        body {
+            background-color: darkseagreen;
+        }
+        a {
+           text-decoration: none;
+        }
+        a:link { /* 未访问*/
+            color: black;
+        }
+        a:visited { /* 已访问*/
+            color: red;
+        }
+
+        a:hover { /* 悬浮 */
+            color: #00A770;
+        }
+
+        a:active { /* 鼠标选中*/
+            color: pink;
+        }
+
+/* 后台选择器 */
+div a[id=baidu] {
+    text-decoration: none;
+    color: yellow;
+}
+
+    </style>
+</head>
+<body>
+    <div><a href="" target="_blank" id="baidu">百度</a></div>
+    <div><a href="" target="_blank" id="jd">京东</a></div>
+    <div><a href="" target="_blank" id="taobao">淘宝</a></div>
+</body>
+</html>
