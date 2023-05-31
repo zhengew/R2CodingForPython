@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>display: none</title>
+    <style>
+        div[title=t1] {
+            width: 100px;
+            height: 20px;
+            background-color: pink;
+          /* 该属性会隐藏标签，但不占用自己之前的空间*/
+            display: none;
+        }
+        div {
+            width: 100px;
+            height: 20px;
+            background-color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <div title="t1"></div>
+    <div></div>
+</body>
+</html>
+

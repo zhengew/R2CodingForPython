@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类选择器</title>
+    <style>
+        body {
+            background-color: pink;
+            color: deeppink;
+        }
+        a:link, a:visited, a:active, a:hover {
+            font-family: '微软雅黑', '楷体', '宋体';
+            font-size: 32px;
+            color: red;
+            text-decoration: none;
+        }
+
+        input:focus {
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <div><a href="https://www.baidu.com" target="_blank">百度</a></div>
+    <div><a href="https://www.jd.com" target="_blank">京东</a></div>
+    <div><a href="https://www.taobao.com" target="_blank">淘宝</a></div>
+    <div>
+      <label for="username">用户名:</label>
+      <input type="text" name="username" id="username">
+    </div>
+</body>
+</html>

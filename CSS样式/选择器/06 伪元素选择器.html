@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪元素选择器</title>
+    <style>
+        div[title=t1]:first-letter {
+            font-size: 32px;
+            color: deeppink;
+            background-color: greenyellow;
+        }
+
+        div[title=t2]:before {
+            content: '❤️';
+        }
+        div[title=t3]:after {
+            content: '♠️';
+        }
+    </style>
+</head>
+<body>
+    <div title="t1">静夜思.李白</div>
+    <div title="t2">床前明月光</div>
+    <div title="t3">疑是地上霜</div>
+    <div title="t4">举头望明月</div>
+    <div title="t5">低头思故乡</div>
+</body>
+</html>

@@ -5,18 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/CSS样式/CSS引入方式/01 head标签中引入css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS样式/CSS引入方式/02 head标签引入css文件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS样式/CSS引入方式/03 内敛样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS样式/CSS引入方式/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS样式/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS样式/选择器/01 基本选择器_继承、元素、类、id、通用选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS样式/选择器/02 属性选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS样式/选择器/03 组合选择器_儿子选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS样式/选择器/03 组合选择器_后代选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS样式/选择器/03 组合选择器_弟弟选择器(兄弟选择器).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS样式/选择器/03 组合选择器_毗邻选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS样式/属性/kaola.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS样式/属性/字体属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS样式/属性/宽度高度颜色.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS样式/属性/文字属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS样式/属性/背景属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS样式/选择器/05 伪类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS样式/选择器/06 伪元素选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/01 inline属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/02 inline-block属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/03 none属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/04 block属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/block属性2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/display:block属性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/display:inline-block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/display:inline属性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/display:none属性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/visibility属性/visibility可见性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/边框_border/border边框属性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/边框_border/边框_border.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS样式/选择器/03 组合选择器_后代选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS样式/选择器/03 组合选择器_后代选择器.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,11 +110,11 @@
       <recent name="$PROJECT_DIR$/day43_前端第一天_html/exam/html_exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性" />
+      <recent name="$PROJECT_DIR$/CSS样式/属性" />
       <recent name="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性" />
       <recent name="$PROJECT_DIR$/day44_前端CSS第一天/exam" />
       <recent name="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/exam/进程池" />
-      <recent name="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo" />
-      <recent name="$PROJECT_DIR$/day29_网编_TCP协议和客户端多说几句，接收多个客户端请求、UDP协议编程、粘包现象、struct模块pack和unpack数值/exam/tcp_demo_实现和多个客户端通信" />
     </key>
   </component>
   <component name="RunManager" selected="Python.socket_server">
@@ -344,7 +353,7 @@
       <workItem from="1685268334771" duration="47000" />
       <workItem from="1685268395856" duration="347000" />
       <workItem from="1685268996235" duration="106000" />
-      <workItem from="1685365579966" duration="10962000" />
+      <workItem from="1685365579966" duration="22114000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>
