@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动属性float</title>
+    <style>
+div, div:after {
+    width: 100%;
+    background-color: lightgrey;
+    content: '';
+    display: block;
+    clear: both;
+}
+        .s1 {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            float:left;
+        }
+        .s2 {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: deeppink;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span class="s1">窗前明月光</span>
+        <span class="s2">地上鞋两双</span>
+    </div>
+</body>
+</html>
