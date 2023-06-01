@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>演示圆形头像</title>
+    <style>
+        .header-img {
+            width: 200px;
+            height: 200px;
+            border: red 2px solid;
+            border-radius: 50%; /* 圆形 */
+            overflow: hidden; /* 内容会被修剪，超出标签范围不可见*/
+        }
+        .header-img>img {
+            /* 宽度和高度使用百分比时，会按照父级标签的宽度和高度百分比来计算 */
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-img">
+        <img src="hasang.jpeg" alt="" title="Sifan Hassan">
+    </div>
+</body>
+</html>

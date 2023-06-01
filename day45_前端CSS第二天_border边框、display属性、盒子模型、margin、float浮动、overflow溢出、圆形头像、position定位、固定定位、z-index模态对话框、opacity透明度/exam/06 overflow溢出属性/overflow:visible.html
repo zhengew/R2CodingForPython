@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>overflow溢出属性</title>
+    <style>
+        .c1 {
+            width: 200px;
+            height: 100px;
+            font-family: '微软雅黑', '楷体', '宋体';
+            color: deeppink;
+            border: black 2px solid;
+            overflow: visible; /*默认值，内容不会被修剪，会呈现在元素框之外*/
+        }
+    </style>
+</head>
+<body>
+    <div class="c1">
+      总结一下：为什么要有浮动啊，是想做页面布局，但是浮动有副作用，
+      父级标签塌陷,所以要想办法去掉这个副作用,使用了clear来清除浮动带来的副作用，
+      我们当然也可以通过设置标签为inline-block来实现这种布局效果，
+      但是把一个块级标签变成一个类似内敛标签的感觉，不好操控，容易混乱，
+      所以一般都用浮动来进行布局。
+    </div>
+    <div class="c2"></div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>回到顶部</title>
+    <style>
+        #top {
+            visibility: hidden; /* 隐藏标签,仅作为锚点使用*/
+        }
+        .c1 {
+            width: 200px;
+            height: 500px;
+            background-color: hotpink;
+        }
+        .c2, .c3 {
+            width: 200px;
+            height: 1000px;
+            background-color: blueviolet;
+        }
+        .s1 {
+            position: fixed; /* 固定位置，位置根据浏览器窗口确定*/
+            left: 20px; /**/
+            bottom: 20px;
+            width: 80px;
+            height: 50px;
+            background-color: darkgray;
+            text-align: center; /*文字水平居中*/
+            line-height: 50px; /*和标签高度一致，令文字垂直居中显示*/
+        }
+        .s1 a {
+            color: white;
+            text-decoration: none; /* a标签去掉下划线*/
+        }
+    </style>
+</head>
+<body>
+    <span id="top"></span>
+    <div class="c1"></div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <span class="s1">
+      <a href="#top">回到顶部</a>
+    </span>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>position:relative相对定位</title>
+    <style>
+        .c1 {
+            width: 200px;
+            height: 200px;
+            border: 2px red solid;
+            background-color: pink;
+            position: relative; /* 相对定位*/
+            top: 204px;
+            left: 202px;
+        }
+        .c2 {
+             width: 200px;
+            height: 200px;
+            border: 2px red solid;
+            background-color: blue;
+        }
+        .c3 {
+            width: 200px;
+            height: 200px;
+            border: blueviolet 2px solid;
+            border-radius: 50%;
+            background-color: yellow;
+            /*绝对定位，相对于包含position:relative属性的父标签移动*/
+            position: absolute;
+            bottom: 380px;
+            left: 204px;
+        }
+    </style>
+</head>
+<body>
+    <div class="c1"></div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+</body>
+</html>
