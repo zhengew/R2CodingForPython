@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>z-index模态对话框</title>
+    <style>
+        .shadow {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: lightgrey;
+            z-index: 99;
+        }
+        .mode {
+            position: fixed;
+            top: 50%;   /* 按照窗口宽度的50%来移动*/
+            left: 50%;  /* 按照窗口高度的50%来移动*/
+            width: 500px;
+            height: 300px;
+            background-color: hotpink;
+            z-index: 100; /* 控制层级，数值大的在上面展示*/
+            margin-left: -250px;
+            margin-top: -200px;
+            opacity: 0.5; /*标签透明度*/
+        }
+    </style>
+</head>
+<body>
+    <div class="shadow"></div>
+    <div class="mode"></div>
+</body>
+</html>
