@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/06 overflow溢出属性/overflow:auto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/06 overflow溢出属性/overflow:auto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/06 overflow溢出属性/overflow:hidden.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/06 overflow溢出属性/overflow:hidden.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/06 overflow溢出属性/overflow:scroll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/06 overflow溢出属性/overflow:scroll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/06 overflow溢出属性/overflow:visible.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/06 overflow溢出属性/overflow_visible.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/07 圆形头像/hasang.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/07 圆形头像/tuboshu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/07 圆形头像/圆形头像.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/07 圆形头像/圆形头像.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/08 position相对定位和绝对定位/position:absolute绝对定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/08 position相对定位和绝对定位/position:relative相对定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/08 position相对定位和绝对定位/相对定位.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/08 position相对定位和绝对定位/绝对定位.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/08 position相对定位和绝对定位/绝对定位效果图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/09 回到顶部-设置锚点.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/01 inline属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/02 display属性/01 inline属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/02 inline-block属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/02 display属性/02 inline-block属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/03 none属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/02 display属性/03 none属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/04 block属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/02 display属性/04 block属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/block属性2.png" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/02 display属性/block属性2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/display:block属性.png" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/02 display属性/display:block属性.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/display:inline-block.png" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/02 display属性/display:inline-block.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/display:inline属性.png" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/02 display属性/display:inline属性.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性/display:none属性.png" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/02 display属性/display:none属性.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/visibility属性/visibility:hidden与display:none区别.png" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/03 visibility属性/visibility:hidden与display:none区别.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/visibility属性/visibility可见性.html" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/03 visibility属性/visibility可见性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/浮动属性_float/float浮动属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/05 浮动属性_float/float浮动属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/盒子模型/盒子标签margin.html" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/04 盒子模型/盒子标签margin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/盒子模型/盒子模型演示.html" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/04 盒子模型/盒子模型演示.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/边框_border/border边框属性.png" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/01 边框_border/border边框属性.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/边框_border/边框_border.html" beforeDir="false" afterPath="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/01 边框_border/边框_border.html" afterDir="false" />
-    </list>
+    <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,31 +46,31 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/圆形头像",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/圆形头像&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "CSS"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;CSS&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="R2CodingForPython" is-module-sdk="true">
@@ -124,11 +88,11 @@
       <recent name="$PROJECT_DIR$/day44_前端CSS第一天/exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/09 回到顶部" />
       <recent name="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/display属性" />
       <recent name="$PROJECT_DIR$/CSS样式/属性" />
       <recent name="$PROJECT_DIR$/day44_前端CSS第一天/exam/CSS属性" />
       <recent name="$PROJECT_DIR$/day44_前端CSS第一天/exam" />
-      <recent name="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/exam/进程池" />
     </key>
   </component>
   <component name="RunManager" selected="Python.socket_server">
@@ -368,7 +332,7 @@
       <workItem from="1685268395856" duration="347000" />
       <workItem from="1685268996235" duration="106000" />
       <workItem from="1685365579966" duration="22656000" />
-      <workItem from="1685621014519" duration="10519000" />
+      <workItem from="1685621014519" duration="11494000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>

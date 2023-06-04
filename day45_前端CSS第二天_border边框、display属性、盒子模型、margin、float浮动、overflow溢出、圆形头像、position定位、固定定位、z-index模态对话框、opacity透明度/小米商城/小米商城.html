@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米商城</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+
+        }
+        /* 设置导航栏 */
+        .title {
+            background-color: #333;
+            width: 100%;
+            height: 40px;
+            font-size: 12px;
+        }
+        .title .title-content {
+            width: 70%;
+            height: 40px;
+            margin: auto;
+        }
+        .title .title-content .title-content-left {
+            height: 40px;
+            float: left;
+            text-align: center;
+            line-height: 40px;
+
+        }
+        .title .title-content .title-content-right {
+            height: 40px;
+            float: right;
+            text-align: center;
+            line-height: 40px;
+        }
+        .title .title-content a{
+            font-size: 12px;
+            text-decoration: none;
+            color: #b0b0b0;
+        }
+        .title .title-content a:hover{
+            color: white;
+        }
+        .title .title-content .sep {
+            color: #424242;
+        }
+
+        /*  设置品类classify */
+        .classify {
+            height: 100px;
+            width: 100%;
+            font-size: 16px;
+            color: #333333;
+            line-height: 100px;
+        }
+        .classify .classify-content {
+            height: 100px;
+            width: 90%;
+        }
+
+        .classify .classify-content .classify-content-body {
+            float: left;
+            width: 80%;
+        }
+
+        .classify .classify-content .classify-content-search {
+            float: right;
+            height: 100px;
+        }
+
+        .classify .classify-content .classify-content-body .classify-content-body-img {
+            float: left;
+            margin-left: 21%;
+            position: relative;
+            left: 0px;
+            top: 22px;
+        }
+
+        .classify .classify-content-body-img img{
+            width: 56px;
+            height: 56px;
+        }
+
+        .classify .classify-content .classify-content-body .classify-content-body-item {
+            float: right;
+            margin-right: 20%;
+        }
+        
+
+        .classify .classify-content .classify-content-search #key {
+            height: 50px;
+            width: 245px;
+            background: #FFFFFF;
+            border: 1px solid #e0e0e0;
+            text-align: left;
+            line-height: 50px;
+            font-size: 14px;
+            color: #e0e0e0;
+        }
+        .classify .classify-content .classify-content-search #search-button {
+            height: 50px;
+            width: 52px;
+            background: #FFFFFF;
+            border: 1px solid #e0e0e0;
+        }
+
+        .list {
+            width: 1226px;
+            height: 460px;
+            background-color: gray;
+            margin-left: 15%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="title">
+        <div class="title-content">
+            <div class="title-content-left">
+                <a href="" target="_blank">小米官网</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">小米商城</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">MIUI</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">IoT</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">云服务</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">天星数科</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">有品</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">小爱开放平台</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">企业团购</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">资质证照</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">协议规则</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">下载app</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">Select Location</a>
+            </div>
+            <div class="title-content-right">
+                <a href="" target="_blank">登录</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">注册</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">消息通知</a><span class="sep">&nbsp;|&nbsp;</span>
+                <a href="" target="_blank">购物车</a>
+            </div>
+        </div>
+    </div>
+    <div class="classify">
+        <div class="classify-content">
+            <div class="classify-content-body">
+                <div class="classify-content-body-img">
+                    <img src="mi.ico" alt="">
+                </div>
+                <div class="classify-content-body-item">
+                    <span>Xiaomi手机</span>
+                    <span>Redmi手机</span>
+                    <span>电视</span>
+                    <span>笔记本</span>
+                    <span>平板</span>
+                    <span>家电</span>
+                    <span>路由器</span>
+                    <span>服务中心</span>
+                    <span>社区</span>
+                </div>
+            </div>
+            <div class="classify-content-search">
+                <input type="search" id="key" value="笔记本"><input type="submit" id="search-button" value="">
+            </div>
+        </div>
+    </div>
+    <div class="list">
+        <div class="list-content">
+            <div class="list-content-item"></div>
+            <div class="list-content-img"></div>
+        </div>
+    </div>
+</body>
+</html>

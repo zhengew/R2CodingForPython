@@ -507,6 +507,14 @@ auto	如果内容被修剪，则浏览器会显示滚动条以便查看其余的
 
 大作业：小米商城首页
 
+# 写页面去掉body的样式
+```html
+        body {
+            background-color: pink;
+            margin: 0;
+            padding: 0;
+        }
+```
 
 
 
