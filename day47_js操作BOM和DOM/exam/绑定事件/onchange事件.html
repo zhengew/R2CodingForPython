@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onchange内容发生变化时触发的事件</title>
+</head>
+<body>
+    <div>
+        <label for="city">城市:&nbsp;</label>
+        <select name="city" id="city" style="width:150px;">
+            <option value="1">北京</option>
+            <option value="2">上海</option>
+            <option value="3">广州</option>
+        </select>
+        <div id="d1"></div>
+    </div>
+</body>
+<script>
+    var city = document.getElementById('city');
+    city.onchange = function(){
+        var d1 = this.nextElementSibling;
+        d1.style.border = '1px solid red';
+        d1.innerText = '被选中标签的文本内容: ' + this.options[this.selectedIndex].innerText;
+        console.log(this.options)
+        console.log('被选中option的索引值:' + this.selectedIndex);
+        console.log('被选中标签的文本内容: ' + this.options[this.selectedIndex].innerText)
+    }
+</script>
+</html>

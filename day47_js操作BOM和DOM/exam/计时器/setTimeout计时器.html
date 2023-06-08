@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>setTimeout计时器</title>
+</head>
+<body>
+    <div id="d1">带到将军归来日，朕与将军解战袍</div>
+</body>
+<script>
+    var d1 = document.getElementById("d1");
+    d1.onclick = function() { // 鼠标点击事件
+        setTimeout( // 计时器，鼠标悬浮在d1标签3秒后，跳转页面
+            function(){
+              this.location.href = "https://zhidao.baidu.com/question/720684654182037885.html";
+            }, 3000
+        )
+    }
+</script>
+</html>
+

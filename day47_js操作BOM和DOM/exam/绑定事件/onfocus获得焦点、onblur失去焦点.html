@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onfocus获得焦点、onblur失去焦点</title>
+</head>
+<body>
+    <div>
+      <label for="username">用户名&nbsp;</label>
+      <input type="text" id="username"><span id="sp"></span>
+    </div>
+</body>
+<script>
+    var inp = document.getElementById('username')
+    // 获取焦点
+    inp.onfocus = function(){
+        this.style.backgroundColor = 'pink';
+    }
+    // 失去焦点
+    inp.onblur = function(){
+        this.style.backgroundColor = 'white';
+    }
+    // 内容发生变化时触发事件
+    inp.onchange = function(){
+        var content = this.value;
+        var sp = this.nextElementSibling;
+        sp.style.border = "solid 1px red";
+        sp.innerHTML = content;
+        console.log(content)
+    }
+</script>
+</html>

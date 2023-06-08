@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>演示节点操作</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        <div id="child1">child1</div>
+        <div id="child2">child2</div>
+    </div>
+    <div id="d2">d2</div>
+    <div id="d3">d3</div>
+</body>
+<script>
+    var d1 = document.getElementById('d1');
+    // 创建节点
+    var tag_a = document.createElement('a');
+    tag_a.innerHTML = '百度';
+    tag_a.href = 'https://wwww.baidu.com';
+    tag_a.target = '_blank';
+    // d1节点追加子节点 tag_a
+    d1.appendChild(tag_a);
+
+    // 在d1的子节点child2前面追加节点
+    var child2 = d1.children[1];
+    var tag_a2 = document.createElement('a');
+    tag_a2.innerHTML = '京东';
+    tag_a2.href = 'https://www.jd.com';
+    tag_a2.target = '_blank';
+    d1.insertBefore(tag_a2, child2)
+
+    // 删除节点d3
+    var body = document.getElementsByTagName('body')[0];
+    var d3 = document.getElementById('d3')
+    body.removeChild(d3)
+    // 替换d2节点
+    var d2 = document.getElementById('d2')
+    var taobao = document.createElement('a');
+    taobao.href = 'https://www.taobao.com';
+    taobao.target = '_blank';
+    taobao.innerHTML = '淘宝';
+    body.replaceChild(taobao, d2); // 替换标签
+</script>
+</html>

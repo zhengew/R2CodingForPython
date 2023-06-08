@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/01 test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/02 test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/03 事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/day47笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/exam/day47作业（张珵）.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/exam/作业2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/exam/作业一：思路计时器每1秒获取当前时间.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/images/DOM树.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/作业1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day47_js第二天/作业2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/绑定事件/onchange事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/绑定事件/onfocus获得焦点、onblur失去焦点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/绑定事件/方式一：在标签中绑定js事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/绑定事件/方式二：script标签中写js事件，解耦合.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/节点操作/class操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/节点操作/演示节点操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/节点操作/节点值操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/计时器/setInterval循环计时器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/计时器/setTimeout计时器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/选择器/通过id,class,tag查找.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/选择器/间接查找元素.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -71,7 +69,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day46_js基础&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day47_js第二天&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -97,11 +95,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day47_js第二天" />
+      <recent name="$PROJECT_DIR$/day47_js第二天/exam" />
+      <recent name="$PROJECT_DIR$/day46_js基础/exam" />
       <recent name="$PROJECT_DIR$/day46_js基础" />
       <recent name="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/小米商城" />
-      <recent name="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam" />
-      <recent name="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度" />
-      <recent name="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/圆形头像" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/小米商城" />
@@ -111,51 +109,7 @@
       <recent name="$PROJECT_DIR$/day45_前端CSS第二天_border边框、display属性、盒子模型、margin、float浮动、overflow溢出、圆形头像、position定位、固定定位、z-index模态对话框、opacity透明度/exam/09 回到顶部" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.socket_server">
-    <configuration name="后进先出队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/exam/队列" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day35_并发编程_线程第二天_守护线程、线程不安全问题、线程锁、线程安全的单例模式、线程的互斥锁和递归锁、死锁现象、如何解决死锁、线程队列、先进先出队列、后进先出队列、优先级队列/exam/队列/后进先出队列.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="8.原理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2CodingForPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day36_并发编程_线程第三天_池的概念、协程的概念、gevent、asyncio模块/8.原理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.__init__">
     <configuration name="优先级队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2CodingForPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +146,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33_并发编程_Process类的其他方法属性、面向对象方式开启进程、守护进程、Lock锁、互斥锁、抢票的例子、进程之间的通信、进程之间的数据共享/exam/锁的概念_进程之间的数据安全问题/进程之间数据安全问题例子.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2CodingForPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day46_js基础" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day46_js基础/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,8 +287,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.8.原理" />
-      <item itemvalue="Python.后进先出队列" />
+      <item itemvalue="Python.优先级队列" />
+      <item itemvalue="Python.__init__" />
       <item itemvalue="Python.演示pymysql模块1" />
       <item itemvalue="Python.演示pymysql模块" />
       <item itemvalue="Python.pymysql_exam" />
@@ -320,11 +296,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.socket_server" />
         <item itemvalue="Python.pymysql_exam" />
         <item itemvalue="Python.演示pymysql模块" />
         <item itemvalue="Python.演示pymysql模块1" />
-        <item itemvalue="Python.后进先出队列" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +325,7 @@
       <workItem from="1685268996235" duration="106000" />
       <workItem from="1685365579966" duration="22656000" />
       <workItem from="1685621014519" duration="11494000" />
-      <workItem from="1685857320145" duration="39426000" />
+      <workItem from="1685857320145" duration="70221000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>
@@ -385,6 +361,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
     <MESSAGE value="day40_多表查询习惯使用rigth join 拼接多表查询的结果，从而拿到最终的结果" />
+    <MESSAGE value="day46_JS基础总结" />
     <option name="LAST_COMMIT_MESSAGE" value="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -423,6 +400,7 @@
     <SUITE FILE_PATH="coverage/R2CodingForPython$4_.coverage" NAME="4.字典元素修改 Coverage Results" MODIFIED="1678015853642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05_字典" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1680359400288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23/exam" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$os_demo.coverage" NAME="os_demo Coverage Results" MODIFIED="1679145423219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16_内置模块_time datetime, os sys, json, pickle, hashlib, collections/exam" />
+    <SUITE FILE_PATH="coverage/R2CodingForPython$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1686061166050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day46_js基础" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$abc.coverage" NAME="abc Coverage Results" MODIFIED="1678972848675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maxExam/modul_import_demo/abc" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$ScreenRecord.coverage" NAME="ScreenRecord Coverage Results" MODIFIED="1678198350265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/screenRecord" />
     <SUITE FILE_PATH="coverage/R2CodingForPython$demo2__1_.coverage" NAME="demo2 (1) Coverage Results" MODIFIED="1678109724362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07_数据类型转换/exam" />

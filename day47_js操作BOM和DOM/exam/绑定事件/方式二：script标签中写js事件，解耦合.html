@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绑定事件与html解耦合</title>
+</head>
+<body>
+    <!--  onclick 单击， ondblclick 双击事件   -->
+    <div id="d1">button</div>
+    <div id="d2"></div>
+</body>
+<script>
+    var d1 = document.getElementById('d1');
+    // js事件与html标签解耦合
+    d1.onclick = function func(){
+        // this 指代当前对象
+        var d2 = this.nextElementSibling; // d1的下一个兄弟标签
+        d2.style.border = 'solid 1px';
+        d2.style.width = '100px';
+        d2.style.height = '100px';
+        d2.style.backgroundColor = 'deeppink';
+    }
+    d1.ondblclick = function func2(){
+        var d2 = this.nextElementSibling;
+        var d2 = document.getElementById('d2')
+        d2.style.backgroundColor = 'blue';
+    }
+</script>
+</html>

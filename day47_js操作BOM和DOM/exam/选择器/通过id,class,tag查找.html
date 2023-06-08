@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="d1">大将生来胆气豪，腰横秋水雁翎刀。</div>
+    <div class="c1">风吹鼍鼓山河动，电闪旌旗日月高。</div>
+    <div>天上麒麟原有种，穴中蝼蚁岂能逃。</div>
+    <div>太平待诏归来日，朕与将军解战袍。</div>
+</body>
+<script>
+    // id 选择器
+    var d1 = document.getElementById('d1')
+    d1.style.backgroundColor = 'red';
+    // 类选择器查找
+    var c1 = document.getElementsByClassName('c1')
+    console.log(c1)
+    c1[0].style.backgroundColor = 'lightblue';
+    // 标签选择器查找
+    var tag = document.getElementsByTagName('div');
+    console.log(tag)
+    tag[2].style.backgroundColor = 'red';
+    tag[3].style.backgroundColor = 'skyblue'
+
+</script>
+</html>
+
+
