@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计时器</title>
+    <style>
+        #d1>#timer {
+            padding: 0;
+            margin: 0;
+            border: 1px solid;
+            width: 300px;
+            height: 32px;
+            text-align: left;
+            line-height: 32px;
+            display: block;
+            font-size: 28px;
+        }
+
+        #btu {
+            position: relative; /*相对定位*/
+            bottom: 34px;
+            left:320px;
+        }
+        #start, #stop {
+            width: 64px;
+            height: 32px;
+            border: 1px solid;
+            font-family: '微软雅黑', '楷体', '宋体';
+            font-size: 14px;
+            display: inline-block;
+            text-align: center;
+            line-height: 32px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+      <label for="timer"></label>
+      <input type="text" id="timer" name="timer" value="">
+    </div>
+    <div id="btu">
+      <label for="start"></label>
+      <span id="start">开始</span>
+      <label for="stop"></label>
+      <span id="stop">结束</span>
+    </div>
+</body>
+<script>
+    // 保存计时器id
+    var timerList = [];
+    // 开始按钮点击事件
+    var start = document.getElementById('start');
+    start.onclick = function(){
+        var intervalId = setInterval(function(){
+            var timer = document.getElementById('timer');
+            timer.value = new Date().toLocaleString();
+        }, 1000);
+        timerList.push(intervalId)
+    }
+    console.log(timerList)
+
+    // 结束按钮事件
+    var stop = document.getElementById('stop');
+    stop.onclick = function (){
+        // 清空计时器
+        for (var i = 0; i < timerList.length; i++){
+            clearInterval(timerList[i]);
+        }
+        timerList = []
+        console.log('计时器列表被清空:' + timerList)
+    }
+
+</script>
+</html>
