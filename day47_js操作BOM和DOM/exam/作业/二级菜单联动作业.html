@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二级菜单联动</title>
+    <style>
+        #province {
+            width: 100px;
+            bader: solid 1px;
+        }
+        #city {
+            width: 100px;
+            border: solid 1px;
+        }
+    </style>
+</head>
+<body>
+    <div id = 'provinceAndCity'>
+        <select name="province" id="province">
+            <option value="1" id="beijing" selected>北京市</option>
+            <option value="2" id="shanghai">上海市</option>
+            <option value="3" id="chongqing">重庆市</option>
+        </select>
+        <select name="city" id="city"></select>
+    </div>
+</body>
+<script>
+    var cityList = {
+      '北京市': ['朝阳区', '海淀区', '西城区', '东城区', '丰台区', '房山区'],
+      '上海市': ['静安区', '浦东新区', '黄浦区', '崇明区'], '重庆市': ['巴南区', '江北区', '江津区', '长寿区']
+    }
+    // 根据省份构造对应城市的下拉选项
+    var province = document.getElementById('province');
+
+    // 匿名函数，默认根据选中的省份添加城市
+    (function(){
+        var city = document.getElementById('city'); // city节点
+        var index = province.selectedIndex; // 默认勾选的省份
+        var opt = cityList[province.options[index].innerText];
+        // console.log('被选中省份的城市：' + opt)
+        for (var i in opt){
+            var item = document.createElement('option');
+            item.value = i;
+            item.id = 'city' + i;
+            item.innerText = opt[i];
+            // city节点下循环添加子节点
+            city.appendChild(item);
+        }
+    })()
+
+    // 动态清空父节点
+    function clearCity(node){
+        // node 父节点
+        for (var i = node.children.length -1 ; i >= 0 ; i--){ // 倒着删，不然数组长度变化，会漏掉
+            node.removeChild(node.children[i]);
+        }
+    }
+
+    // 根据用户选择的省份切换城市列表
+    province.onchange = function(){
+        // 先清空上一个省份对应的city
+        var city = document.getElementById('city'); // city节点
+        clearCity(city)
+        // 切换省份后的city列表
+        var opt = cityList[this.options[this.selectedIndex].innerText]; // 下拉选项
+        for (var i in opt){ // 循环添加 option节点
+            var item = document.createElement('option')
+            item.value = i;
+            item.id = 'city' + i;
+            item.innerText = opt[i];
+            city.appendChild(item);
+        }
+    }
+</script>
+</html>
