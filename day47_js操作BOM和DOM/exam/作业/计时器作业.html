@@ -47,28 +47,29 @@
     </div>
 </body>
 <script>
-    // 保存计时器id
-    var timerList = [];
+    // 计时器id
+    var intervalId;
     // 开始按钮点击事件
     var start = document.getElementById('start');
     start.onclick = function(){
-        var intervalId = setInterval(function(){
-            var timer = document.getElementById('timer');
-            timer.value = new Date().toLocaleString();
-        }, 1000);
-        timerList.push(intervalId)
+        // 限制计时器为undefined时，开启定时器
+        if (intervalId == undefined) {
+            intervalId = setInterval(function () {
+                var timer = document.getElementById('timer');
+                timer.value = new Date().toLocaleString();
+            }, 1000);
+        }
     }
-    console.log(timerList)
+    console.log(intervalId)
 
     // 结束按钮事件
     var stop = document.getElementById('stop');
     stop.onclick = function (){
         // 清空计时器
-        for (var i = 0; i < timerList.length; i++){
-            clearInterval(timerList[i]);
-        }
-        timerList = []
-        console.log('计时器列表被清空:' + timerList)
+        clearInterval(intervalId);
+        // 计时器id重新赋值为undefined
+        intervalId = undefined;
+        console.log('计时器id:' + intervalId)
     }
 
 </script>
