@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/作业/二级菜单联动作业.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/作业/计时器作业.html" beforeDir="false" afterPath="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/作业/计时器作业.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48_jQuery选择器/01 test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48_jQuery选择器/02 基本筛选器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48_jQuery选择器/03 表单筛选器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48_jQuery选择器/04 筛选器方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48_jQuery选择器/05 作业1讲解.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48_jQuery选择器/06 作业2讲解.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48_jQuery选择器/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48_jQuery选择器/day48笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48_jQuery选择器/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48_jQuery选择器/jquery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
