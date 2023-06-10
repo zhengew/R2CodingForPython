@@ -60,7 +60,8 @@
     province.onchange = function(){
         // 先清空上一个省份对应的city
         var city = document.getElementById('city'); // city节点
-        clearCity(city)
+        // clearCity(city)
+        city.innerText = '';
         // 切换省份后的city列表
         var opt = cityList[this.options[this.selectedIndex].innerText]; // 下拉选项
         for (var i in opt){ // 循环添加 option节点
