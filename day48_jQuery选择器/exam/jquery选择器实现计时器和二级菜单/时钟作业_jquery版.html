@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时钟_jquery版</title>
+    <style>
+        #clock {
+            /*background-color: pink;*/
+            position: relative;
+            top:0;
+            right:0;
+            bottom:0;
+            left:0;
+        }
+        #timer #timeLoop{
+            width: 250px;
+            height: 32px;
+            border: 1px solid;
+            padding: 1px 1px;
+        }
+        #start {
+            width: 50px;
+            height: 32px;
+            border: 1px solid;
+            display: inline-block;
+            text-align: center;
+            line-height: 32px;
+            position: absolute;
+            left: 260px;
+            top: 0;
+            padding: 1px 1px;
+        }
+        #stop #stopBtu {
+            width: 50px;
+            height: 32px;
+            border: 1px solid;
+            display: inline-block;
+            text-align: center;
+            line-height: 32px;
+            position: absolute;
+            left: 320px;
+            top: 0;
+            padding: 1px 1px;
+
+        }
+
+    </style>
+</head>
+<body>
+<div id="clock">
+    <div id="timer">
+        <label for="timeLoop">
+            <input type="text" id="timeLoop">
+        </label>
+    </div>
+    <div id="start">
+        <span id="startBtu">开始</span>
+    </div>
+    <div id="stop">
+        <span id="stopBtu">结束</span>
+    </div>
+</div>
+</body>
+<script>
+
+</script>
+<script src="jquery.js"></script>
+</html>

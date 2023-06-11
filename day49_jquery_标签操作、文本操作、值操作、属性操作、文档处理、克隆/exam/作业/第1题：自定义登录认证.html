@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <meta charset='UTF-8'>
+    <title>自定义登录认证</title>
+    <style>
+        form span{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="u">
+            用户名<input type="text">
+            <span></span>
+        </div>
+        <div class="p">
+            密码<input type="password">
+            <span></span>
+        </div>
+    </form>
+    <button class="b">提交</button>
+    <script src='jQuery.js'></script>
+    <script>
+        $('.b').click(function(){
+            if($('.u input').val()===''){
+                $('.u span').text('用户名不能为空');
+            }else{
+                $('.u span').text('');
+            }
+            if($('.p input').val()===''){
+                $('.p span').text('密码不能为空');
+            }else{
+                $('.p span').text('');
+            }
+        });
+    </script>
+</body>
+</html>

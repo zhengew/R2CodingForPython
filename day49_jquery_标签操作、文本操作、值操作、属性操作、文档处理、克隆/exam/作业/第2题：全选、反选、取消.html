@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <meta charset='UTF-8'>
+    <title>全选、反选、取消</title>
+</head>
+<body>
+    <button id="b1">全选</button>
+    <button id="b2">反选</button>
+    <button id="b3">取消</button>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>姓名</th>
+                <th>技能</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>曹操</td>
+                <td>奸雄</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>刘备</td>
+                <td>仁德</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>孙权</td>
+                <td>制衡</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src='jQuery.js'></script>
+    <script>
+        
+        var $res=$(':checkbox');
+        
+        $('#b1').click(function(){
+            for (var i=0;i<$res.length;i++){
+                $res.eq(i).prop('checked',true)
+            }
+        });
+        
+        $('#b2').click(function(){
+            for (var i=0;i<$res.length;i++){
+                if($res.eq(i).prop('checked')===true){
+                    $res.eq(i).prop('checked',false);
+                }else{
+                    $res.eq(i).prop('checked',true);
+                }
+            }
+        });
+        
+        $('#b3').click(function(){
+            for (var i=0;i<$res.length;i++){
+                $res.eq(i).prop('checked',false)
+            }
+        });
+    </script>
+</body>
+</html>
