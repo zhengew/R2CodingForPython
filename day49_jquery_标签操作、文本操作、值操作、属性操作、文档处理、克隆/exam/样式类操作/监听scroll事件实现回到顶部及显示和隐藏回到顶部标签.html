@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>scroll事件监听滚动距离实现回到顶部</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #d1, #d2, #d3 {
+            width: 100%;
+            height: 500px;
+        }
+        #d1 {
+            background-color: red;
+        }
+        #d2 {
+            background-color: greenyellow;
+        }
+        #d3 {
+            background-color: orange;
+        }
+
+        .c1 {
+            position: fixed;
+            width: 80px;
+            height: 32px;
+            left: 30px;
+            bottom: 20px;
+            border: 1px;
+            background-color: lightgray;
+            line-height: 32px;
+            text-align: center;
+            color: white;
+        }
+        /* 隐藏标签*/
+        .hidden {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <span class="top"></span>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+    <div class="c1 hidden">
+        <span id="top_tag">回到顶部</span>
+    </div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    // 监听滚动事件
+    $(window).scroll(
+        function(){
+            console.log($(window).scrollTop())
+            if ($(window).scrollTop() >= 200){
+                $('.c1').removeClass('hidden');
+            } else {
+                $('.c1').addClass('hidden');
+            }
+        }
+    );
+
+    // 点击返回顶部
+    $('.c1').click(
+        function(){
+            $(window).scrollTop(0)
+        }
+    );
+</script>
+</html>

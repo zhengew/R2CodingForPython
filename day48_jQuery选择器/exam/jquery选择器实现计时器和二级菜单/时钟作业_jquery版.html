@@ -17,6 +17,9 @@
             height: 32px;
             border: 1px solid;
             padding: 1px 1px;
+            font-size: 28px;
+            line-height: 32px;
+            text-align: center;
         }
         #start {
             width: 50px;
@@ -61,8 +64,52 @@
     </div>
 </div>
 </body>
+<script src="jquery.js"></script>
 <script>
 
+    // 自定义js的Date日期格式 yyyy/mm/dd HH:MM:SS
+    Date.prototype.dateFormat = function(){
+        return this.getFullYear() + '/' + this.getMonth() + '/' + this.getDay() + ' ' + this.getHours() + ':' +
+            this.getMinutes() + ':' + this.getSeconds();
+    }
+
+
+    // 开始按钮
+    var startBtu = $('#startBtu');
+    // 结束按钮
+    var stopBtu = $('#stopBtu')
+    // 计时器id
+    var intervalId;
+    // 获取当前事件函数
+    function getCurrentDate(){
+        return new Date().dateFormat();
+    }
+
+    // 默认显示当前时间
+    (function(){
+        $('#timeLoop').val(getCurrentDate())
+    })()
+
+    // 开始按钮绑定点击事件
+    startBtu[0].onclick = function () {
+        if (intervalId === undefined){
+            intervalId = setInterval(
+                function(){
+                    $('#timeLoop').val(getCurrentDate())
+                }, 1000
+            )
+        }
+    }
+
+    // 结束按钮事件
+    stopBtu[0].onclick = function (){
+        // 清除解释器id
+        clearInterval(intervalId);
+        // 重置计时器id
+        intervalId = undefined;
+    }
+
+
 </script>
-<script src="jquery.js"></script>
+
 </html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery位置操作</title>
+
+</head>
+<body>
+    <div id="outer">
+        <div id="inner"></div>
+    </div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    // 设置css样式
+    (function(){
+        // outer 样式
+        $('#outer').css({'width': '200px', 'height': '200px', 'background-color': 'red'});
+        // inner 样式
+        $('#inner').css({'width': '100px', 'height': '100px', 'background-color': 'yellow'});
+    })()
+
+</script>
+</html>

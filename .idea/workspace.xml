@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day49_jquery_标签操作、文本操作、值操作、属性操作、文档处理、克隆/exam/样式类操作/样式类操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49_jquery_标签操作、文本操作、值操作、属性操作、文档处理、克隆/exam/样式类操作/jquery绑定点击事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49_jquery_标签操作、文本操作、值操作、属性操作、文档处理、克隆/exam/样式类操作/位置操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49_jquery_标签操作、文本操作、值操作、属性操作、文档处理、克隆/exam/样式类操作/监听scroll事件实现回到顶部及显示和隐藏回到顶部标签.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day49_jquery_标签操作、文本操作、值操作、属性操作、文档处理、克隆/day49笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/day49_jquery_标签操作、文本操作、值操作、属性操作、文档处理、克隆/day49笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day48_jQuery选择器/exam/jquery选择器实现计时器和二级菜单/时钟作业_jquery版.html" beforeDir="false" afterPath="$PROJECT_DIR$/day48_jQuery选择器/exam/jquery选择器实现计时器和二级菜单/时钟作业_jquery版.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +319,7 @@
       <workItem from="1685365579966" duration="22656000" />
       <workItem from="1685621014519" duration="11494000" />
       <workItem from="1685857320145" duration="89900000" />
-      <workItem from="1686365935185" duration="23745000" />
+      <workItem from="1686365935185" duration="32850000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>
