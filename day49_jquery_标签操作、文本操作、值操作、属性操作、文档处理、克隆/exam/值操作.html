@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>演示值操作</title>
+</head>
+<body>
+<form action="xx">
+    <div>
+        用户名: <input type="text" name="username" id="username" value="alex">
+    </div>
+    <div>
+        性别:
+        <input type="radio" name="sex" class="sex" value="1" checked>男
+        <input type="radio" name="sex" class="sex" value="2">女
+    </div>
+    <div>
+        爱好:
+        <input type="checkbox" name="hobby" class="hobby" value="1" checked>跑步
+        <input type="checkbox" name="hobby" class="hobby" value="2" checked>骑行
+        <input type="checkbox" name="hobby" class="hobby" value="3">徒步
+    </div>
+    <div>
+        城市:
+        <select name="city" id="city">
+            <option value="1">北京</option>
+            <option value="2" selected>上海</option>
+            <option value="3">广州</option>
+        </select>
+    </div>
+    <div>
+        作者:
+        <select name="author" id="author" multiple>
+            <option value="1" selected>李白</option>
+            <option value="2" selected>杜甫</option>
+            <option value="3">苏东坡</option>
+            <option value="4">苏轼</option>
+        </select>
+    </div>
+</form>
+</body>
+<script src="jquery.js"></script>
+</html>
