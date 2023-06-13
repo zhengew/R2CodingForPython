@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery文档操作</title>
+</head>
+<body>
+    <div class="c1">
+        <span class="s1">大壮</span>
+    </div>
+    <div class="c2">
+        <span class="s2">太白</span>
+    </div>
+    <div class="c3">
+      <input type="button" class="btu" value="克隆">
+    </div>
+</body>
+<script src="jquery.js"></script>
+<script>
+    $('.c3 .btu').click(
+        function(){
+            var a = $(this).clone(true); // 可控标签及绑定事件
+            $(this).after(a); // 插入兄弟标签
+        }
+    );
+</script>
+</html>
+
