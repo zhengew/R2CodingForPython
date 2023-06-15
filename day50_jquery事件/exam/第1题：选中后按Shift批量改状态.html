@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <meta charset='UTF-8'>
+    <title>第1题：选中后按Shift批量改状态</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>姓名</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>曹操</td>
+                <td>
+                    <select class="status">
+                        <option value="1">出场</option>
+                        <option value="2">撤退</option>
+                        <option value="3">阵亡</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>司马懿</td>
+                <td>
+                    <select class="status">
+                        <option value="1">出场</option>
+                        <option value="2">撤退</option>
+                        <option value="3">阵亡</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>刘备</td>
+                <td>
+                    <select class="status">
+                        <option value="1">出场</option>
+                        <option value="2">撤退</option>
+                        <option value="3">阵亡</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>诸葛亮</td>
+                <td>
+                    <select class="status">
+                        <option value="1">出场</option>
+                        <option value="2">撤退</option>
+                        <option value="3">阵亡</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>孙权</td>
+                <td>
+                    <select class="status">
+                        <option value="1">出场</option>
+                        <option value="2">撤退</option>
+                        <option value="3">阵亡</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>周瑜</td>
+                <td>
+                    <select class="status">
+                        <option value="1">出场</option>
+                        <option value="2">撤退</option>
+                        <option value="3">阵亡</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src='jQuery.js'></script>
+    <script>
+        var flag;
+
+        $(window).keydown(function(e){
+           if (e.keyCode===16){
+               flag=true;
+           }
+        });
+
+        $(window).keyup(function(e){
+           if (e.keyCode===16){
+               flag=false;
+           }
+        });
+        $('select').change(function(){
+            if (flag && $(this).parent().parent().find(':checkbox').prop('checked')){
+                $('tbody').find(':checkbox:checked').parent().parent().find('select').val($(this).val());
+            }
+        });
+    </script>
+</body>
+</html>

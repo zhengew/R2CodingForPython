@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <meta charset='UTF-8'>
+    <title>增加编辑按钮</title>
+    <style>
+        .shadow{
+            position:fixed;
+            top:0;
+            left:0;
+            bottom:0;
+            right:0;
+            background-color:rgba(0,0,0,0.5);
+            z-index:1;
+        }
+        .add_window {
+            position:fixed;
+            top:50%;
+            left:50%;
+            height:300px;
+            width:300px;
+            margin-left:-150px;
+            margin-top:-150px;
+            background-color: white;
+            z-index:2;
+        }
+        .hide{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <button class="add_button">增加</button>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>姓名</th>
+                <th>技能</th>
+                <th colspan="2">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td class="name">曹操</td>
+                <td class="skill">奸雄</td>
+                <td><button class="del">删除</button></td>
+                <td><button class="edit">编辑</button></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td class="name">刘备</td>
+                <td class="skill">仁德</td>
+                <td><button class="del">删除</button></td>
+                <td><button class="edit">编辑</button></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td class="name">孙权</td>
+                <td class="skill">制衡</td>
+                <td><button class="del">删除</button></td>
+                <td><button class="edit">编辑</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="shadow hide"></div>
+    <div class="add_window hide">
+        <div >姓名<input class="new_name" type="text"></div>
+        <div >技能<input class="new_skill" type="text"></div>
+        <button class="submit">确定</button>
+        <button class="cancel">取消</button>
+    </div>
+    <script src='jQuery.js'></script>
+    <script>
+
+        var mode;
+        var $name;
+        var $skill;
+
+        // 点击删除按钮
+        $('tbody').on('click','.del',function(){
+            $(this).parent().parent().remove();
+        });
+
+        // 点击取消按钮
+        $('.cancel').click(function(){
+            $('.add_window .new_name').val('');     //清空姓名框
+            $('.add_window .new_skill').val('');    //清空技能框
+            $('.shadow,.add_window').addClass('hide');
+        });
+
+        // 点击增加按钮
+        $('.add_button').click(function(){
+            mode='add';
+            $('.add_window .new_name').val('');     //清空姓名框
+            $('.add_window .new_skill').val('');    //清空技能框
+            $('.shadow,.add_window').removeClass('hide');
+        });
+
+
+        // 点击编辑按钮
+        $('tbody').on('click','.edit',function(){
+            mode='edit';
+            $name=$(this).parent().parent().find('.name');   //将jQuery对象保存到一个变量，用于在在点击确定按钮的时候对它的text()进行修改
+            $skill=$(this).parent().parent().find('.skill'); //将jQuery对象保存到一个变量，用于在在点击确定按钮的时候对它的text()进行修改
+            $('.add_window .new_name').val($(this).parent().parent().find('.name').text());     //给姓名框填入相应的姓名
+            $('.add_window .new_skill').val($(this).parent().parent().find('.skill').text());   //给技能框填入相应的技能
+            $('.shadow,.add_window').removeClass('hide');
+        });
+
+        //点击确定按钮
+        $('.submit').click(function(){
+            if(mode==='add'){
+                var new_person=
+                    '<tr>' +
+                        '<td><input type="checkbox"></td>' +
+                        '<td class="name">' + $('.add_window .new_name').val() + '</td>' +
+                        '<td class="skill">' + $('.add_window .new_skill').val() + '</td>' +
+                        '<td><button class="del">删除</button></td>'+
+                        '<td><button class="edit">编辑</button></td>'+
+                    '</tr>';
+                $('tbody').append(new_person);
+
+            }else if(mode==='edit'){
+                $name.text($('.add_window .new_name').val());       //用新姓名替换原姓名
+                $skill.text($('.add_window .new_skill').val());     //用新技能替换原技能
+            };
+            $('.shadow,.add_window').addClass('hide');   //恢复隐藏
+        });
+    </script>
+</body>
+</html>

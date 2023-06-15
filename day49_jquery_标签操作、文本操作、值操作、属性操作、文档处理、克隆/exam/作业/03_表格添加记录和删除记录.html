@@ -182,7 +182,7 @@
         $('#student tbody input[type="checkbox"]').prop('checked', false)
     })
 
-    // 删除按钮点击事件
+    // 删除按钮点击事件  事件委托，$(this)还是指的 .deleteBtn
     $(document).on('click', '.deleteBtn', function () {
         $(this).parent().parent().remove();
         console.log($(this));
