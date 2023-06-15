@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <title>表格添加记录和删除记录</title>
     <style>
+
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        /*取消table内外边框边距*/
         #student {
             border-collapse: collapse;
         }
+        /*表格content和padding*/
         #student th, td {
             padding: 10px 10px;
             border: 1px solid;
             text-align: center;
             width: 100px;
         }
-        /*按钮样式*/
-        #selectAllBtu, #reverseBtu, #cancelBtu {
+        /*全选、反选、取消、增加按钮*/
+        .selectAllBtn, #reverseBtn, #cancelBtn, #addBtn{
             display: inline-block;
             width: 60px;
             height: 32px;
@@ -25,6 +33,55 @@
             margin-top:5px;
             margin-right:5px;
         }
+        /* 删除按钮*/
+        tbody .deleteBtn {
+            display: inline-block;
+            width: 60px;
+            height: 32px;
+            border: 1px solid;
+            background-color: lightgray;
+            text-align: center;
+            line-height:32px;
+        }
+
+        #okBtn, #closeBtn {
+            display: inline-block;
+            width: 60px;
+            height: 32px;
+            border: 1px solid;
+            background-color: lightgray;
+            text-align: center;
+            line-height:32px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        /* 隐藏窗口 */
+        .hidden {
+            display: none;
+        }
+        .shadow {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 99;
+            opacity: 0.3;
+            background-color: ghostwhite;
+        }
+        /*学生信息填写窗口*/
+        .addStudent {
+            border: 1px solid;
+            width: 300px;
+            height: 200px;
+            z-index: 100;
+            position: fixed;
+            left: 40%;
+            top: 40%;
+            background-color: pink;
+        }
+
     </style>
 </head>
 <body>
@@ -37,6 +94,7 @@
                         <th>姓名</th>
                         <th>性别</th>
                         <th>年龄</th>
+                        <th>操作</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -45,46 +103,122 @@
                         <td>大壮</td>
                         <td>男</td>
                         <td>18</td>
+                        <td><span class="deleteBtn">删除</span></td>
                     </tr>
                     <tr>
                         <td class="check"><input type="checkbox" name="stu_info" id="s2"></td>
                         <td>雪飞</td>
                         <td>女</td>
                         <td>19</td>
+                        <td><span class="deleteBtn">删除</span></td>
                     </tr>
                     <tr>
                         <td class="check"><input type="checkbox" name="stu_info" id="s3"></td>
                         <td>于文洋</td>
                         <td>男</td>
                         <td>20</td>
+                        <td><span class="deleteBtn">删除</span></td>
                     </tr>
                 </tbody>
             </table>
-        </div>
-        <div>
-            <span id="selectAllBtu">全选</span>
-            <span id="reverseBtu">反选</span>
-            <span id="cancelBtu">取消</span>
+            <div>
+                <span class="selectAllBtn">全选</span>
+                <span id="reverseBtn">反选</span>
+                <span id="cancelBtn">取消</span>
+                <span id="addBtn">增加</span>
+            </div>
         </div>
     </form>
+    <div class="shadow hidden"></div>
+    <!-- 增加student信息 -->
+    <div class="addStudent hidden">
+        <div>
+            <label for="username">姓名:</label>
+            <input type="text" id="username">
+        </div>
+        <div>
+            <label class="sex">性别:</label>
+            <input type="radio" name="sex" class="sex" value="1" checked>男
+            <input type="radio" name="sex" class="sex" value="2">女
+        </div>
+        <div>
+            <label for="age">年龄:</label>
+            <input type="text" id="age">
+        </div>
+        <div>
+            <span id="okBtn">确定</span>
+            <span id="closeBtn">取消</span>
+        </div>
+    </div>
 </body>
 <script src="jquery.js"></script>
 <script>
     // 全选按钮点击事件
-    $('#selectAllBtu').click(function() {
-        $('#student tbody input[type="checkbox"]').prop('checked', true)
+    $('.selectAllBtn').click(function() {
+        $('#student tbody input[type="checkbox"]').prop('checked', true);
     });
     // 反选按钮
-    $('#reverseBtu').click(function() {
-        // prop支持回到函数，prop(key,function(index, attr))
+    $('#reverseBtn').click(function() {
+        // prop支持回掉函数，prop(key,function(index, attr))
         // 返回属性值的函数,第一个参数为当前元素的索引值，第二个参数为原先的属性值。
         $('#student tbody input[type="checkbox"]').prop('checked', function(i, val){
             return !val;
         });
     });
     // 取消按钮
-    $('#cancelBtu').click(function(){
+    $('#cancelBtn').click(function(){
         $('#student tbody input[type="checkbox"]').prop('checked', false)
     })
+
+    // 删除按钮点击事件
+    $('.deleteBtn').click(function () {
+        $(this).parent().parent().remove()
+        console.log($(this))
+    });
+
+    // 增加按钮点击事件
+    $('#addBtn').click(function () {
+        // z-index玩模态对话框
+        $('.shadow').removeClass('hidden');
+        $('.addStudent').removeClass('hidden');
+    });
+
+    // addStudent 对话框页面的取消按钮点击事件
+    $('.addStudent').find('#closeBtn').click(function () {
+        $('.shadow').addClass('hidden');
+        $('.addStudent').addClass('hidden');
+    });
+
+    // addStudent 对话框页面的确定按钮点击事件
+    $('.addStudent').find('#okBtn').click(function () {
+        // 正则
+        var ageRegex = /(^[1-9][0-9]?$)|(^1[0-5][0-9]$)/g
+        // 清空上一次提示信息
+        $('.username_msg').remove();
+        $('.age_msg').remove();
+        // 表单值
+        var usernameVal = $('.addStudent #username').val();
+        var sexVal = $('.addStudent .sex:checked').val() === '1' ? '男': '女'; // 1-男 2-女
+        console.log('sex:' + sexVal)
+        var ageVal = $('.addStudent #age').val();
+        if (usernameVal === ''){
+            $('.addStudent #username').after('<span style="color:red; font-size: 12px" class="username_msg"> 用户名不能为空</span>')
+        }
+        if (ageVal === ''){
+            $('.addStudent #age').after('<span style="color:red; font-size: 12px" class="age_msg"> 年龄不能为空</span>');
+        } else if (!ageRegex.test(ageVal)){
+            $('.addStudent #age').after('<span style="color:red; font-size: 12px" class="age_msg"> 年龄限制为1～159</span>')
+        }
+        ageRegex.lastIndex = 0;
+
+        // 判断数据有效性，student 插入用户提交数据  // 中午把新增标签改一下，然后调整下新增页面的按钮位置
+        var newTag = document.createElement('tr')
+
+        $('#student tbody').append($clone_tag)
+        // 确认后隐藏玩模态对话框
+        $('.addStudent').toggleClass('hidden')
+        $('.shadow').toggleClass('hidden');
+
+    });
 </script>
 </html>
