@@ -44,6 +44,7 @@
             line-height:32px;
         }
 
+
         #okBtn, #closeBtn {
             display: inline-block;
             width: 60px;
@@ -56,10 +57,22 @@
             margin-bottom: 5px;
         }
 
+        #okBtn {
+            float: left;
+            margin-left: 20%;
+            margin-top: 10%;
+        }
+        #closeBtn {
+            float: right;
+            margin-right: 20%;
+            margin-top: 10%;
+        }
+
         /* 隐藏窗口 */
         .hidden {
             display: none;
         }
+        /*玩模态对话框样式*/
         .shadow {
             position: fixed;
             top: 0;
@@ -68,7 +81,7 @@
             left: 0;
             z-index: 99;
             opacity: 0.3;
-            background-color: ghostwhite;
+            background-color: blueviolet;
         }
         /*学生信息填写窗口*/
         .addStudent {
@@ -129,7 +142,6 @@
             </div>
         </div>
     </form>
-    <div class="shadow hidden"></div>
     <!-- 增加student信息 -->
     <div class="addStudent hidden">
         <div>
@@ -171,16 +183,20 @@
     })
 
     // 删除按钮点击事件
-    $('.deleteBtn').click(function () {
-        $(this).parent().parent().remove()
-        console.log($(this))
+    $(document).on('click', '.deleteBtn', function () {
+        $(this).parent().parent().remove();
+        console.log($(this));
     });
 
     // 增加按钮点击事件
     $('#addBtn').click(function () {
         // z-index玩模态对话框
-        $('.shadow').removeClass('hidden');
+        // 在body后面创建一个玩模态对话框
+        var shadow = document.createElement('div');
+        $(shadow).attr({'class':'shadow'});
+        $('body').append(shadow);
         $('.addStudent').removeClass('hidden');
+
     });
 
     // addStudent 对话框页面的取消按钮点击事件
@@ -193,6 +209,7 @@
     $('.addStudent').find('#okBtn').click(function () {
         // 正则
         var ageRegex = /(^[1-9][0-9]?$)|(^1[0-5][0-9]$)/g
+        reg_fag = true;
         // 清空上一次提示信息
         $('.username_msg').remove();
         $('.age_msg').remove();
@@ -201,24 +218,40 @@
         var sexVal = $('.addStudent .sex:checked').val() === '1' ? '男': '女'; // 1-男 2-女
         console.log('sex:' + sexVal)
         var ageVal = $('.addStudent #age').val();
-        if (usernameVal === ''){
-            $('.addStudent #username').after('<span style="color:red; font-size: 12px" class="username_msg"> 用户名不能为空</span>')
+        if (reg_fag) {
+            if (usernameVal === '') {
+                $('.addStudent #username').after('<span style="color:red; font-size: 12px" class="username_msg"> 用户名不能为空</span>')
+                reg_fag = false;
+            }
+
+            if (ageVal === '') {
+                $('.addStudent #age').after('<span style="color:red; font-size: 12px" class="age_msg"> 年龄不能为空</span>');
+                reg_fag = false;
+            } else if (!ageRegex.test(ageVal)) {
+                $('.addStudent #age').after('<span style="color:red; font-size: 12px" class="age_msg"> 年龄限制为1～159</span>')
+                reg_fag = false;
+            }
+            ageRegex.lastIndex = 0;
         }
-        if (ageVal === ''){
-            $('.addStudent #age').after('<span style="color:red; font-size: 12px" class="age_msg"> 年龄不能为空</span>');
-        } else if (!ageRegex.test(ageVal)){
-            $('.addStudent #age').after('<span style="color:red; font-size: 12px" class="age_msg"> 年龄限制为1～159</span>')
+        // 条件为true，点击确认才会添加数据
+        if (reg_fag) {
+            // 判断数据有效性，student 插入用户提交数据
+            var newTag = document.createElement('tr')
+            var td0 = '<td class="check"><input type="checkbox" name="stu_info"></td>'
+            var td1 = "<td>" + usernameVal + "</td>"
+            var td2 = "<td>" + sexVal + "</td>"
+            var td3 = "<td>" + ageVal + "</td>"
+            var td4 = '<td><span class="deleteBtn">删除</span></td>'
+            $(newTag).append(td0)
+            $(newTag).append(td1)
+            $(newTag).append(td2)
+            $(newTag).append(td3)
+            $(newTag).append(td4)
+            $('#student tbody').append(newTag)
+            // 确认后隐藏玩模态对话框
+            $('.addStudent').toggleClass('hidden')
+            $('.shadow').addClass('hidden');
         }
-        ageRegex.lastIndex = 0;
-
-        // 判断数据有效性，student 插入用户提交数据  // 中午把新增标签改一下，然后调整下新增页面的按钮位置
-        var newTag = document.createElement('tr')
-
-        $('#student tbody').append($clone_tag)
-        // 确认后隐藏玩模态对话框
-        $('.addStudent').toggleClass('hidden')
-        $('.shadow').toggleClass('hidden');
-
     });
 </script>
 </html>
