@@ -60,6 +60,7 @@
         .hidden {
             display: none;
         }
+        /*玩模态对话框样式*/
         .shadow {
             position: fixed;
             top: 0;
@@ -68,7 +69,7 @@
             left: 0;
             z-index: 99;
             opacity: 0.3;
-            background-color: ghostwhite;
+            background-color: blueviolet;
         }
         /*学生信息填写窗口*/
         .addStudent {
@@ -129,7 +130,6 @@
             </div>
         </div>
     </form>
-    <div class="shadow hidden"></div>
     <!-- 增加student信息 -->
     <div class="addStudent hidden">
         <div>
@@ -179,8 +179,12 @@
     // 增加按钮点击事件
     $('#addBtn').click(function () {
         // z-index玩模态对话框
-        $('.shadow').removeClass('hidden');
+        // 在body后面创建一个玩模态对话框
+        var shadow = document.createElement('div');
+        $(shadow).attr({'class':'shadow'});
+        $('body').append(shadow);
         $('.addStudent').removeClass('hidden');
+
     });
 
     // addStudent 对话框页面的取消按钮点击事件
@@ -213,11 +217,20 @@
 
         // 判断数据有效性，student 插入用户提交数据  // 中午把新增标签改一下，然后调整下新增页面的按钮位置
         var newTag = document.createElement('tr')
-
-        $('#student tbody').append($clone_tag)
+        var td0 = '<td class="check"><input type="checkbox" name="stu_info"></td>'
+        var td1 = "<td>" + usernameVal + "</td>"
+        var td2 = "<td>" + sexVal + "</td>"
+        var td3 = "<td>" + ageVal + "</td>"
+        var td4 = '<td><span class="deleteBtn">删除</span></td>'
+        $(newTag).append(td0)
+        $(newTag).append(td1)
+        $(newTag).append(td2)
+        $(newTag).append(td3)
+        $(newTag).append(td4)
+        $('#student tbody').append(newTag)
         // 确认后隐藏玩模态对话框
         $('.addStudent').toggleClass('hidden')
-        $('.shadow').toggleClass('hidden');
+        $('.shadow').addClass('hidden');
 
     });
 </script>

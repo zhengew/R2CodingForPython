@@ -76,7 +76,7 @@
     });
     // 反选按钮
     $('#reverseBtu').click(function() {
-        // prop支持回到函数，prop(key,function(index, attr))
+        // prop支持回掉函数，prop(key,function(index, attr))
         // 返回属性值的函数,第一个参数为当前元素的索引值，第二个参数为原先的属性值。
         $('#student tbody input[type="checkbox"]').prop('checked', function(i, val){
             return !val;
