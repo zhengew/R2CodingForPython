@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery事件委托</title>
+</head>
+<body>
+    <div class="fork">
+      <input type="button" value="爱的魔力转圈圈" class="c1">
+    </div>
+</body>
+<script src="jquery.js"></script>
+<script>
+    // 事件委托人方式，解决动态插入标签后标签未绑定事件问题
+    $('.fork').on('click', '.c1', function () {
+        var btn = document.createElement('input');
+        $(btn).attr({'type': 'button', 'value': '爱的魔力转圈圈', 'class': 'c1'});
+        $(this).after(btn);
+    })
+</script>
+</html>

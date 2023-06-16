@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件冒泡现象</title>
+    <style>
+        #d1 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+        }
+        #d2 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        <div id="d2"></div>
+    </div>
+</body>
+<script src="jquery.js"></script>
+<script>
+    // 演示事件冒泡
+    // 父标签和子标签都绑定了点击事件，点击子标签时，会从子标签向外递归触发事件
+    $('#d1').on('click', function () {
+        alert('父标签d1')
+    })
+
+    // $('#d2').on('click', function () {
+    //     alert('子标签d2')
+    // })
+
+    // 解决事件冒泡方式一： return false;
+    $('#d2').on('click', function () {
+        alert('子标签d2');
+        return false;
+    })
+
+    // 解决事件冒泡方式二： even.stopPropagation();
+        $('#d2').on('click', function (even) {
+        alert('子标签d2');
+        even.stopPropagation();
+    })
+
+</script>
+</html>
