@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件绑定方式三:on关键字实现事件委托</title>
+</head>
+<body>
+    <div id="fork">
+        <button class="c1">爱的魔力转圈圈</button>
+    </div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    // 非事件委托方式动态添加标签，标签无绑定事件
+    // $('.c1').on('click', function () {
+    //     alert('爱的魔力转圈圈，雪飞很伤心')
+    //     var btn = document.createElement('button');
+    //     $(btn).text('爱的魔力转圈圈');
+    //     $(btn).addClass('c1')
+    //     $('#fork').append(btn)
+    // })
+
+    // 事件委托方式添加标签,标签含绑定事件
+    $('#fork').on('click', '.c1', function () {
+        alert('爱的魔力转圈圈，雪飞很伤心')
+        var btn = document.createElement('button');
+        $(btn).text('爱的魔力转圈圈');
+        $(btn).addClass('c1')
+        $('#fork').append(btn)
+    })
+
+</script>
+</html>

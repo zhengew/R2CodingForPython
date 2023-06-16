@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/01 事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/02 常用事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/03 input事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/04 事件冒泡.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/05 事件委托加作业讲解.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/06 页面载入.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/07 作业2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/day50笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/exam/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/exam/作业/01_选中后按shift键批量修改状态.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/exam/第1题：选中后按Shift批量改状态.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/exam/第2题：增加编辑按钮.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/xx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day50_jquery事件/作业1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day50_jquery事件/exam/事件绑定方式/事件绑定方式一:选择器.事件(函数).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day50_jquery事件/exam/事件绑定方式/事件绑定方式三: on关键字实现事件委托.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day50_jquery事件/exam/事件绑定方式/事件绑定方式二:on关键字绑定.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day49_jquery_标签操作、文本操作、值操作、属性操作、文档处理、克隆/exam/作业/03_表格添加记录和删除记录.html" beforeDir="false" afterPath="$PROJECT_DIR$/day49_jquery_标签操作、文本操作、值操作、属性操作、文档处理、克隆/exam/作业/03_表格添加记录和删除记录.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,31 +52,31 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day50_jquery事件/exam",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day50_jquery事件/exam&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "CSS"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;CSS&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="R2CodingForPython" is-module-sdk="true">
@@ -335,6 +320,7 @@
       <workItem from="1685857320145" duration="89900000" />
       <workItem from="1686365935185" duration="32850000" />
       <workItem from="1686711227063" duration="5920000" />
+      <workItem from="1686840305065" duration="2948000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>
@@ -372,6 +358,7 @@
     <MESSAGE value="day40_多表查询习惯使用rigth join 拼接多表查询的结果，从而拿到最终的结果" />
     <MESSAGE value="day46_JS基础总结" />
     <MESSAGE value="day47_计时器作业修改，通过条件判断限制计时器开启次数" />
+    <MESSAGE value="day50_jquey_事件绑定方式、常用事件、事件冒泡、阻止后续事件、事件委托、页面载入" />
     <option name="LAST_COMMIT_MESSAGE" value="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

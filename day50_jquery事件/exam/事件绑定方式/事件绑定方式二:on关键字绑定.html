@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件绑定方式二：on关键字</title>
+</head>
+<body>
+    <div>
+        用户名:<input type="text" id="username">
+        <div id="c1"></div>
+    </div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    $('#username').on('focus', function(){
+        $('#c1').css({'width': '200px', 'height': '200px', 'background-color': 'deeppink'})
+    });
+    $('#username').on('blur', function(){
+        $('#c1').css({'width': '200px', 'height': '200px', 'background-color': 'green'})
+    });
+</script>
+</body>
+</html>
