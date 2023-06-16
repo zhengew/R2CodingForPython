@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery常用事件</title>
+    <style>
+        #d1 {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<div id="fork">
+    <button class="c1">走你</button>
+    <div>
+        用户名:<input type="text" id="username"></div>
+    <div id="d1"></div>
+</div>
+</body>
+<script src="jquery.js"></script>
+<script>
+    // 点击事件
+    $('.c1').click(function(){
+        $('#d1').css({'background-color': 'deeppink'})
+    })
+    // focus 获取光标事件
+    $('#username').on('focus', function() {
+        $('#d1').css({'background-color': 'red'})
+    })
+    // blur 失去光标事件
+    $('#username').on('blur', function() {
+        $('#d1').css({'background-color': 'green'})
+    })
+
+    // 鼠标悬浮事件
+    $('#d1').hover(function() {
+            $(this).css({'background-color': 'black'})
+        },
+        function() {
+            $(this).css({'background-color': 'blue'})
+        }
+    )
+
+    // 事件委托, mouseover, mouseout 实现 hover事件效果
+    $('#fork').on('mouseover mouseout', '#d1', function (event) {
+        if (event.type === 'mouseover') {
+            // 鼠标进入
+            $(this).css({'background-color': 'black'})
+        } else if (event.type === 'mouseout') {
+            // 鼠标移出
+            $(this).css({'background-color': 'blue'})
+        }
+    })
+
+
+
+</script>
+</html>

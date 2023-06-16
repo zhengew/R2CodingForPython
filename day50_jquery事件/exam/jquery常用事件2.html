@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery常用事件</title>
+    <style>
+        #d1 {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            background-color:blue;
+        }
+        #d2 {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="fork">
+        <button class="c1">走你</button>
+        <div>
+            用户名:<input type="text" id="username"></div>
+        <div id="d1">
+            <div id="d2"></div>
+        </div>
+    </div>
+</body>
+<script src="jquery.js"></script>
+<script>
+    // // mouseenter 鼠标进入和 mouseleave 鼠标移出事件(无事件冒泡)
+    // $('#d1').on('mouseenter mouseleave', function(e) {
+    //     if (e.type == 'mouseenter'){
+    //         $(this).css({'background-color': 'purple'});
+    //     } else if (e.type == 'mouseleave'){
+    //         $(this).css({'background-color': 'skyblue'})
+    //     }
+    // })
+    //
+    // mouseover 鼠标进入和 mouseout 鼠标移出事件(存在事件冒泡)
+    $('#d1').on('mouseover mouseout', function(e) {
+        if (e.type === 'mouseover') {
+            $(this).css({'background-color': 'deeppink'});
+            $('#d2').css({'background-color': 'blue'})
+        } else if (e.type === 'mouseout') {
+            $(this).css({'background-color': 'green'})
+            $('#d2').css({'background-color': 'pink'})
+        }
+    })
+</script>
+</html>
