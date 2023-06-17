@@ -2,9 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>批量选择修改状态</title>
 </head>
-<body>
+<style>
+    body {
+        background-color: whitesmoke;
+    }
 
+    /* table表格合并边框，取消样式 */
+    .student {
+        border-collapse: collapse;
+        border-spacing: unset;
+    }
+
+    /* thead样式 */
+    .student thead th {
+        font-family: '微软雅黑', '楷体', '宋体';
+        font-size: 18px;
+        border: 1px solid;
+        width: 100px;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    /* tbody样式 */
+    .student tbody td {
+        font-family: '楷体', '宋体';
+        font-size: 16px;
+        border: 1px solid;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    /*操作列*/
+    tbody .status {
+        border: none;
+        background-color: whitesmoke;
+        width: 99px;
+        text-align: center;
+    }
+    /* 按钮样式 */
+    #operation #selectAllBtn, #reverseBtn, #cancelBtn, #addBtn {
+        display: inline-block;
+        width: 60px;
+        height: 28px;
+        text-align: center;
+        line-height: 28px;
+        border: 1px solid;
+        background-color: lightgray;
+        margin-top: 5px;
+    }
+
+</style>
+<body>
+    <form action="">
+        <table class="student">
+            <thead>
+                <tr>
+                    <th>全选</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>年龄</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <input type="checkbox" class="selectAll">
+                </td>
+                <td>雪飞</td>
+                <td>女</td>
+                <td>18</td>
+                <td>
+                    <select name="status" class="status">
+                        <option value="1">预报名</option>
+                        <option value="2">已报名</option>
+                        <option value="3">已缴费</option>
+                    </select>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+    <div id="operation">
+        <span id="selectAllBtn">全选</span>
+        <span id="reverseBtn">反选</span>
+        <span id="cancelBtn">取消</span>
+        <span id="addBtn">增加</span>
+    </div>
 </body>
 </html>

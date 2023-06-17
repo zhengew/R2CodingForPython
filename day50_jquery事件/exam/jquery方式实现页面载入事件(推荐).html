@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery方式实现页面载入事件(推荐)</title>
+    <script src="jquery.js"></script>
+    <script>
+        // jquery方式实现页面载入事件，html文档加载完后就可以调用
+        $(function(){
+            // 同一个标签同时绑定 click和dbclick有 bug
+            $('.c1').on('click dblclick', function (e) {
+                if (e.type === 'click'){
+                    $(this).css({'background-color': 'red', 'width': '200px', 'height': '200px'})
+                } else if (e.type === 'dblclick'){
+                    $(this).css({'background-color': 'deeppink', 'width': '100px', 'height': '100px'})
+                }
+            })
+        })
+    </script>
+    <script src="windos_onload.js"></script>
+    <style>
+        .c1 {
+            width: 100px;
+            height: 100px;
+            background-color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <div class="c1">
+
+    </div>
+</body>
+</html>
