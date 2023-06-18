@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <meta charset='UTF-8'>
+    <title>菜单Menu</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        .hide{display: none;}
+        .c0{
+            position:fixed;
+            left:0;
+            top:0;
+            background-color: limegreen;
+            width:30%;
+            height:100%;
+            text-align:center;
+            font-weight:bold;
+            font-size:20px;
+        }
+        .c1{
+            padding:5px;
+            height:25px;
+            line-height:25px;
+        }
+        .c2{
+            padding:5px;
+            height:25px;
+            line-height:25px;
+        }
+        .c3{
+            background-color: yellow;
+            padding:5px;
+            height:25px;
+            line-height:25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="c0">
+        <div class="c1">全部收起/展开 All Fold/Unfold</div>
+        <div class="c2">主食 Main Course</div>
+        <div class="c3">汉堡 Hamburger</div>
+        <div class="c3">披萨 Pizza</div>
+        <div class="c3">意面 Spaghetti</div>
+        <div class="c2 fold">饮料 Drink</div>
+        <div class="c3 hide">咖啡 Coffee</div>
+        <div class="c3 hide">红茶 Black Tea</div>
+        <div class="c3 hide">苏打水 Soda</div>
+        <div class="c2 fold">甜点 Dessert</div>
+        <div class="c3 hide">提拉米苏 Tiramisu</div>
+        <div class="c3 hide">焦糖布丁 Creme Brulee</div>
+        <div class="c3 hide">黑森林 Black Forest</div>
+    </div>
+    <script src='jQuery.js'></script>
+    <script>
+
+        $('.c2').click(function(){
+            if ($(this).hasClass('fold')){
+                $(this).removeClass('fold');
+                $(this).nextUntil('.c2').removeClass('hide');
+                $(this).siblings('.c2').addClass('fold');
+                $(this).siblings('.c2').nextUntil('.c2').addClass('hide');
+            }else{
+                $(this).addClass('fold');
+                $(this).nextUntil('.c2').addClass('hide');
+            }
+        });
+
+        $('.c1').click(function(){
+            var c2_fold_count = $(this).nextAll('.c2').filter('.fold').length //fold的c2数量
+            var c2_all_count = $(this).nextAll('.c2').length                  //全部c2数量
+            if (c2_fold_count===c2_all_count){
+                $(this).nextAll('.c2').removeClass('fold');
+                $(this).nextAll('.c3').removeClass('hide');
+            }else{
+                $(this).nextAll('.c2').addClass('fold');
+                $(this).nextAll('.c3').addClass('hide');
+            }
+        });
+
+    </script>
+</body>
+</html>

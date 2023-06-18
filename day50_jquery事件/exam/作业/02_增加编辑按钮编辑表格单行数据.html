@@ -2,9 +2,459 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>批量选择修改状态</title>
 </head>
-<body>
+<style>
+    body {
+        background-color: whitesmoke;
+    }
 
+    /* table表格合并边框，取消样式 */
+    .student {
+        border-collapse: collapse;
+        border-spacing: unset;
+    }
+
+    /* thead样式 */
+    .student thead th {
+        font-family: '微软雅黑', '楷体', '宋体';
+        font-size: 18px;
+        border: 1px solid;
+        width: 100px;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    /* thead的操作列样式 */
+    .student thead .operationBtn {
+        width: 130px;
+    }
+
+
+    /* tbody样式 */
+    .student tbody td {
+        font-family: '楷体', '宋体';
+        font-size: 16px;
+        border: 1px solid;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    /*状态列*/
+    tbody .status {
+        border: none;
+        background-color: whitesmoke;
+        width: 99px;
+        text-align: center;
+        font-family: '楷体', '宋体';
+        font-size: 14px;
+    }
+    /* 按钮样式 */
+    #operation #selectAllBtn, #reverseBtn, #cancelBtn, #addStuBtn, #okBtn, #closeBtn, #confirmBtn {
+        display: inline-block;
+        width: 60px;
+        height: 28px;
+        text-align: center;
+        line-height: 28px;
+        border: 1px solid;
+        background-color: lightgray;
+        margin-top: 5px;
+    }
+
+    /* tbody删除按钮,编辑按钮样式*/
+    .deleteBtu, .editBtu {
+        display: inline-block;
+        width: 60px;
+        height: 28px;
+        text-align: center;
+        line-height: 28px;
+        border: 1px solid;
+        background-color: lightgray;
+        font-family: '楷体', '宋体';
+        font-size: 14px;
+    }
+    /* hidden隐藏标签 */
+    .hidden {
+        display: none;
+    }
+
+    /*玩模态对话框*/
+    .shadow {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 99;
+        opacity: 0.3;
+        background-color: mediumpurple;
+    }
+
+    /* 对话框样式 */
+    .diaLog {
+        z-index: 100;
+        position: fixed;
+        top: 40%;
+        left: 40%;
+        width: 320px;
+        height: 162px;
+        background-color: pink;
+        border: 1px solid;
+    }
+
+    /* 对话框提示信息样式 */
+    .diaLog .errorMsg {
+        font-family: '微软雅黑', '楷体', '宋体';
+        font-size: 12px;
+        color: red;
+        text-decoration: underline;
+    }
+
+</style>
+<body>
+    <form action="">
+        <table class="student">
+            <thead>
+                <tr>
+                    <th>全选</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>年龄</th>
+                    <th>状态</th>
+                    <th class="operationBtn">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <input type="checkbox" class="checkAll">
+                </td>
+                <td class="tname">雪飞</td>
+                <td class="tsex">女</td>
+                <td class="tage">18</td>
+                <td>
+                    <select name="status" class="status">
+                        <option value="1">预报名</option>
+                        <option value="2">已报名</option>
+                        <option value="3">已缴费</option>
+                    </select>
+                </td>
+                <td>
+                    <span class="deleteBtu">删除</span>
+                    <span class="editBtu">编辑</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" class="checkAll">
+                </td>
+                <td class="tname">于文洋</td>
+                <td class="tsex">男</td>
+                <td class="tage">19</td>
+                <td>
+                    <select name="status" class="status">
+                        <option value="1">预报名</option>
+                        <option value="2">已报名</option>
+                        <option value="3">已缴费</option>
+                    </select>
+                </td>
+                <td>
+                    <span class="deleteBtu">删除</span>
+                    <span class="editBtu">编辑</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+    <div id="operation">
+        <span id="selectAllBtn">全选</span>
+        <span id="reverseBtn">反选</span>
+        <span id="cancelBtn">取消</span>
+        <span id="addStuBtn">增加</span>
+    </div>
 </body>
+<script src="../jquery.js"></script>
+<script>
+    // 全选按钮
+    $('#operation').on('click', '#selectAllBtn', function () {
+        // 设置复选框属性值 checked
+        $('.student tbody .checkAll').prop('checked', true);
+    });
+
+    // 反选按钮
+    $('#operation').on('click', '#reverseBtn', function () {
+        // prop 支持回掉函数，参数i未当前元素的索引值，第二个参数为当前元素的checked属性值；
+        $('.student tbody .checkAll').prop('checked', function (i, val) {
+            return !val;
+        });
+    });
+
+    // 取消按钮
+    $('#operation').on('click', '#cancelBtn', function () {
+        $('.student tbody .checkAll').prop('checked', false);
+    });
+
+    // 删除按钮事件
+    $('tbody').on('click', '.deleteBtu', function () {
+        $(this).parent().parent().remove();
+    })
+
+    // 创建标签
+    function createTag(tagName){
+        return document.createElement(tagName);
+    }
+
+    // disLog对话框
+    var addStuDiaLog = '<div class="addStudent diaLog">\n' +
+            '        <div>\n' +
+            '            <label for="username">姓名:</label>\n' +
+            '            <input type="text" id="username">\n' +
+            '        </div>\n' +
+            '        <div>\n' +
+            '            <label class="sex">性别:</label>\n' +
+            '            <input type="radio" name="sex" class="sex" value="1" checked>男\n' +
+            '            <input type="radio" name="sex" class="sex" value="2">女\n' +
+            '        </div>\n' +
+            '        <div>\n' +
+            '            <label for="age">年龄:</label>\n' +
+            '            <input type="text" id="age">\n' +
+            '        </div>\n' +
+            '        <div>' +
+            '           <label for="status">状态:</label>' +
+            '            <select name="status" class="status">\n' +
+    '                        <option value="1">预报名</option>\n' +
+    '                        <option value="2">已报名</option>\n' +
+    '                        <option value="3">已缴费</option>\n' +
+    '                    </select>' +
+            '        </div>' +
+            '        <div class="diaBtn">\n' +
+            '            <span id="okBtn">确定</span>\n' +
+            '            <span id="closeBtn">取消</span>\n' +
+            '        </div>\n' +
+            '    </div>';
+
+    var editDiaLog = '<div class="editStu diaLog">\n' +
+            '        <div>\n' +
+            '            <label for="username">姓名:</label>\n' +
+            '            <input type="text" id="username">\n' +
+            '        </div>\n' +
+            '        <div>\n' +
+            '            <label class="sex">性别:</label>\n' +
+            '            <input type="radio" name="sex" class="sex" value="1" checked>男\n' +
+            '            <input type="radio" name="sex" class="sex" value="2">女\n' +
+            '        </div>\n' +
+            '        <div>\n' +
+            '            <label for="age">年龄:</label>\n' +
+            '            <input type="text" id="age">\n' +
+            '        </div>\n' +
+            '        <div>' +
+            '           <label for="status">状态:</label>' +
+            '            <select name="status" class="status">\n' +
+    '                        <option value="1">预报名</option>\n' +
+    '                        <option value="2">已报名</option>\n' +
+    '                        <option value="3">已缴费</option>\n' +
+    '                    </select>' +
+            '        </div>' +
+            '        <div class="diaBtn">\n' +
+            '            <span id="confirmBtn">确定</span>\n' +
+            '            <span id="closeBtn">取消</span>\n' +
+            '        </div>\n' +
+            '    </div>';
+
+
+
+    // 增加按钮
+    $('#operation').on('click', '#addStuBtn', function () {
+        // 玩模态对话框
+        var shadowTag = createTag('div');
+        $(shadowTag).addClass('shadow')
+        $('body').append(shadowTag)
+        // console.log(shadowTag)
+        // 学生信息录入对话框
+        // console.log($(addStuDiaLog).children())
+        // 文档载入后调整按钮位置
+        $(function () {
+            $('.diaBtn').css({'margin': '10px 85px'})
+        })
+        $('body').append(addStuDiaLog)
+
+    })
+
+    // diaLog对话框确定按钮,新增student表格信息
+    $('body').on('click', '#okBtn', function(){
+        nameRegex = /^[^0-9].{1,19}$/g
+        ageRegex = /(^[1-5][0-9]$)/g
+        // 清空提示信息
+        $('.diaLog').find('.errorMsg').remove()
+
+        // 用户选中的标签值
+        var usernameVal = $('.diaLog').find('#username').val();
+        var sexVal = $('.diaLog').find('.sex:checked').val() === '1' ? '男': '女';
+        // console.log($('.diaLog').find('.sex:checked').val());
+        var ageVal = $('.diaLog').find('#age').val();
+        var statusVal = $('.diaLog').find('.status').val();
+        // console.log('状态:'+statusVal)
+
+        // 判断标签是否为空
+        var isNullVal = false;
+        // console.log('isNullVal:' + isNullVal)
+        if (usernameVal === ''){
+            $('.diaLog').find('#username').after('<span class="errorMsg"> 用户名不能为空</span>')
+            isNullVal = true;
+        } else if (!nameRegex.test(usernameVal)){
+            $('.diaLog').find('#username').after('<span class="errorMsg"> 用户名不能以数字开头,长度限制为2～20位字符</span>')
+            nameRegex.lastIndex = 0;
+            isNullVal = true;
+        }
+
+        if (ageVal === ''){
+            $('.diaLog').find('#age').after('<span class="errorMsg"> 年龄不能为空</span>')
+            isNullVal = true;
+        } else if (!ageRegex.test(ageVal)){
+            $('.diaLog').find('#age').after('<span class="errorMsg"> 年龄限制为10～59岁</span>');
+            ageRegex.lastIndex = 0;
+            isNullVal = true;
+        }
+        // console.log('isNullVal:' + isNullVal)
+        if (!isNullVal){
+            // 新增数据并插入tbody
+            var checkAllTag = '<td>\n' +
+                '                    <input type="checkbox" class="checkAll">\n' +
+                '                </td>';
+            var nameTag = '<td class="tname">'+ usernameVal +'</td>';
+            var sexTag = '<td class="tsex">' + sexVal + '</td>';
+            var ageTag = '<td class="tage">' + ageVal + '</td>';
+            var statusTag = '<td>\n' +
+                '                    <select name="status" class="status">\n' +
+                '                        <option value="1">预报名</option>\n' +
+                '                        <option value="2">已报名</option>\n' +
+                '                        <option value="3">已缴费</option>\n' +
+                '                    </select>\n' +
+                '                </td>';
+            var deleteBtuTag = '<td>\n' +
+                '                    <span class="deleteBtu">删除</span>\n' +
+                '                    <span class="editBtu">编辑</span>\n' +
+                '                </td>';
+            var newTag = document.createElement('tr');
+            $(newTag).append(checkAllTag);
+            $(newTag).append(nameTag);
+            $(newTag).append(sexTag);
+            $(newTag).append(ageTag);
+            $(newTag).append(statusTag);
+            $(newTag).append(deleteBtuTag);
+            $(newTag).find('.status').val(statusVal);
+            // console.log($(newTag).find('.status'))
+            $('body .student tbody').append(newTag);
+            // 隐藏对话框和玩模态对话框
+            $(function(){
+                $('.diaLog').remove();
+                $('.shadow').remove();
+            })
+        }
+    })
+
+    // 学生信息录入对话框，取消按钮事件
+    $('body').on('click', '#closeBtn', function () {
+        // 页面载入后删除对话框和玩模态对话框
+        $(function(){
+            $('.diaLog').remove();
+            $('.shadow').remove();
+        })
+    })
+
+    // day50 作业一
+    // 按住shift键批量修改状态
+    $(window).keydown(function (e) { // 键盘keydown事件
+        // console.log(e.which)
+        $('tbody').on('change', '.status', function () { // change事件
+            var changeVal = $(this).val(); // 发生改变的下拉框 value值
+            if (e.which === 16){ // shift键数值-16
+                var statusOption = $('tbody .checkAll:checked').parent().parent().find('.status');
+                // 循环修改下拉框value值
+                for (var i = 0; i < statusOption.length; i++){
+                    statusOption.eq(i).val(changeVal);
+                }
+            }
+        })
+    });
+
+    // day50 作业二
+    // tbody操作列编辑按钮，编辑每一行数据
+    $('.student').on('click', '.editBtu', function(){
+        // console.log($(this).parent().parent().find('.tage').text())
+        // 1.获取编辑按钮所在的tr中的value
+        var usernameVal = $(this).parent().parent().find('.tname').text();
+        var sexVal = $(this).parent().parent().find('.tsex').text() === '男' ? 1 : 2;
+        var ageVal = $(this).parent().parent().find('.tage').text();
+        var statusVal = $(this).parent().parent().children().find('.status').val();
+        console.log('姓名:'+usernameVal, '性别:' + sexVal, '年龄:' + ageVal, '状态:' + statusVal)
+        // 2.添加玩模态对话框和编辑对话框
+        var shadowTag = createTag('div');
+        $(shadowTag).addClass('shadow')
+        $('body').append(shadowTag)
+        // 文档载入后调整对话框按钮位置
+        $(function () {
+            $('.diaBtn').css({'margin': '10px 85px'})
+        })
+        // 2.1 编辑对话框的默认值
+        $(function(){
+            $('.editStu').find('#username').attr({'value': usernameVal})
+            $('.editStu').find('.sex').eq(sexVal).prop('checked', true)
+            $('.editStu').find('#age').attr({'value': ageVal})
+            $('.editStu').find('.status').val(statusVal)
+        })
+        // 2.2 显示编辑对话框
+        $('body').append(editDiaLog)
+        // 2.3 获取编辑按钮所在行的标签
+        var usernameTag = $(this).parent().parent().find('.tname');
+        var sexTag = $(this).parent().parent().find('.tsex');
+        var ageTag = $(this).parent().parent().find('.tage');
+        var statusTag = $(this).parent().parent().children().find('.status');
+        // 点击编辑对话框确定按钮，更新表单数据
+        $('.diaBtn').on('click', '#confirmBtn', function(){
+
+            nameRegex = /^[^0-9].{1,19}$/g
+            ageRegex = /(^[1-5][0-9]$)/g
+            // 清空提示信息
+            $('.diaLog').find('.errorMsg').remove()
+
+             // 判断标签是否为空
+            editName = $('.editStu').find('#username').val();
+            editAge = $('.editStu').find('#age').val();
+            editSex = $('.editStu').find('.sex:checked').val() === '1' ? '男' : '女';
+            eiditStatus = $('.editStu').find('.status').val()
+            var regexpResult = false;
+            if (editName === ''){
+                $('.diaLog').find('#username').after('<span class="errorMsg"> 用户名不能为空</span>')
+                regexpResult = true;
+            } else if (!nameRegex.test(editName)){
+                $('.diaLog').find('#username').after('<span class="errorMsg"> 用户名不能以数字开头,长度限制为2～20位字符</span>')
+                nameRegex.lastIndex = 0;
+                regexpResult = true;
+            }
+
+            if (editAge === ''){
+                $('.diaLog').find('#age').after('<span class="errorMsg"> 年龄不能为空</span>')
+                regexpResult = true;
+            } else if (!ageRegex.test(editAge)){
+                $('.diaLog').find('#age').after('<span class="errorMsg"> 年龄限制为10～59岁</span>');
+                ageRegex.lastIndex = 0;
+                regexpResult = true;
+            }
+            // 正则校验通过, 保存编辑数据
+            if (!regexpResult){
+                // 1. 拿到编辑对话框的value
+                usernameTag.text(editName);
+                sexTag.text(editSex);
+                ageTag.text(editAge);
+                statusTag.val(eiditStatus);
+                // 隐藏对话框和玩模态对话框
+                $(function(){
+                    $('.diaLog').remove();
+                    $('.shadow').remove();
+                })
+            }
+        });
+    });
+</script>
 </html>
