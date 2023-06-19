@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery插件</title>
+</head>
+<body>
+<label class="hobby">爱好</label>
+<input type="checkbox" name="hobby" class="hobby" value="1">骑行
+<input type="checkbox" name="hobby" class="hobby" value="2">跑步
+<input type="checkbox" name="hobby" class="hobby" value="3">徒步
+</body>
+<script src="jquery.js"></script>
+<script>
+    // 1.jQuery 添加插件
+    jQuery.extend({
+        min: function(a, b){ return a < b ? a : b;},
+        max: function(a ,b){ return a > b ? a : b;}
+    });
+
+    // 调用jQuery对象
+    var minVal = jQuery.min(2, 1);
+    var maxVal = $.max(1, 2);
+    console.log(minVal, maxVal);
+
+    // jQuery直接绑定的插件，不能被jQuery标签对象调用
+    // $('.hobby').min(1, 2);
+
+    // 2. jQuery标签对象添加插件
+    jQuery.fn.extend({
+        check: function () {
+            return this.each(function(){this.checked = true;});
+        },
+        uncheck: function () {
+            return this.each(function(){this.checked = false;});
+        }
+    })
+
+    // jQuery对象调用添加的插件方法
+    $('.hobby:checkbox').check();
+
+</script>
+</html>
