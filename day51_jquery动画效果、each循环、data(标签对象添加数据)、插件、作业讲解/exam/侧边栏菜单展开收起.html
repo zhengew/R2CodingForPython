@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>侧边栏菜单展开收起</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        .menu {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: auto;
+            min-height: 100%;
+            background-color: lightgray;
+        }
+        .menu span {
+            display: block;
+            text-align: left;
+        }
+        .menu .versionType {
+            font-family: '微软雅黑', '楷体', '宋体';
+            font-size: 16px;
+            font-weight: bold;
+            color: dimgray;
+        }
+
+        .menu .subMenu {
+            font-family: '微软雅黑', '楷体', '宋体';
+            font-size: 14px;
+            background-color:pink;
+
+        }
+
+        /*  隐藏菜单  */
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="menu">
+    <div class="standardVersion">
+        <span class="versionType">标准版</span>
+        <div class="subMenu hide">
+            <span>工作台</span><span>账户服务</span><span>指令管理</span><span>信息查询</span><span>金融资产托管</span><span>外包服务</span>
+        </div>
+    </div>
+    <div class="professionalVersion">
+        <span class="versionType">专业版</span>
+        <div class="subMenu hide">
+            <span>工作台</span>外汇交易<span></span>基金交易<span></span>债券交易<span>债券资产分析</span><span>数据可视化</span>
+        </div>
+    </div>
+    <div class="pensionVersion">
+        <span class="versionType">养老金版</span>
+        <div class="subMenu hide">
+            <span>工作台</span>账户服务<span></span>报告查询<span></span>信息查询<span>债券资产分析</span>
+        </div>
+    </div>
+</div>
+</body>
+<script src="jquery.js"></script>
+<script>
+    $('.menu').on('click', '.versionType', function() {
+        console.log($(this).siblings('.subMenu').text());
+        $(this).siblings('.subMenu').toggleClass('hide');
+    })
+</script>
+</html>
