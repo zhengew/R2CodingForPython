@@ -67,7 +67,9 @@
 <script>
     $('.menu').on('click', '.versionType', function() {
         console.log($(this).siblings('.subMenu').text());
-        $(this).siblings('.subMenu').toggleClass('hide');
+        // $(this).siblings('.subMenu').toggleClass('hide');
+        console.log($(this).siblings())
+        $(this).next().toggleClass('hide').siblings('.subMenu').addClass('hide');
     })
 </script>
 </html>
