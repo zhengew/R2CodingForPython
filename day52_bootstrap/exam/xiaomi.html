@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>小米商城</title>
     <style>
         /* body */
@@ -10,7 +12,9 @@
             padding: 0;
             margin: 0;
             font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+            background-color: #fff;
         }
+        /* 1.设置title标签样式 */
         /* 顶部导航栏 */
         .title {
             width: 100%;
@@ -58,15 +62,15 @@
         .title .title-content .title-content-right #title-content-right-account, #title-content-right-shopCart {
             display: inline-block;
         }
-
+        /*登陆注册padding*/
         .title .title-content .title-content-right #title-content-right-account .link {
             padding: 0 5px;
         }
-
+        /*消息通知padding*/
         .title .title-content .title-content-right #title-content-right-account .message {
             padding: 0 10px;
         }
-
+        /*购物车样式*/
         .title .title-content .title-content-right #title-content-right-shopCart {
             color: #b0b0b0;
             height: 40px;
@@ -75,6 +79,34 @@
             background-color: #424242;
             width:120px;
         }
+
+        /* 2.header标签样式 */
+        /* 顶部导航栏 */
+        .header {
+            width: 100%;
+            height: 100px;
+            line-height: 40px;
+            font-size: 16px;
+        }
+
+        .header .header-content {
+            width: 1226px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* 顶部导航栏标签a */
+        .header .header-content a {
+            text-decoration: none;
+            line-height: 40px;
+            color: #333;
+        }
+        /*header栏标签a hover效果*/
+        .header .header-content a:hover {
+            color: #ff6700;
+        }
+        /* 伪类选择器 插入logo*/
+
     </style>
 </head>
 <body>
@@ -107,6 +139,31 @@
             </div>
         </div>
     </div>
+    <div class="header">
+        <div class="header-content">
+            <div class="header-content-left">
+                <a href="javascript:void(0)" class="mi-logo"></a>
+            </div>
+            <div class="header-content-right">
+                <span></span>
+                <div class="center-content-right-menu">
+                    <a href="javascript:void(0)" class="link">Xiaomi手机</a>
+                    <a href="javascript:void(0)" class="link">Redmi手机</a>
+                    <a href="javascript:void(0)" class="link">电视</a>
+                    <a href="javascript:void(0)" class="link">笔记本</a>
+                    <a href="javascript:void(0)" class="link">平板</a>
+                    <a href="javascript:void(0)" class="link">家电</a>
+                    <a href="javascript:void(0)" class="link">路由器</a>
+                    <a href="javascript:void(0)" class="link">服务中心</a>
+                    <a href="javascript:void(0)" class="link">社区</a>
+                </div>
+                <span class="center-content-right-search">
+                    <input type="text" class="search-box"><input type="submit" value="🔍" class="search-btn">
+                </span>
+            </div>
+        </div>
+    </div>
+
 </body>
 <script src="jquery.js"></script>
 <script>
