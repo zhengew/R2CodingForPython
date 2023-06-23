@@ -93,6 +93,9 @@
             width: 1226px;
             margin-left: auto;
             margin-right: auto;
+            height: 100px;
+            line-height: 100px;
+
         }
 
         /* 顶部导航栏标签a */
@@ -105,8 +108,115 @@
         .header .header-content a:hover {
             color: #ff6700;
         }
-        /* 伪类选择器 插入logo*/
 
+        /* 伪类选择器 插入logo*/
+        .header .header-content .header-content-left .mi-logo img {
+            width: 56px;
+            height: 56px;
+            margin-top: 22px;
+        }
+
+        /*浮动位置*/
+        .header .header-content .header-content-left {
+            float: left;
+        }
+        .header .header-content .header-content-right {
+            height: 100px;
+            float: right;
+        }
+
+        /*menu菜单padding*/
+        .header .header-content .header-content-right .center-content-right-menu .link {
+            padding: 26px 10px;
+            font-size: 16px;
+        }
+        .header .header-content .header-content-right .center-content-right-menu {
+            margin-left: -760px;
+        }
+
+        .header .header-content .header-content-right .center-content-right-search {
+            position: relative;
+            bottom: 100px;
+        }
+
+        .header .header-content .header-content-right .center-content-right-search .search-box {
+            width: 223px;
+            height: 48px;
+            border: 1px solid;
+            padding: 0 10px;
+        }
+
+        .header .header-content .header-content-right .center-content-right-search .search-btn {
+            width: 52px;
+            height: 50px;
+            padding: 0 6px ;
+            border: 1px solid;
+            line-height: 24px;
+            font-size: 24px;
+            background: #fff;
+            position: absolute;
+            top: 27px;
+            right: 0;
+        }
+
+        /* content列表 图片*/
+        .product {
+            width: 100%;
+            height: 460px;
+        }
+        .product .product-content {
+            width: 1226px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .product .product-content .product-content-left {
+            float: left;
+            height: 420px;
+            width: 234px;
+            background: rgba(105,101,101,.6);
+            padding:20px 0;
+            position: absolute;
+        }
+
+        /*去掉有序列表的样式*/
+        .product .product-content .product-content-left ul {
+            list-style-type: none;
+            padding-left: 0;
+            font-size: 14px;
+
+        }
+
+        .product .product-content .product-content-left a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            width: 234px;
+            height: 42px;
+            line-height: 42px;
+        }
+
+        .product .product-content .product-content-left li:hover {
+            background-color: #ff6700;
+        }
+
+
+        .product .product-content .product-content-left ul li a .info {
+            display: inline-block;
+            padding-left: 30px;
+        }
+
+        .product .product-content .product-content-left ul li a .gt {
+            float: right;
+            margin-right: 30px;
+        }
+
+        .product .product-content .product-content-right {
+            float: right;
+        }
+        .product .product-content .product-content-right img {
+            height: 460px;
+            width: 992px;
+        }
     </style>
 </head>
 <body>
@@ -142,10 +252,9 @@
     <div class="header">
         <div class="header-content">
             <div class="header-content-left">
-                <a href="javascript:void(0)" class="mi-logo"></a>
+                <a href="javascript:void(0)" class="mi-logo" title="小米官网"><img src="mi-logo.png" alt=""></a>
             </div>
             <div class="header-content-right">
-                <span></span>
                 <div class="center-content-right-menu">
                     <a href="javascript:void(0)" class="link">Xiaomi手机</a>
                     <a href="javascript:void(0)" class="link">Redmi手机</a>
@@ -157,16 +266,78 @@
                     <a href="javascript:void(0)" class="link">服务中心</a>
                     <a href="javascript:void(0)" class="link">社区</a>
                 </div>
-                <span class="center-content-right-search">
-                    <input type="text" class="search-box"><input type="submit" value="🔍" class="search-btn">
-                </span>
+                <div class="center-content-right-search">
+                    <input type="text" class="search-box" placeholder="小米电视"><input type="submit" value="🔍" class="search-btn">
+                </div>
             </div>
         </div>
     </div>
-
+    <div class="product">
+        <div class="product-content">
+            <div class="product-content-left">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="info">手机</span><span class="gt">&gt;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="info">电视</span><span class="gt">&gt;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="info">家电</span><span class="gt">&gt;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="info">笔记本 平板</span><span class="gt">&gt;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="info">出行 穿戴</span><span class="gt">&gt;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="info">耳机 音箱</span><span class="gt">&gt;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="info">健康 儿童</span><span class="gt">&gt;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="info">生活 箱包</span><span class="gt">&gt;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="info">智能 路由</span><span class="gt">&gt;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="info">电源 配件</span><span class="gt">&gt;</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="product-content-right">
+                <img src="show.png" alt="">
+            </div>
+        </div>
+    </div>
 </body>
 <script src="jquery.js"></script>
 <script>
-
+    $('.header').on('focus', '.search-box', function(){
+        $(this).css({'border-color': '#ff6700'});
+    });
 </script>
 </html>

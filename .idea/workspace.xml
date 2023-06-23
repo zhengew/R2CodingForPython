@@ -5,115 +5,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-5.2.3-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/测试引入bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/input标签的placeholder属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/note12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/front_end_resources/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/信息收集卡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/信息收集卡作业要求.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/面版表格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/exam/作业/面版表格作业要求.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day51_jquery动画效果、each循环、data(标签对象添加数据)、插件、作业讲解/exam/侧边栏菜单展开收起.html" beforeDir="false" afterPath="$PROJECT_DIR$/day51_jquery动画效果、each循环、data(标签对象添加数据)、插件、作业讲解/exam/侧边栏菜单展开收起.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/bootstrap-3.4.1-dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/demo_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52_bootstrap/font_nk7md1f6o9/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day52_bootstrap/01 小米商城.html" beforeDir="false" afterPath="$PROJECT_DIR$/day52_bootstrap/01 小米商城.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day52_bootstrap/exam/show.png" beforeDir="false" afterPath="$PROJECT_DIR$/day52_bootstrap/exam/show.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day52_bootstrap/exam/xiaomi.html" beforeDir="false" afterPath="$PROJECT_DIR$/day52_bootstrap/exam/xiaomi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +146,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day52_bootstrap",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day52_bootstrap/exam/作业",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -192,11 +172,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day52_bootstrap/exam/作业" />
       <recent name="$PROJECT_DIR$/day52_bootstrap" />
       <recent name="$PROJECT_DIR$/day52_bootstrap/exam" />
       <recent name="$PROJECT_DIR$/bootstrap" />
       <recent name="$PROJECT_DIR$/day52" />
-      <recent name="$PROJECT_DIR$/day51_jquery动画、作业讲解" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day48_jQuery选择器/exam" />
