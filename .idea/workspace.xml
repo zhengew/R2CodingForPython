@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/作业01_信息收集卡片.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/信息收集卡片.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/作业2_面板表格.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -374,6 +357,7 @@
     <MESSAGE value="day46_JS基础总结" />
     <MESSAGE value="day47_计时器作业修改，通过条件判断限制计时器开启次数" />
     <MESSAGE value="day50_jquey_事件绑定方式、常用事件、事件冒泡、阻止后续事件、事件委托、页面载入" />
+    <MESSAGE value="day53_bootstrap作业01_信息收集卡" />
     <option name="LAST_COMMIT_MESSAGE" value="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
