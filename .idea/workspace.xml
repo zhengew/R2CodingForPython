@@ -5,47 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/01 简单版服务端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/01momo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/02ua反扒测试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/02登录.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/03 简单版web框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/03 简单版web框架.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/04 升级版web框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/04 升级版web框架.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/05 函数进阶版web框架.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/06 搞基版web框架.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/07 搞基版动态web框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/07 搞基版动态页面web框架.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/08 jinja2搞基版动态web框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/08 wsgiref升级版web框架.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/22.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/ct.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/insertdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/showdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/static/css/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/static/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/static/img/22.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/static/js/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/templates/08 jinja2搞基版动态web框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/dabao/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/day53笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/images/http响应格式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/images/http请求格式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/images/状态码.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/insertdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/jd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/showdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day53_Django第一天/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/bootstrap-3.4.1-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/作业01_信息收集卡片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day53_Django第一天/exam/信息收集卡片.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +35,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -90,31 +67,31 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day53_&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day53_Django第一天/exam",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;CSS&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "CSS"
     ]
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="R2CodingForPython" is-module-sdk="true">
@@ -125,11 +102,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day53_Django第一天/exam" />
       <recent name="$PROJECT_DIR$/day53_" />
       <recent name="$PROJECT_DIR$/day52_bootstrap/exam/作业" />
       <recent name="$PROJECT_DIR$/day52_bootstrap" />
       <recent name="$PROJECT_DIR$/day52_bootstrap/exam" />
-      <recent name="$PROJECT_DIR$/bootstrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day52_bootstrap/exam" />
