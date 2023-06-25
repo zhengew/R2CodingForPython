@@ -4,15 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>03简单版web框架</title>
+    <title>05函数进阶版web框架</title>
+    <link rel="stylesheet" href="day53.css">
     <link rel="icon" href="myicon.ico">
-    <style>
-        body {
-            background-color: pink;
-        }
-    </style>
 </head>
 <body>
+    <div>
+        <span>{{ userinfo }}</span>
+        <ul>
+            {% for k,v in userinfo.items() %}
+                <li>{{ k }}--{{ v }}</li>
+            {% endfor %}
+        </ul>
+    </div>
     <form action="javascript:void(0)" method="post">
         <div>
             <label for="username">账号:</label>
@@ -27,16 +31,9 @@
             <input type="submit" id="loginBtn" value="登陆">
         </div>
     </form>
+    <div class="myimg">
+        <img src="background-img.png" alt="" title="戈壁">
+    </div>
 </body>
-<script>
-    var uname = document.getElementById("username")
-    uname.onfocus = function(){
-        this.style.backgroundColor = "deeppink";
-    }
-
-    var pwd = document.getElementById("password")
-    pwd.onfocus = function(){
-        this.style.backgroundColor = "deeppink";
-    }
-</script>
+<script src="day53.js"></script>
 </html>
