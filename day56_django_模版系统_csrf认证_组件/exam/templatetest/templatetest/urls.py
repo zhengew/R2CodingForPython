@@ -23,4 +23,17 @@ urlpatterns = [
     path('index/', views.index),
     path('tags/', views.tags),
     path('login/', views.csrf_token_login),
+
+
+    # 模版继承
+    path('base/', views.base),
+    path('menu1/', views.menu1),
+    path('menu2/', views.menu2),
+    path('menu3/', views.menu3),
+
+    # 组件
+    # 组件
+    path('nav/', views.nav),
+    path('newpro/', views.newpro),
+
 ]

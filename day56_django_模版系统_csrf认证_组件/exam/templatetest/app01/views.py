@@ -42,3 +42,22 @@ def csrf_token_login(request):
     elif request.method == 'POST':
         print(request.POST)
         return HttpResponse('%s,登录成功～' % request.POST.get('username'))
+
+# 演示模版继承
+def base(request):
+    return render(request, 'base.html')
+
+def menu1(request):
+    return render(request, 'menu1.html')
+
+def menu2(request):
+    return render(request, 'menu2.html')
+
+def menu3(request):
+    return render(request, 'menu3.html')
+
+# 组件
+def nav(request):
+    return render(request,'nav.html')
+def newpro(request):
+    return render(request,'newpro.html')

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>模版继承</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        .nav {
+            background-color: pink;
+            height: 40px;
+            line-height: 40px;
+        }
+        .left-menu {
+            background-color: gray;
+            color: white;
+            width: 10%;
+            height: 400px;
+            float: left;
+        }
+        ul {
+            margin: 0;
+        }
+
+        .content {
+            width: 90%;
+            float: right;
+        }
+        /* 清除浮动 */
+        .clearfix {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        /* css 预留 钩子*/
+        {% block css %}
+
+        {% endblock css %}
+    </style>
+</head>
+<body>
+<div class="nav">
+    <a href="">洗脚城</a>
+    <a href="">spa会馆</a>
+    <a href="">怡红院</a>
+    <a href="">养老院</a>
+    <input type="text"><button>搜索</button>
+</div>
+<div class="clerfix">
+    <div class="left-menu">
+        <ul>
+            <li><a href="/menu1/">菜单一</a></li>
+            <li><a href="/menu2/">菜单二</a></li>
+            <li><a href="/menu3/">菜单三</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        {% block content %}
+            模版页面
+        {% endblock content %}
+    </div>
+</div>
+
+<!-- js 预留钩子 -->
+{% block js %}
+
+{% endblock js %}
+</body>
+</html>
