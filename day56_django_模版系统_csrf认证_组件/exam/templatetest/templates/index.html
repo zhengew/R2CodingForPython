@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>templates模版渲染</title>
+</head>
+<body>
+<p>{{ num }}</p>
+<p>{{ name }}</p>
+<p>{{ name_list.0 }}</p>
+<p>{{ d1.age }}</p>
+<p>{{ xiaobai.kind }}</p>
+<p>{{ xiaobai.eat }}</p>
+
+<!-- 过滤器 -->
+<!-- length: 获取数据长度 -->
+<p>{{ name_list|length }}</p>
+<!-- default: 模版参数为false或者空，设置默认值 -->
+<P>{{ xx|default:'啥也没有' }}</P>
+<!-- filesizeformat 文件大小 -->
+<p>{{ moviesize|filesizeformat}}</p>
+
+<!-- silce 切片-->
+<p>{{ name|slice:'0:1' }}</p>
+
+<!-- date 日期格式化 -->
+<p>{{ now|date:'Y-m-d H:i:s' }}</p>
+
+<!-- truncatechars 字符截断-->
+<p>{{ words|truncatechars:'7' }}</p>
+
+<!-- truncatewords 单词截断 -->
+<p>{{ words|truncatewords:'2' }}</p>
+
+<!-- cut 移除指定内容-->
+<p>{{ words|cut:' ' }}</p>
+
+<!-- join 字符串拼接 -->
+<p>{{ name_list|join:',' }}</p>
+
+<!-- safe 将字符串识别成标签 -->
+<p>{{ tag|safe }}</p>
+</body>
+</html>

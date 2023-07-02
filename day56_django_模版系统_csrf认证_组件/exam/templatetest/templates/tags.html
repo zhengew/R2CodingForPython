@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>标签Tags</title>
+</head>
+<body>
+<ul>
+    {% for name in name_list %}
+        <li>{{ name }}</li>
+    {% endfor %}
+</ul>
+<ol>
+{#    {% for key,value in d1.items %}#}
+{#        {{ forloop.counter}}#}
+{#        <li>{{ key }} -- {{ value }}</li>#}
+{#    {% endfor %}#}
+    {% for key,value in d1.items %}
+        {% if forloop.last %}
+            <li>
+                {% for hobby in value %}
+                    {{ forloop.parentloop.counter }} <!-- 外层循环的循环计数 -->
+                    {{ forloop.counter }}  <!-- 内层循环计数 -->
+                    <a href="">{{ hobby }}</a>
+                {% endfor %}
+            </li>
+        {% else %}
+            <li>{{ key }} -- {{ value }}</li>
+        {% endif %}
+
+    {% endfor %}
+</ol>
+
+<ul>
+    {% for foo in d3 %}
+        <li>{{ foo }}</li>
+    {% empty %} <!-- 判断查询的内容是否为空 -->
+        <li>查询的内容为空</li>
+    {% endfor %}
+    
+</ul>
+
+{% if num > 10 %}
+    <a href="">大于10</a>
+{% elif num < 10 %}
+    <a href="">小于10</a>
+{% else %}
+    <a href="">等于10</a>
+{% endif %}
+
+</body>
+</html>
