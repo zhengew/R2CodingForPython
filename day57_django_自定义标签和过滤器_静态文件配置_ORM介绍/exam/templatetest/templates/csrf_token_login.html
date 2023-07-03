@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>post请求csrf_token认证机制</title>
+</head>
+<body>
+    <h1>csrf_token认证机制</h1>
+    <form action="/login/" method="post">
+        {% csrf_token %}
+        <label for="username">用户名:</label>
+        <input type="text" name="username" id="username">
+        <input type="submit" value="登录">
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{% extends 'muban.html' %}
+
+{% block css %}
+    .nav {
+        background-color: deeppink;
+    }
+{% endblock css %}
+
+{% block content %}
+    {{ block.super }} <!-- 显示模版内容 -->
+    菜单一
+{% endblock content %}
