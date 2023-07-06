@@ -60,4 +60,5 @@ def newpro(request):
 # 自定义过滤器和标签
 def xxoo(request):
     s1 = '雪飞和大壮'
-    return render(request, 'xxoo.html', {'s1': s1})
+    l1 = [11, 22, 33, 44, 55]
+    return render(request, 'xxoo.html', {'s1': s1, 'l1': l1})

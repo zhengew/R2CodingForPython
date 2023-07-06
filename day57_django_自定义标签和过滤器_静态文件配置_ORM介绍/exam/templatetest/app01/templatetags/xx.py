@@ -20,3 +20,16 @@ def oo(v1):
 def oo2(v1, v2):
     s = v1 + v2
     return s
+
+
+# 自定义标签
+@register.simple_tag
+def mytag(v1, v2, v3):
+    s = v1 + '和B哥' + v2 + v3
+    return s
+
+# inclusion_tag标签
+@register.inclusion_tag('inclusiontag.html')
+def func(v1):
+
+    return {'data': v1}
