@@ -1,0 +1,18 @@
+{% load static %}
+<!-- get_static_prefix 标签起别名 -->
+{% get_static_prefix as STATIC_PREFIX %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>演示自定义标签</title>
+    <!-- 变量方式引用 get_static_prefix 标签 -->
+    <link rel="icon" href="{{ STATIC_PREFIX }}myicon.ico">
+</head>
+<body>
+<!-- 加载 templatetags包下的自定义标签py文件 -->
+{% load mytags %}
+<h1>自定义标签</h1>
+<span>{% showmytag name age sex %}</span>
+</body>
+</html>

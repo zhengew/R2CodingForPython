@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>演示inclusion_tag标签</title>
+</head>
+<body>
+{% load myinclusiontag %} <!-- 加载 inclusion_tag标签所在的py文件 -->
+<h1>inclusion_tag标签</h1>
+<div>
+    <!-- 使用 inclusion_tag 标签 -->
+    {% myInclusionTag res %}
+</div>
+</body>
+</html>

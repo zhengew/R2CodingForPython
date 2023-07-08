@@ -1,0 +1,25 @@
+{% load static %}
+{% static 'cat.jpg' as cat %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全球托管核算估值系统</title>
+    <link rel="icon" href="{% static 'myicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'mycss.css' %}">
+</head>
+<body>
+<h1>全球托管核算估值系统</h1>
+<a href="/app01/">基础估值配置</a>
+<a href="/app02/">任务调度</a>
+<a href="/app01/myfilter/">自定义过滤器</a>
+<a href="/app01/mytags/">自定义标签</a>
+<a href="/app01/inclusion_tag/">inclusion_tag标签</a>
+<div class="img">
+    <img src="{{ cat }}" title="布偶猫">
+</div>
+<div class="img">
+    <img src="{{ cat }}" title="布偶猫">
+</div>
+</body>
+</html>

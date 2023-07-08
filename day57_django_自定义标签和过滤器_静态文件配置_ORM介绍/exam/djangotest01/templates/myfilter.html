@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义过滤器</title>
+    <!-- get_static_prefix 标签-->
+    <link rel="icon" href="{% get_static_prefix %}myicon.ico">
+</head>
+<body>
+<!-- 加载 templatetags包下的自定义过滤器py文件 -->
+{%  load myfilters  %}
+<h1>演示自定义过滤器和</h1>
+<!-- 使用自定义过滤器 -->
+{{ content|upperCase }}
+</body>
+</html>
