@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    '172.17.0.1',
+    '172.16.238.5',
 ]
 
 
@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'LibraryManagementSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.',
+        'HOST': '172.16.238.5',
         'PORT': 3306,
         'USER': 'root',
         'PASSWORD': '123456',
@@ -118,7 +118,7 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)

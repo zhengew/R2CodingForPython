@@ -146,8 +146,59 @@ class Library(View):
         # print(ret)
 
         # 6. reverse() 翻转结果集顺序，例如排序之后 翻转顺序
-        ret = models.Book.objects.all().order_by('price').reverse()
-        print(ret)
+        # ret = models.Book.objects.all().order_by('price').reverse()
+        # print(ret)
+
+        # 7. count() 查询QuerySet 方法返回的结果集中的数据数量
+        # ret = models.Book.objects.filter(publisher__regex='^人民邮电出版社$').count()
+        # print(ret) # 10
+
+        # 8. first() 返回 QuerySet集合的第一条记录， 返回值是 model对象
+        # ret = models.Book.objects.all().first()
+        # print(ret) # book1
+
+        # 9. last() 返回 QuerySet集合的最后条记录， 返回值是 model对象
+        # ret = models.Book.objects.all().last()
+        # print(ret) # book20
+
+        # 10. exists() 返回值 True / False, QuerySet结果集为空时返回False， 否则返回True，可用来判断 查询结果是否为空
+        # ret = models.Book.objects.filter(bname = 'book20').exists()
+        # print(ret) # True
+
+        # 11. values(*filed) 返回可迭代的字典列表，返回值类型为 ValueQuerySet类型，相当于 pymysql游标加上参数 pymysql.cursor.DictCursor
+        # ret = models.Book.objects.all().values(*('bname', 'publishDate')).filter(id__lt=2)
+        # print(ret) # <QuerySet [{'bname': 'book1', 'publishDate': datetime.date(2017, 1, 1)}]>
+
+        # 12. values_list(*filed) 返回元组列表
+        # ret = models.Book.objects.all().values_list(*('bname', 'publishDate')).filter(id__lte=2)
+        # print(ret) # <QuerySet [('book1', datetime.date(2017, 1, 1)), ('book2', datetime.date(2017, 1, 2))]>
+
+        # 13. distinct() 去重， 对于QuerySet结果进行去重
+        # ret = models.Book.objects.values('publisher').distinct()
+        # print(ret) # <QuerySet [{'publisher': '机械工业出版社'}, {'publisher': '人民邮电出版社'}]>
+
+
+        """双下划线方法"""
+        # ret = models.Book.objects.filter(bname__iendswith=5)
+        # print(ret) # <QuerySet [<Book: book5>, <Book: book15>]>
+
+        # ret = models.Book.objects.filter(bname__in=['book1', 'book2'])
+        # print(ret) # <QuerySet [<Book: book1>, <Book: book2>]>
+
+        # ret = models.Book.objects.filter(id__gte=19)
+        # print(ret) # <QuerySet [<Book: book19>, <Book: book20>]>
+
+        # ret = models.Book.objects.filter(id__range=[1, 2])
+        # print(ret) # <QuerySet [<Book: book1>, <Book: book2>]>
+
+        # ret = models.Book.objects.filter(bname__contains='5')
+        # print(ret) # <QuerySet [<Book: book5>, <Book: book15>]>
+
+        # ret = models.Book.objects.filter(bname__startswith='book2')
+        # print(ret) # <QuerySet [<Book: book2>, <Book: book20>]>
+
+        # ret = models.Book.objects.filter(publishDate__year=2017, publishDate__month=1, publishDate__day__lte=5)
+        # print(ret) # <QuerySet [<Book: book1>, <Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>]>
 
 
         return render(request, 'login.html')
