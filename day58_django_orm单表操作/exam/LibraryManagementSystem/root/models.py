@@ -8,7 +8,7 @@ books 表
 class Book(models.Model):
 
     id = models.AutoField('book表id', primary_key = True)
-    bname = models.CharField('书籍名称', max_length=50, unique=True)
+    bname = models.CharField('书籍名称', max_length=50, unique=True, default='')
     price = models.DecimalField('价格', max_digits=8, decimal_places=2)
     publishDate = models.DateField('出版日期')
     publisher = models.CharField('出版社', max_length=50, null=False)

@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-ij-x0t$by7=^2jul8=(j8j0c+-2qukfc+h@bpi94e_q$bh7d_&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    '172.17.0.1',
+]
 
 
 # Application definition
@@ -78,11 +81,11 @@ WSGI_APPLICATION = 'LibraryManagementSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '172.16.238.5',
+        'HOST': '127.0.0.',
         'PORT': 3306,
         'USER': 'root',
         'PASSWORD': '123456',
-        'NAME': 'LibraryManagementSystem',
+        'NAME': 'librarys',
     }
 }
 
