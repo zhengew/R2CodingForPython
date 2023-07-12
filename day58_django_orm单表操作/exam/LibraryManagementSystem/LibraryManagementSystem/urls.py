@@ -21,4 +21,5 @@ from root import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.Library.as_view()),
+    path('addBook/', views.Library.as_view()),
 ]

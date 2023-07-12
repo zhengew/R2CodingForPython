@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    '172.16.238.5',
+    '172.17.0.1',
 ]
 
 
@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'LibraryManagementSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '172.16.238.5',
+        'HOST': '127.0.0.',
         'PORT': 3306,
         'USER': 'root',
         'PASSWORD': '123456',

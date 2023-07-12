@@ -9,8 +9,10 @@ class Library(View):
         return ret
 
     def get(self, request):
-
-        return render(request, 'login.html')
+        if request.path == '/':
+            return render(request, 'login.html')
+        elif request.path == '/addBook/':
+            return render(request, 'add_book.html')
 
     def post(self, request):
 

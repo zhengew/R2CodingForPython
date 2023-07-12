@@ -1,7 +1,7 @@
-{% load static %}
-{% load books_include %} <!-- 加载自定义组件 -->
 <!DOCTYPE html>
 <html lang="en">
+{% load static %}
+{% load books_include %} <!-- 加载自定义组件 -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
 <h1 class='text-left'>查看书籍</h1>
 <div class="container">
     <div>
-        <button type="button" class="btn btn-primary addBook">添加书籍</button>
+        <a class="btn btn-primary addBook" href="/addBook/" role="button">添加书籍</a>
     </div>
     <div class="panel panel-default">
         <!-- Default panel contents -->
