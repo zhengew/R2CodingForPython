@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.Library.as_view()),
     path('addBook/', views.Library.as_view()),
+    path('showBook/', views.Library.as_view()),
 ]
