@@ -11,7 +11,9 @@
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link href="{% static '/css/bootstrap.min.css' %}" rel="stylesheet">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static 'js/jquery.js' %}"></script>
     <script src="{% static '/js/bootstrap.min.js' %}"></script>
+
     <!-- css 钩子 -->
     {% block css %}
 
@@ -30,19 +32,19 @@
                 {% csrf_token %}
                 <div class="form-group">
                     <label for="inputBookName">书籍名称</label>
-                    <input type="text" class="form-control" id="inputBookName" placeholder="请输入书籍名称">
+                    <input type="text" class="form-control" id="inputBookName" name="inputBookName" placeholder="请输入书籍名称">
                 </div>
                 <div class="form-group">
                     <label for="inputBookPrice">价格</label>
-                    <input type="text" class="form-control" id="inputBookPrice" placeholder="请输入书籍价格">
+                    <input type="text" class="form-control" id="inputBookPrice" name="inputBookPrice" placeholder="请输入书籍价格">
                 </div>
                 <div class="form-group">
                     <label for="inputBookPublishDate">出版日期</label>
-                    <input type="date" class="form-control" id="inputBookPublishDate">
+                    <input type="date" class="form-control" id="inputBookPublishDate" name="inputBookPublishDate">
                 </div>
                 <div class="form-group">
                     <label for="inputBookPublisher">出版社</label>
-                    <input type="text" class="form-control" id="inputBookPublisher" placeholder="请输入书籍出版社">
+                    <input type="text" class="form-control" id="inputBookPublisher" name="inputBookPublisher" placeholder="请输入书籍出版社">
                 </div>
                 <button type="submit " class="btn btn-success pull-right add-book-submit">Submit</button>
             </form>
@@ -51,4 +53,10 @@
     </div>
 </div>
 </body>
+<script>
+    {% block js %}
+    <!-- js代码 -->
+    {% endblock js %}
+</script>
+
 </html>

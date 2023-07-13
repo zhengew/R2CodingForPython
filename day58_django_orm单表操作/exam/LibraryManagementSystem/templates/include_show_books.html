@@ -11,7 +11,7 @@
     </thead>
     <tbody>
         {% for i in data %}
-            <tr>
+            <tr >
                 <td>{{ forloop.counter }}</td>
                 <td>{{ i.bname }}</td>
                 <td>{{ i.price }}</td>
@@ -19,12 +19,8 @@
                 <td>{{ i.publisher }}</td>
                 <td>
                     <div class="editAndDelBtn">
-                        <button class="btn btn-warning">
-                            <span class="glyphicon glyphicon-pencil">编辑</span>
-                        </button>
-                        <button class="btn btn-danger">
-                            <span class="glyphicon glyphicon-remove">删除</span>
-                        </button>
+                        <a class="btn btn-warning" href="/editBook/?bname={{ i.bname }}" role="button">编辑</a>
+                        <a class="btn btn-danger" href="/removeBook/?bname={{ i.bname }}" role="button">删除</a>
                     </div>
                 </td>
             </tr>

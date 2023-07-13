@@ -1,0 +1,15 @@
+{% extends 'add_book_include.html' %}
+
+{% block page-header %}
+    <h1 class="page-header">编辑书籍</h1>
+{% endblock page-header %}
+
+{% block js %}
+
+    $('#inputBookName').val('{{ bname }}')
+    $('#inputBookPrice').val('{{ price }}')
+    $('#inputBookPublishDate').val('{{ publishDate }}')
+    $('#inputBookPublisher').val('{{ publisher }}')
+
+
+{% endblock js %}

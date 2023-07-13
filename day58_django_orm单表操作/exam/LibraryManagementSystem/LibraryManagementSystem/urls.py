@@ -23,4 +23,7 @@ urlpatterns = [
     path('', views.Library.as_view()),
     path('addBook/', views.Library.as_view()),
     path('showBook/', views.Library.as_view()),
+    path('editBook/', views.Library.as_view()),
+    path('removeBook/', views.Library.as_view()),
+    path('updateBook/', views.Library.as_view()),
 ]
