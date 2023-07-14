@@ -1,3 +1,5 @@
+from audioop import reverse
+
 from django.shortcuts import render, HttpResponse, redirect
 from django.views import View
 from root import models
@@ -19,6 +21,9 @@ class Library(View):
             print(book_info)
             return render(request, 'edit_book.html', {'bname': book_info['bname'], 'price': book_info['price'], 'publishDate': book_info['publishDate'], 'publisher': book_info['publisher']})
 
+        elif 'updateBook' in request.path:
+            print(request.body)
+            return HttpResponse('200 ok')
         elif 'removeBook' in request.path:
             book_name = request.GET.get('bname')
             models.Book.objects.filter(bname=book_name).delete()

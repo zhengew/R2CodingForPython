@@ -1,5 +1,9 @@
 {% extends 'add_book_include.html' %}
 
+{% block title %}
+    <title>编辑书籍</title>
+{% endblock title %}
+
 {% block page-header %}
     <h1 class="page-header">编辑书籍</h1>
 {% endblock page-header %}
@@ -11,5 +15,13 @@
     $('#inputBookPublishDate').val('{{ publishDate }}')
     $('#inputBookPublisher').val('{{ publisher }}')
 
-
+    var bname = $('#inputBookName').val()
+    var price = $('#inputBookPrice').val()
+    var publishDate = $('#inputBookPublishDate').val()
+    var publisher = $('#inputBookPublisher').val()
 {% endblock js %}
+
+
+{% block addBtnAndEditBtn %}
+    <a class="btn btn-success pull-right updateBook" href="/updateBook/?bname=%s&price=%s&publisDate=%s&publisher=%s" %(bname, price, publishDate, publisher) role="button">提交</a>
+{% endblock addBtnAndEditBtn %}
