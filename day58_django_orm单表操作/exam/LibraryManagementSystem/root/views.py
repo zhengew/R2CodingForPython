@@ -21,9 +21,6 @@ class Library(View):
             print(book_info)
             return render(request, 'edit_book.html', {'bname': book_info['bname'], 'price': book_info['price'], 'publishDate': book_info['publishDate'], 'publisher': book_info['publisher']})
 
-        elif 'updateBook' in request.path:
-            print(request.body)
-            return HttpResponse('200 ok')
         elif 'removeBook' in request.path:
             book_name = request.GET.get('bname')
             models.Book.objects.filter(bname=book_name).delete()
@@ -56,6 +53,16 @@ class Library(View):
             print(bname, price, publishDate, publisher)
             # 添加书籍
             models.Book.objects.create(**{'bname': bname, 'price': price, 'publishDate': publishDate, 'publisher': publisher})
+            all_books = self.query_all_books()
+            return render(request, 'home.html', {'all_books': all_books})
+
+        elif request.path == '/updateBook/':
+            bname = request.POST.get('inputBookName')
+            models.Book.objects.filter(bname=bname).update(**{
+                'price': request.POST.get('inputBookPrice'),
+                'publishDate': request.POST.get('inputBookPublishDate'),
+                'publisher': request.POST.get('inputBookPublisher'),
+            })
             all_books = self.query_all_books()
             return render(request, 'home.html', {'all_books': all_books})
 

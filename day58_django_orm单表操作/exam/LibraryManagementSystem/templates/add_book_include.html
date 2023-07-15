@@ -30,7 +30,8 @@
     <div class="row">
         <div class="col-xs-2"></div>
         <div class="col-xs-8">
-            <form href="/showBook/" method="post">
+            {% block form%}
+            <form action="/addBook/" method="post">
                 {% csrf_token %}
                 <div class="form-group">
                     <label for="inputBookName">书籍名称</label>
@@ -48,10 +49,9 @@
                     <label for="inputBookPublisher">出版社</label>
                     <input type="text" class="form-control" id="inputBookPublisher" name="inputBookPublisher" placeholder="请输入书籍出版社">
                 </div>
-                {% block addBtnAndEditBtn %}
                     <button type="submit " class="btn btn-success pull-right add-book-submit">Submit</button>
-                {% endblock addBtnAndEditBtn %}
             </form>
+            {% endblock form%}
         </div>
         <div class="col-xs-2"></div>
     </div>
@@ -61,6 +61,12 @@
     {% block js %}
     <!-- js代码 -->
     {% endblock js %}
+</script>
+
+<script>
+    {% block js-even %}
+
+    {% endblock js-even %}
 </script>
 
 </html>
