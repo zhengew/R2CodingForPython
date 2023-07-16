@@ -5,6 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/day59笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/app01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/app01/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/app01/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/app01/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/app01/migrations/0002_auto_20190722_0959.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/app01/migrations/0003_auto_20190722_1022.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/app01/migrations/0004_auto_20190722_1025.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/app01/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/app01/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/app01/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/app01/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/singletablehw/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/singletablehw/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/singletablehw/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/singletablehw/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/statics/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/templates/add_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/templates/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/templates/edit_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/代码/singletablehw/xx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +95,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/zew/PyProjects/R2CodingForPython/day58_django_orm单表操作/exam&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day59_django_url反向解析、单表作业讲解&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -81,11 +121,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day59_django_url反向解析、单表作业讲解" />
       <recent name="$PROJECT_DIR$/day58_django_orm单表操作/exam" />
       <recent name="$PROJECT_DIR$/day58_django_orm单表操作" />
       <recent name="$PROJECT_DIR$/day57_django_自定义标签和过滤器_静态文件配置_ORM介绍/exam" />
       <recent name="$PROJECT_DIR$/day57_django_自定义标签和过滤器_静态文件配置_ORM介绍" />
-      <recent name="$PROJECT_DIR$/day56_django_模版系统_csrf认证_组件/exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day53_Django_http/exam" />
@@ -269,7 +309,8 @@
       <workItem from="1688289154800" duration="3427000" />
       <workItem from="1688297965720" duration="6623000" />
       <workItem from="1688653043695" duration="24482000" />
-      <workItem from="1689253067530" duration="3114000" />
+      <workItem from="1689253067530" duration="4911000" />
+      <workItem from="1689469901207" duration="861000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>
