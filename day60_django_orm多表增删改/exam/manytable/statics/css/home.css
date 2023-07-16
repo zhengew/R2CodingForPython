@@ -1,0 +1,13 @@
+body {
+    margin-top: 8px;
+    padding: 0;
+}
+
+.editAndDelBtn {
+    text-align: center;
+}
+
+.addBook {
+    margin-bottom: 8px;
+}
+
