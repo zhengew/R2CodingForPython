@@ -53,7 +53,7 @@ class Book(models.Model):
     bname = models.CharField(max_length=16, verbose_name='书籍名称')
     publishDate = models.DateField(verbose_name='出版日期')
     price = models.DecimalField(max_digits=6, decimal_places=2, verbose_name='价格')
-    publish_id = models.ForeignKey(to='Publish', on_delete=models.CASCADE, verbose_name='出版社id, 外键')
+    publish = models.ForeignKey(to='Publish', on_delete=models.CASCADE, verbose_name='出版社id, 外键')
     author = models.ManyToManyField(to='Author', verbose_name='作者id, 外键')
 
     def __str__(self):

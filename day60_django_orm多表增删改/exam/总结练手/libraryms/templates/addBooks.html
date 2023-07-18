@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>图书管理系统</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <link href="{% static 'librarys.ico' %}" rel="icon">
+</head>
+<body>
+    <h1 class="page-header">添加书籍</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+                <form action="" method="post" novalidate> <!-- 取消form表单默认校验 -->
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="bookName">书籍名称</label>
+                        <input type="text" class="form-control" id="bookName" name="bookName" placeholder="请输入书籍名称">
+                    </div>
+                    <div class="form-group">
+                        <label for="bookPrice">价格</label>
+                        <input type="number" class="form-control" id="bookPrice" name="bookPrice" placeholder="请输入价格">
+                    </div>
+                    <div class="form-group">
+                        <label for="bookPublishDate">出版日期</label>
+                        <input type="date" class="form-control" id="bookPublishDate" name="bookPublishDate" placeholder="请输入出版日期">
+                    </div>
+                    <div class="form-group">
+                        <label for="bookPublish">出版社</label>
+                        <input type="text" class="form-control" id="bookPublish" name="bookPublish" placeholder="请输入出版社">
+                    </div>
+                    <button type="submit" class="btn btn-success pull-right">提交</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

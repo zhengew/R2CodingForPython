@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>图书管理系统</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <link href="{% static 'librarys.ico' %}" rel="icon">
+    <style>
+        .addBook {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="page-header">查看书籍</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+                <div>
+                    <a href="{% url 'addBook' %}" class="btn btn-primary active addBook" role="button">添加书籍</a>
+                </div>
+                <table class="table table-hover table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>编号</th>
+                            <th>书籍名称</th>
+                            <th>价格</th>
+                            <th>出版日期</th>
+                            <th>出版社</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for book in allBooks %}
+                            <tr>
+                                <td>{{ forloop.counter }}</td>
+                                <td>{{ book.bname }}</td>
+                                <td>{{ book.price }}</td>
+                                <td>{{ book.publishDate|date:'Y-m-d' }}</td>
+                                <td>{{ book.publish }}</td>
+                                <td>
+                                    <div class="editAndDelBtn">
+                                        <a href="{% url 'editBook' book.id %}" class="btn btn-warning btn-sm active" role="button">编辑</a>
+                                        <a href="" class="btn btn-danger btn-sm active" role="button">删除</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
