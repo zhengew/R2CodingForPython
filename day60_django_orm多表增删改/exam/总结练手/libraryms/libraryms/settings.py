@@ -81,7 +81,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'libraryms',
-        'HOST': '172.16.238.5',
+        'HOST': '127.0.0.1',
         'PORT': 3306,
         "USER": 'root',
         'PASSWORD': '123456',
@@ -113,7 +113,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/ShangHai'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 

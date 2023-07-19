@@ -11,6 +11,21 @@
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
     <link href="{% static 'librarys.ico' %}" rel="icon">
+    <style>
+        .author {
+
+        }
+
+        .author + a {
+            position: relative;
+            top: -33px;
+            bottom: 0;
+            left: 752px;
+            right: 0;
+        }
+
+
+    </style>
 </head>
 <body>
     <h1 class="page-header">添加书籍</h1>
@@ -35,7 +50,17 @@
                         <label for="bookPublish">出版社</label>
                         <input type="text" class="form-control" id="bookPublish" name="bookPublish" placeholder="请输入出版社">
                     </div>
-                    <button type="submit" class="btn btn-success pull-right">提交</button>
+                    <div class="form-group ">
+                        <div class="author">
+                            <label for="bookAuthor">作者</label>
+                            <select class="form-control" id="bookAuthor" name="bookAuthor" multiple>
+                              <option selected>1</option>
+                              <option>2</option>
+                            </select>
+                        </div>
+                        <a href="" class="btn btn-success btn-sm active glyphicon glyphicon-plus" role="button"></a>
+                    </div>
+                    <button type="submit" class="btn btn-success pull-right">Submit</button>
                 </form>
             </div>
         </div>
