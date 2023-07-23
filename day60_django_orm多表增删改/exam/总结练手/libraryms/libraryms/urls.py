@@ -24,5 +24,5 @@ urlpatterns = [
     path('', views.RootView.as_view(), name='login'),
     path('showBooks/', views.RootView.as_view(), name='showBooks'),
     path('addBook/', views.RootView.as_view(), name='addBook'),
-    path('editBook/<int:id>/', views.RootView.as_view(), name='editBook'),
+    path('editBook/<int:id>/', views.RootView.as_view(), name='editBook'), # url 带参数
 ]

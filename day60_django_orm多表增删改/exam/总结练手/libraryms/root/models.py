@@ -12,17 +12,6 @@ class UserInfo(models.Model):
     def __str__(self):
         return self.username
 
-# 作者表
-class Author(models.Model):
-
-    id = models.AutoField(primary_key=True, verbose_name='id')
-    name = models.CharField(max_length=16, unique=True, verbose_name='姓名')
-    sex = models.CharField(max_length=1, choices=[('1', 'male'), ('2', 'female')], default='1', verbose_name='性别, 1-male, 2-female, 默认 1')
-    authorDetail = models.OneToOneField(to='AuthorDetail', on_delete=models.CASCADE, verbose_name='作者详细表id, 外键')
-
-    def __str__(self):
-        return self.name
-
 
 # 作者详细信息表
 class AuthorDetail(models.Model):
@@ -43,6 +32,16 @@ class Publish(models.Model):
     city = models.CharField(max_length=16, verbose_name='出版社办公地址')
     email = models.EmailField(max_length=50, verbose_name='邮箱')
 
+    def __str__(self):
+        return self.name
+
+# 作者表
+class Author(models.Model):
+
+    id = models.AutoField(primary_key=True, verbose_name='id')
+    name = models.CharField(max_length=16, unique=True, verbose_name='姓名')
+    sex = models.CharField(max_length=1, choices=[('1', 'male'), ('2', 'female')], default='1', verbose_name='性别, 1-male, 2-female, 默认 1')
+    authorDetail = models.OneToOneField(to='AuthorDetail', on_delete=models.CASCADE, verbose_name='作者详细表id, 外键')
     def __str__(self):
         return self.name
 
