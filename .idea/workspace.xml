@@ -5,6 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/day61笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/app01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/app01/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/app01/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/app01/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/app01/migrations/0002_auto_20190724_1141.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/app01/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/app01/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/app01/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/app01/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/app01/xx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/manytable/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/manytable/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/manytable/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61_django_orm多表查询/代码/manytable/manytable/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +73,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day60_django_orm多表增删改/exam/总结练手&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day61_django_orm多表查询&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -81,11 +99,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day61_django_orm多表查询" />
       <recent name="$PROJECT_DIR$/day60_django_orm多表增删改/exam/总结练手" />
       <recent name="$PROJECT_DIR$/day60_django_orm多表增删改/exam" />
       <recent name="$PROJECT_DIR$/day60_django_orm多表增删改" />
       <recent name="$PROJECT_DIR$/day59_django_外部文件操作models、url反向解析、单表作业讲解/exam" />
-      <recent name="$PROJECT_DIR$/day58_django_orm单表操作/exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day53_Django_http/exam" />
@@ -271,7 +289,7 @@
       <workItem from="1688653043695" duration="24482000" />
       <workItem from="1689253067530" duration="4911000" />
       <workItem from="1689469901207" duration="10249000" />
-      <workItem from="1690100353973" duration="1198000" />
+      <workItem from="1690100353973" duration="7043000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>
