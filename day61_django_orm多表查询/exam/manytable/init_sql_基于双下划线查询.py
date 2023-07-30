@@ -22,6 +22,7 @@ if __name__ == '__main__':
     # obj = models.AuthorDetail.objects.filter(author__name='崔雪飞').values('telephone', 'author__age')
     # print(obj) # <QuerySet [{'telephone': '13711112222'}]>
 
+
         # 2. 查询 哪个老师的电话是 13711112222
         # 正向
     # obj = models.Author.objects.filter(authorDetail__telephone='13711112222').values('name')
@@ -39,7 +40,8 @@ if __name__ == '__main__':
 
         # 反向
     # obj = models.Publish.objects.filter(book__title='计算机组成原理').values('name')
-    # print(obj) # <QuerySet [{'name': '新华出版社'}]>
+    obj = models.Publish.objects.filter(xx__title='计算机组成原理').values('name')
+    print(obj) # <QuerySet [{'name': '新华出版社'}]>
 
         # 2. 新华出版社 出版了哪些书
         # 正向
@@ -84,5 +86,5 @@ if __name__ == '__main__':
     # print(obj) # <QuerySet [{'book__title': '计算机组成原理', 'name': '崔雪飞'}, {'book__title': '计算机组成原理', 'name': '杜甫'}]>
 
     # 2. 手机号以 137开头的作者出版的所有书籍名称以及出版社名称
-    obj = models.AuthorDetail.objects.filter(telephone__startswith='137').values('author__book__title', 'author__book__publishs__name')
-    print(obj) # <QuerySet [{'author__book__title': '计算机组成原理', 'author__book__publishs__name': '新华出版社'}]>
+    # obj = models.AuthorDetail.objects.filter(telephone__startswith='137').values('author__book__title', 'author__book__publishs__name')
+    # print(obj) # <QuerySet [{'author__book__title': '计算机组成原理', 'author__book__publishs__name': '新华出版社'}]>
