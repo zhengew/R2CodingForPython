@@ -66,10 +66,16 @@ if __name__ == '__main__':
     # django 执行原生sql
     from django.db import connection, connections
 
-    cursor = connection.cursor()
-    cursor.execute("select * from root_book where id > %s", (2,))
-    ret = cursor.fetchall()
-    print(ret)
+    # cur = connection.cursor()
+    # cur.execute("select * from root_book where id > %s", (2,))
+    # columns = [col[0] for col in cur.description]
+    # ret = [dict(zip(columns, row)) for row in cur.fetchall()]
+    # print(ret)
+
 
     # 通过 管道 connection 查看sql执行语句
-    print(connection.queries)
+    # print(connection.queries)
+
+    # ret = models.Book.objects.filter(Q(price__gt=100) | ~Q(good__gt=50))
+    # print(ret)
+    # print(connection.queries[-1])
