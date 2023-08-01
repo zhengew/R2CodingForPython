@@ -1,0 +1,29 @@
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+    <tr>
+        <th>编号</th>
+        <th>书籍名称</th>
+        <th>价格</th>
+        <th>出版日期</th>
+        <th>出版社</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for book in data %}
+            <tr >
+                <td>{{ forloop.counter }}</td>
+                <td>{{ book.bname }}</td>
+                <td>{{ book.price }}</td>
+                <td>{{ book.publishDate|date:'Y-m-d' }}</td>
+                <td>{{ book.publisher }}</td>
+                <td>
+                    <div class="editAndDelBtn">
+                        <a class="btn btn-warning btn-sm" href="/editBook/?id={{ book.id }}" role="button">编辑</a>
+                        <a class="btn btn-danger btn-sm" href="/removeBook/?id={{ book.id }}" role="button">删除</a>
+                    </div>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
