@@ -6,6 +6,7 @@
         <th>价格</th>
         <th>出版日期</th>
         <th>出版社</th>
+        <th>作者</th>
         <th>操作</th>
     </tr>
     </thead>
@@ -13,10 +14,11 @@
         {% for book in data %}
             <tr >
                 <td>{{ forloop.counter }}</td>
-                <td>{{ book.bname }}</td>
+                <td>{{ book.title }}</td>
                 <td>{{ book.price }}</td>
                 <td>{{ book.publishDate|date:'Y-m-d' }}</td>
-                <td>{{ book.publisher }}</td>
+                <td>{{ book.publishs__name }}</td>
+                <td>{{ book.authors__name}}</td>
                 <td>
                     <div class="editAndDelBtn">
                         <a class="btn btn-warning btn-sm" href="/editBook/?id={{ book.id }}" role="button">编辑</a>
