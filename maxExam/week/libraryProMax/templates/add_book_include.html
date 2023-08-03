@@ -46,12 +46,19 @@
                     <input type="date" class="form-control" id="inputBookPublishDate" name="inputBookPublishDate">
                 </div>
                 <div class="form-group">
-                    <label for="inputBookPublisher">出版社</label>
-                    <input type="select" class="form-control" id="inputBookPublisher" name="inputBookPublisher" placeholder="请选择出版社">
+                    <label for="selectBookPublisher">出版社</label>
+                    <select class="form-control" id="selectBookPublisher" name="selectBookPublisher">
+                        <option>请选择出版社</option>
+                        {% block publish %}
+                        {% endblock publish %}
+                    </select>
                 </div>
                 <div class="form-group">
-                    <label for="inputBookAuthor">作者</label>
-                    <input type="" class="form-control" id="inputBookAuthor" name="inputBookAuthor" placeholder="请选择作者">
+                    <label for="selectBookAuthor">作者</label>
+                    <select multiple class="form-control" id="selectBookAuthor" name="selectBookAuthor">
+                        {% block authors %}
+                        {% endblock authors %}
+                    </select>
                 </div>
 
                     <button type="submit " class="btn btn-success pull-right add-book-submit">提交</button>

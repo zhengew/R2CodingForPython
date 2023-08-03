@@ -1,1 +1,14 @@
 {% extends 'add_book_include.html' %}
+
+{% block publish %}
+    {% for publish in all_publishs %}
+        <option value="{{publish.id}}">{{publish.name}}</option>
+    {% endfor %}
+{% endblock publish %}
+
+
+{% block authors %}
+    {% for author in all_authors %}
+        <option value="{{author.id}}">{{author.name}}</option>
+    {% endfor %}
+{% endblock authors %}

@@ -15,6 +15,12 @@ class RootApp(View):
         if request.path == '/':
             return render(request, 'login.html')
 
+        elif request.path == '/addBook/':
+            all_publishs = self.query_all_publishs()
+            print(all_publishs)
+            all_authors = self.query_all_authors()
+            return render(request, 'add_book.html', {'all_publishs': all_publishs, 'all_authors': all_authors})
+
     def post(self, request, *args, **kwargs):
 
         if request.path == '/':
@@ -30,8 +36,26 @@ class RootApp(View):
             else:
                 return redirect(reverse('login'))
 
+        elif request.path == '/addBook/':
+            bookName = request.POST.get('inputBookName')
+            bookPrice = request.POST.get('inputBookPrice')
+            bookPublishDate = request.POST.get('inputBookPublishDate')
+            bookPublish = request.POST.get('selectBookPublisher')
+            bookAuthors = request.POST.getlist('selectBookAuthor')
+            print(bookAuthors)
+
+            # 书籍
+            models.Book.objects.create(**{'title': bookName, 'price': bookPrice, 'publishDate': bookPublishDate,
+                                          'publishs_id': bookPublish})
+            # 作者
 
 
+            return HttpResponse('2oo ok')
+
+
+
+
+    # 查询所有书籍信息
     def query_all_books(self):
         '''
         select
@@ -44,5 +68,14 @@ class RootApp(View):
         '''
 
         ret = models.Book.objects.all().values('title', 'price', 'publishDate', 'publishs__name', 'authors__name')
-        print(ret)
+        return ret
+
+    # 查询所有出版社
+    def query_all_publishs(self):
+        ret = models.Publish.objects.all().values('id', 'name')
+        return ret
+
+    # 查询所有作者
+    def query_all_authors(self):
+        ret = models.Author.objects.all().values('id', 'name')
         return ret
