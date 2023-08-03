@@ -21,8 +21,8 @@
                 <td>{{ book.authors__name}}</td>
                 <td>
                     <div class="editAndDelBtn">
-                        <a class="btn btn-warning btn-sm" href="/editBook/?id={{ book.id }}" role="button">编辑</a>
-                        <a class="btn btn-danger btn-sm" href="/removeBook/?id={{ book.id }}" role="button">删除</a>
+                        <a class="btn btn-warning btn-sm" href="/editBook/id={{ book.id }}" role="button">编辑</a>
+                        <a class="btn btn-danger btn-sm" href="/delBook/id={{ book.id }}/" role="button">删除</a>
                     </div>
                 </td>
             </tr>

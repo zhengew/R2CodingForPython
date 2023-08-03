@@ -21,6 +21,21 @@ class RootApp(View):
             all_authors = self.query_all_authors()
             return render(request, 'add_book.html', {'all_publishs': all_publishs, 'all_authors': all_authors})
 
+        elif request.path == '/queryBook/':
+            all_books = self.query_all_books()
+            return render(request, 'home.html', {'all_books': all_books})
+
+        elif request.path.startswith('/delBook/'):
+            book_id = kwargs['book_id']
+            root_book_authors_id = [id['authors__id'] for id in models.Book.objects.filter(id=book_id).values('authors__id')]
+            print(root_book_authors_id)
+            # 删除中间表和书籍表
+            models.Book.objects.get(id=book_id).authors.remove(*root_book_authors_id)
+            models.Book.objects.filter(id=book_id).delete()
+            # 重定向
+            return redirect(reverse('queryBook'))
+
+
     def post(self, request, *args, **kwargs):
 
         if request.path == '/':
@@ -29,28 +44,28 @@ class RootApp(View):
             if models.UserInfo.objects.filter(username=loginName).exists():
                 pwd = models.UserInfo.objects.filter(username=loginName).values('password')[0]['password']
                 if loginPwd == pwd:
-                    all_books = self.query_all_books()
-                    return render(request, 'home.html', {'all_books': all_books})
+                    return redirect(reverse('queryBook'))
                 else:
-                    return redirect('login')
+                    return redirect(reverse('login'))
             else:
                 return redirect(reverse('login'))
 
-        elif request.path == '/addBook/':
+        elif request.path == '/addBook/': # TODO: 添加书籍 作者有多个的时候需要拼接作者姓名，现在是重复添加了多条数据，明天改
             bookName = request.POST.get('inputBookName')
-            bookPrice = request.POST.get('inputBookPrice')
-            bookPublishDate = request.POST.get('inputBookPublishDate')
-            bookPublish = request.POST.get('selectBookPublisher')
-            bookAuthors = request.POST.getlist('selectBookAuthor')
-            print(bookAuthors)
-
-            # 书籍
-            models.Book.objects.create(**{'title': bookName, 'price': bookPrice, 'publishDate': bookPublishDate,
-                                          'publishs_id': bookPublish})
-            # 作者
-
-
-            return HttpResponse('2oo ok')
+            if not models.Book.objects.filter(title=bookName).exists():
+                bookPrice = request.POST.get('inputBookPrice')
+                bookPublishDate = request.POST.get('inputBookPublishDate')
+                bookPublish = request.POST.get('selectBookPublisher')
+                bookAuthors = request.POST.getlist('selectBookAuthor')
+                # 书籍
+                models.Book.objects.create(**{'title': bookName, 'price': bookPrice, 'publishDate': bookPublishDate,
+                                              'publishs_id': bookPublish})
+                # 作者
+                models.Book.objects.get(title=bookName).authors.add(*bookAuthors)
+                # 重定向
+                return redirect(reverse('queryBook'))
+            else:
+                return redirect(reverse('queryBook'))
 
 
 
@@ -64,10 +79,10 @@ class RootApp(View):
          inner join root_publish rp on rb.publishs_id = rp.id
          inner join root_book_authors rba  on rb.id = rba.book_id
          inner join root_author ra on rba.author_id = ra.id
-         order by rb.id asc
+         order by rb.id
         '''
 
-        ret = models.Book.objects.all().values('title', 'price', 'publishDate', 'publishs__name', 'authors__name')
+        ret = models.Book.objects.all().values('id', 'title', 'price', 'publishDate', 'publishs__name', 'authors__name')
         return ret
 
     # 查询所有出版社

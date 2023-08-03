@@ -21,5 +21,8 @@ from root import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.RootApp.as_view(), name='login'),
+    path('queryBook/', views.RootApp.as_view(), name='queryBook'),
     path('addBook/', views.RootApp.as_view(), name='addBook'),
+    path('delBook/id=<int:book_id>/', views.RootApp.as_view(), name='delBook'),
+    path('editBook/id=<int:book_id>/', views.RootApp.as_view(), name='editBook'),
 ]
