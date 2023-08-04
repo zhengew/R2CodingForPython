@@ -23,6 +23,7 @@ class RootApp(View):
 
         elif request.path == '/queryBook/':
             all_books = self.query_all_books()
+            print(all_books)
             return render(request, 'home.html', {'all_books': all_books})
 
         elif request.path.startswith('/delBook/'):
@@ -57,6 +58,7 @@ class RootApp(View):
                 bookPublishDate = request.POST.get('inputBookPublishDate')
                 bookPublish = request.POST.get('selectBookPublisher')
                 bookAuthors = request.POST.getlist('selectBookAuthor')
+                print(bookAuthors)
                 # 书籍
                 models.Book.objects.create(**{'title': bookName, 'price': bookPrice, 'publishDate': bookPublishDate,
                                               'publishs_id': bookPublish})
@@ -82,8 +84,9 @@ class RootApp(View):
          order by rb.id
         '''
 
-        ret = models.Book.objects.all().values('id', 'title', 'price', 'publishDate', 'publishs__name', 'authors__name')
-        return ret
+        all_books = models.Book.objects.all().values('id', 'title', 'price', 'publishDate', 'publishs__name', 'authors__name') # TODO: 联名作者需要处理下，作者名,分隔
+
+        return all_books
 
     # 查询所有出版社
     def query_all_publishs(self):
