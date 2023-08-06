@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/day63笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/ajaxtest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/ajaxtest/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/ajaxtest/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/ajaxtest/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/statics/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/statics/js/commen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +77,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/maxExam/week",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day63_django_ajax简单使用",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -85,11 +103,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day63_django_ajax简单使用" />
       <recent name="$PROJECT_DIR$/maxExam/week" />
       <recent name="$PROJECT_DIR$/day61_django_orm多表查询" />
       <recent name="$PROJECT_DIR$/day60_django_orm多表增删改/exam/总结练手" />
       <recent name="$PROJECT_DIR$/day60_django_orm多表增删改/exam" />
-      <recent name="$PROJECT_DIR$/day60_django_orm多表增删改" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day53_Django_http/exam" />
@@ -277,7 +295,7 @@
       <workItem from="1689469901207" duration="10249000" />
       <workItem from="1690100353973" duration="7043000" />
       <workItem from="1691048821610" duration="44000" />
-      <workItem from="1691068339933" duration="4722000" />
+      <workItem from="1691068339933" duration="8045000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>
