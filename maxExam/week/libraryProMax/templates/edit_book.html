@@ -13,24 +13,45 @@
     {% csrf_token %}
     <div class="form-group hidden">
         <label for="inputBookID">书籍id</label>
-        <input type="text" class="form-control" id="inputBookID" name="inputBookID" value="{{ id }}">
+        <input type="text" class="form-control" id="inputBookID" name="bookID" value="{{ id }}">
     </div>
     <div class="form-group">
         <label for="inputBookName">书籍名称</label>
-        <input type="text" class="form-control" id="inputBookName" name="inputBookName" value="{{ bname }}">
+        <input type="text" class="form-control" id="inputBookName" name="bookName" value="{{ title }}">
     </div>
     <div class="form-group">
         <label for="inputBookPrice">价格</label>
-        <input type="text" class="form-control" id="inputBookPrice" name="inputBookPrice" value="{{ price }}">
+        <input type="text" class="form-control" id="inputBookPrice" name="bookPrice" value="{{ price }}">
     </div>
     <div class="form-group">
         <label for="inputBookPublishDate">出版日期</label>
-        <input type="date" class="form-control" id="inputBookPublishDate" name="inputBookPublishDate" value="{{ publishDate|date:'Y-m-d' }}">
+        <input type="date" class="form-control" id="inputBookPublishDate" name="bookPublishDate" value="{{ publishDate|date:'Y-m-d' }}">
     </div>
     <div class="form-group">
-        <label for="inputBookPublisher">出版社</label>
-        <input type="text" class="form-control" id="inputBookPublisher" name="inputBookPublisher" value="{{ publisher }}">
+        <label for="selectBookPublisher">出版社</label>
+        <select class="form-control" id="selectBookPublisher" name="selectBookPublisher">
+            {% for publish in all_publishs %}
+                {% if publish.id == publishID %}
+                    <option value="{{publishID}}" selected>{{publish.name}}</option>
+                {% else %}
+                    <option value="{{publish.id}}">{{publish.name}}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
     </div>
+    <div class="form-group">
+        <label for="selectBookAuthor">作者</label>
+        <select multiple class="form-control" id="selectBookAuthor" name="selectBookAuthor">
+        {% for author in all_authors %}
+            {% if author.id in authorID %}
+                <option value="{{author.id}}" selected>{{author.name}}</option>
+            {% else %}
+                <option value="{{author.id}}">{{author.name}}</option>
+            {% endif %}
+        {% endfor %}
+        </select>
+    </div>
+
         <button type="submit" class="btn btn-success pull-right update-book-submit">提交</button>
 </form>
 {% endblock form%}
