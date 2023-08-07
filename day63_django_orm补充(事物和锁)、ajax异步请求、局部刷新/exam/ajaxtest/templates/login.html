@@ -15,24 +15,40 @@
         用户名: <input type="text" id="username", name="username">
         密码: <input type="password" id="password" name="password">
         <input type="button" id="btn" value="提交">
+        <span style="color:red; font-size:14px" id="error"></span>
     </form>
 
     <script src="{% static 'jquery.js' %}"></script>
     <script>
         $("#btn").click(function(){
             $.ajax({
-                url:'/login/',
+                // url:'/login/',
+                url: "{% url 'login' %}", // url别名反向解析
                 type:'post',
                 data:{
-                    csrfmiddlewaretoken:$('[name=csrfmiddlewaretoken]').val(),
+                    // csrfmiddlewaretoken:$('[name=csrfmiddlewaretoken]').val(), // 方式一
+                    csrfmiddlewaretoken: "{{ csrf_token }}", // 方式二
                     uname:$('#username').val(),
                     pwd:$('#password').val(),
                 },
                 success:function (res){
-                    console.log(res)
+                    var resStr = JSON.parse(res)
+                    console.log(res, typeof res)
+                    if (resStr['code'] === 3) { <!-- 登录失败 -->
+                        {#$('form span').remove();#}
+                        {#var spanEle = document.createElement('span');#}
+                        {#$(spanEle).text(resStr['msg']).css({'color':'red'});#}
+                        {#$('form').append(spanEle);#}
+
+                        $('#error').text(resStr['msg'])
+
+                    } else if (resStr['code'] === 0){ <!-- 登录成功 -->
+                        location.href=resStr['redirect_url'];
+                    }
                 }
             })
         })
     </script>
+{#    <script src="{% static 'js/commen.js' %}"></script>#} <!-- 外部文件引入js, 模版渲染再html页面加载完成之前，会报错， 例如 ajax的url -->
 </body>
 </html>
