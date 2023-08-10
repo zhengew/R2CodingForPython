@@ -31,9 +31,43 @@
             <input type="text" name="username" id="username">
             <label for="password">密码:</label>
             <input type="password" name="password" id="password">
-            <input type="submit" value="登录">
+            <input type="button" id="loginBtn" value="登录">
+            <span id="error" style="color:red; font-size:14px"></span>
         </div>
     </form>
+
 </div>
 </body>
+<script src="{% static 'js/jquery.js' %}"></script>
+<script>
+    $('#loginBtn').click(function () {
+        $.ajax({
+            url: "{% url 'login' %}",
+            type: 'post',
+            data: {
+                csrfmiddlewaretoken: "{{ csrf_token }}",
+                loginName: $('#username').val(),
+                loginPwd: $('#password').val(),
+            },
+            success: function(response){
+                res = JSON.parse(response)
+                console.log(res)
+                code = res['RETCODE']
+                msg = res['RETMSG']
+                // 逻辑判断
+                if (code === '200') {
+                    location.href = res['DATA'];
+                } else if (code === 'PASSWORD_IS_NULL_ERROR'){
+                    $('#error').text(msg)
+                }else if (code === 'USERNAME_PASSWORD_ERROR'){
+                    $('#error').text(msg)
+                }else if (code === 'USERNAME_IS_NULL_ERROR'){
+                    $('#error').text(msg)
+                }else if (code === 'USERNAME_NOT_EXISTS_ERROR'){
+                    $('#error').text(msg)
+                }
+            }
+        })
+    })
+</script>
 </html>

@@ -20,5 +20,6 @@ from root import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.RootView.as_view(), name='index')
+    path('', views.RootView.as_view(), name='login'),
+    path('books/', views.RootView.as_view(), name='showBooks'),
 ]
