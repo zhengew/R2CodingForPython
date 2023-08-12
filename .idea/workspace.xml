@@ -5,25 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/day63笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/ajaxtest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/ajaxtest/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/ajaxtest/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/ajaxtest/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/app01/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/statics/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/statics/js/commen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day63_django_ajax简单使用/代码/ajaxtest/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/day64笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/images/content-type.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/ajaxtest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/ajaxtest/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/ajaxtest/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/ajaxtest/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/app01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/app01/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/app01/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/app01/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/app01/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/app01/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/app01/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/app01/xx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/statics/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/statics/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/statics/js/commen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/ajaxtest/templates/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/migrations/0002_auto_20190724_1141.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/migrations/0003_auto_20190725_1034.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/migrations/0004_auto_20190725_1038.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/migrations/0005_author_sex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/app01/xx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/manytable/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/manytable/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/manytable/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/manytable/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/statics/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/templates/add_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/templates/edit_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day64_django_ajax上传文件/代码/manytable/templates/showbooks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +121,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day63_django_ajax简单使用",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day64_django_ajax上传文件",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -103,11 +147,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day64_django_ajax上传文件" />
+      <recent name="$PROJECT_DIR$/day63_django_orm补充(事物和锁)、ajax异步请求、局部刷新/exam" />
+      <recent name="$PROJECT_DIR$/day63_django_ajax简单使用/exam" />
       <recent name="$PROJECT_DIR$/day63_django_ajax简单使用" />
       <recent name="$PROJECT_DIR$/maxExam/week" />
-      <recent name="$PROJECT_DIR$/day61_django_orm多表查询" />
-      <recent name="$PROJECT_DIR$/day60_django_orm多表增删改/exam/总结练手" />
-      <recent name="$PROJECT_DIR$/day60_django_orm多表增删改/exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day53_Django_http/exam" />
@@ -295,7 +339,8 @@
       <workItem from="1689469901207" duration="10249000" />
       <workItem from="1690100353973" duration="7043000" />
       <workItem from="1691048821610" duration="44000" />
-      <workItem from="1691068339933" duration="8045000" />
+      <workItem from="1691068339933" duration="15362000" />
+      <workItem from="1691804223028" duration="1617000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>
@@ -335,6 +380,7 @@
     <MESSAGE value="day47_计时器作业修改，通过条件判断限制计时器开启次数" />
     <MESSAGE value="day50_jquey_事件绑定方式、常用事件、事件冒泡、阻止后续事件、事件委托、页面载入" />
     <MESSAGE value="day53_bootstrap作业01_信息收集卡" />
+    <MESSAGE value="day63_django_orm补充(开启事物和锁)、ajax执行流程(异步请求、局部刷新)、作业(ajax实现登录认证)" />
     <option name="LAST_COMMIT_MESSAGE" value="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
