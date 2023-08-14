@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>图书管理系统</title>
+    <link rel="icon" href="{% static 'librarys.ico' %}">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- css 样式 -->
+    <style>
+        .error {
+            font-size: 14px;
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h1>编辑书籍<small>add books</small></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                {% csrf_token %}
+                <div class="panel panel-info">
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label for="bookName">书籍名称</label>
+                            <input type="text" class="form-control" id="bookName" value="{{ book.bname }}">
+                            <span class="hidden"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookPrice">价格</label>
+                            <input type="text" class="form-control" id="bookPrice" value="{{ book.price }}">
+                            <span class="hidden" style="font-size: 14px; color: red; text-decoration: underline"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookPublishDate">出版日期</label>
+                            <input type="date" class="form-control" id="bookPublishDate" value="{{ book.publishDate|date:'Y-m-d' }}">
+                            <span class="hidden" style="font-size: 14px; color: red; text-decoration: underline"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookPublish">出版社</label>
+                            <select name="bookPublish" id="bookPublish" class="form-control">
+                                {% for publish in all_publishs %}
+                                    {% if publish.id == book.publishs_id %}
+                                        <option value="{{ publish.id }}" selected>{{ publish.name }}</option>
+                                    {% else %}
+                                        <option value="{{ publish.id }}">{{ publish.name }}</option>
+                                    {% endif %}
+
+                                {% endfor %}
+                            </select>
+                            <span class="hidden" style="font-size: 14px; color: red; text-decoration: underline"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookAuthors">作者</label>
+                            <select name="bookAuthors" id="bookAuthors" class="form-control" multiple>
+                                {% for author in all_authors %}
+                                    {% if author in book.authors.all %}
+                                        <option value="{{ author.id }}" selected>{{ author.name }}</option>
+                                    {% else %}
+                                        <option value="{{ author.id }}">{{ author.name }}</option>
+                                    {% endif %}
+
+                                {% endfor %}
+                            </select>
+                            <span class="hidden" style="font-size: 14px; color: red; text-decoration: underline"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-success pull-right" id="editBookBtn">提交</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $("#editBookBtn").click(function(){
+        var bookName = $('#bookName').val()
+        var bookPrice = $('#bookPrice').val()
+        var bookPublishDate = $('#bookPublishDate').val()
+        var bookPublish = $('#bookPublish').val()
+        var bookAuthor = $('#bookAuthors').val()
+
+        if (bookName === ""){
+            $('#bookName').next().removeClass('hidden').addClass('error').html('请输入书籍名称')
+
+        }else{
+            $('#bookName').next().addClass('hidden')
+        }
+
+        if (bookPrice === "") {
+            $('#bookPrice').next().removeClass('hidden').addClass('error').html('请输入价格')
+        } else if (parseInt(bookPrice) <= 0){
+            $('#bookPrice').next().removeClass('hidden').addClass('error').html('价格不能为负数或0')
+        }
+        else{
+            $('#bookPrice').next().addClass('hidden')
+        }
+
+        if (bookPublishDate === ""){
+            $('#bookPublishDate').next().removeClass('hidden').addClass('error').html('出版日期不能为空')
+        }else{
+            $('#bookPublishDate').next().addClass('hidden')
+        }
+
+        if (bookAuthor.length === 0){
+            $('#bookAuthors').next().removeClass('hidden').addClass('error').html('请选择作者')
+        }else{
+            $('#bookAuthors').next().addClass('hidden')
+        }
+
+        $.ajax({
+            url: "{% url 'editBook' book.id  %}",
+            type: "post",
+            data:{
+                csrfmiddlewaretoken: "{{csrf_token}}",
+                bname: $('#bookName').val(),
+                price: $('#bookPrice').val(),
+                publishDate: $('#bookPublishDate').val(),
+                publishs_id: $('#bookPublish').val(),
+                authors: $('#bookAuthors').val().join(','),
+            },
+            success: function(response){
+                console.log(response);
+                if (response['RETCODE'] === '200'){
+                    location.href = response['DATA']
+                }
+            }
+        })
+    })
+</script>
+</html>

@@ -22,5 +22,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # 登录
     path('', views.RootView.as_view(), name='login'),
+    # 查看书籍
     path('showBooks/', views.RootView.as_view(), name='showBooks'),
+    # 添加书籍
+    path('addBook/', views.RootView.as_view(), name='addBook'),
+    # 编辑书籍
+    path('editBook/<int:id>/', views.RootView.as_view(), name='editBook'),
+    # 删除书籍
+    path('delBook/<int:id>/', views.RootView.as_view(), name='delBook'),
 ]
