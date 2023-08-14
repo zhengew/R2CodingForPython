@@ -17,7 +17,7 @@ class RootView(View):
         if request.path == '/':
             return render(request, 'login.html')
         elif request.path == '/showBooks/':
-            return HttpResponse('200 ok')
+            return render(request, 'showBooks.html')
 
     def post(self, request, *args, **kwargs):
 
