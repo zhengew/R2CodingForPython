@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="{% static 'jquery.js' %}"></script>
+    <title>上传文件</title>
+</head>
+<body>
+    <!-- form表单上传文件 -->
+    <div>
+        <form action="{% url 'upload' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div>
+                <label for="username">用户名</label>
+                <input type="text" name="username" placeholder="用户名">
+            </div>
+            <div>
+                <label for="file">上传文件</label>
+                <input type="file" name="file" id="file" multiple> <!-- multiple 支持上传多个文件 -->
+            </div>
+            <input type="submit">
+        </form>
+    </div>
+
+    <!-- ajax上传文件 -->
+    <div>
+        ajax上传文件: <input type="file" name="file" id="ajax_file" multiple>
+        <div>
+            <button id="uploadBtn">提交</button>
+        </div>
+    </div>
+</body>
+<script>
+    $('#uploadBtn').click(function(){
+        var formdata = new FormData();  // formdata 对象
+        formdata.append('csrfmiddlewaretoken', "{{ csrf_token }}");
+        formdata.append('username', $('#username').val());
+        // 循环将文件写入到 formdata
+        files = $('#ajax_file')[0].files;
+        for(var i=0; i<files.length; i++){
+            formdata.append('file', files[i]);
+        }
+        $.ajax({
+            url: "{% url 'upload' %}",
+            type: 'post',
+            data: formdata,
+            processData: false, // 不处理数据
+            contentType: false, // 不设置内容类型
+            success: function (response) {
+                console.log(response)
+            }
+        })
+    })
+</script>
+</html>
+
+
+
