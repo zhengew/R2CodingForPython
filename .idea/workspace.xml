@@ -5,27 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/app01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/app01/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/app01/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/app01/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/app01/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/app01/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/app01/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/cookiesession/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/cookiesession/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/cookiesession/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/cookiesession/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/cookiesession/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/images/cookie的机制.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/images/http无状态_cookie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/images/不同浏览器缓存cookie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day65_django_cookie和session/images/浏览器本地缓存cookie_一个浏览器不能同时缓存多个用户.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day65_django_cookie和session",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -106,18 +85,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/day65_django_cookie和session" />
       <recent name="$PROJECT_DIR$/day64_django_form表单和ajax上传文件、JsonResponse、json序列化日期类型数据方法、多表作业讲解/exam" />
+      <recent name="$PROJECT_DIR$/day65_django_cookie和session/exam" />
+      <recent name="$PROJECT_DIR$/day65_django_cookie和session" />
       <recent name="$PROJECT_DIR$/day64_django_ajax上传文件/exam" />
       <recent name="$PROJECT_DIR$/day64_django_ajax上传文件" />
-      <recent name="$PROJECT_DIR$/day63_django_orm补充(事物和锁)、ajax异步请求、局部刷新/exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day65_django_cookie和session/代码" />
       <recent name="$PROJECT_DIR$/day53_Django_http/exam" />
       <recent name="$PROJECT_DIR$/day52_bootstrap/exam" />
       <recent name="$PROJECT_DIR$/day52_bootstrap/exam/小米商城作业" />
       <recent name="$PROJECT_DIR$/day48_jQuery选择器/exam" />
-      <recent name="$PROJECT_DIR$/day47_js操作BOM和DOM/exam/作业" />
     </key>
   </component>
   <component name="RunManager" selected="Python.08_wsgiref升级版web框架">
@@ -302,6 +281,8 @@
       <workItem from="1691804223028" duration="7331000" />
       <workItem from="1691939925227" duration="2027000" />
       <workItem from="1691971535857" duration="10844000" />
+      <workItem from="1692517893047" duration="9863000" />
+      <workItem from="1692710821832" duration="2129000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>
