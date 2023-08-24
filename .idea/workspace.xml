@@ -59,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython",
+    "last_opened_file_path": "/Users/erwei.zheng/PycharmProjects/R2CodingForPython/day65_django_cookie和session/exam",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -85,8 +85,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/day64_django_form表单和ajax上传文件、JsonResponse、json序列化日期类型数据方法、多表作业讲解/exam" />
       <recent name="$PROJECT_DIR$/day65_django_cookie和session/exam" />
+      <recent name="$PROJECT_DIR$/day64_django_form表单和ajax上传文件、JsonResponse、json序列化日期类型数据方法、多表作业讲解/exam" />
       <recent name="$PROJECT_DIR$/day65_django_cookie和session" />
       <recent name="$PROJECT_DIR$/day64_django_ajax上传文件/exam" />
       <recent name="$PROJECT_DIR$/day64_django_ajax上传文件" />
@@ -282,7 +282,7 @@
       <workItem from="1691939925227" duration="2027000" />
       <workItem from="1691971535857" duration="10844000" />
       <workItem from="1692517893047" duration="9863000" />
-      <workItem from="1692710821832" duration="2129000" />
+      <workItem from="1692710821832" duration="3683000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>

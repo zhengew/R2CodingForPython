@@ -22,14 +22,10 @@
                 </div>
                 <div class="panel-body">
                     <div class="form-group">
-                        <label for="username">用户名</label>
-                        <input type="text" id="filename" class="form-control" placeholder="请输入用户名">
+                        <a href="{% url 'upload' %}">上传文件</a>
                     </div>
                     <div class="form-group">
-                        <input type="file" id="file" multiple>
-                    </div>
-                    <div class="form-group">
-                        <button class="submit btn btn-primary">提交</button>
+                        <a href="{% url 'logout' %}">退出登录</a>
                     </div>
                 </div>
             </div>
@@ -38,25 +34,6 @@
 </div>
 </body>
 <script>
-    $('.submit').click(function () {
-        var formdata = new FormData();
-        formdata.append('username', $('#username').val());
-        formdata.append('csrfmiddlewaretoken', "{{ csrf_token }}");
-        files = $('#file')[0].files;
-        for(var i=0; i<files.length; i++){
-            formdata.append('file', files[i]);
-        }
 
-        $.ajax({
-            url: '{% url 'home' %}',
-            type: 'post',
-            data: formdata,
-            processData: false, // 不处理数据
-            contentType: false, // 不设置内容类型
-            success: function (response) {
-                console.log(response)
-            }
-        })
-    })
 </script>
 </html>

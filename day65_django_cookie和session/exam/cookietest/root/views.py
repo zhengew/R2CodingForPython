@@ -22,19 +22,12 @@ class RootView(View):
             return redirect('login')
 
         elif request.path == '/login/':
-            ret = render(request, 'login.html')
-            ret.set_cookie('is_login', 'test_cookie')
-            return ret
-
-        elif request.path == '/home/':
-
-            return render(request, 'home.html')
+            return render(request, 'login.html')
 
     def post(self, request, *args, **kwargs):
 
         if request.path == '/login/':
             data = request.POST.dict()
-
             yn_exist_uname = models.UserInfo.objects.filter(username=data['username']).exists()
             if yn_exist_uname:
                 pwd = models.UserInfo.objects.get(username=data['username']).password
@@ -45,15 +38,9 @@ class RootView(View):
             else:
                 ret = {'RETCODE': 901, "RETMSG": "用户名或密码错误"}
 
-            return JsonResponse(ret)
+            # 响应对象设置 Cookie
+            res = JsonResponse(ret)
+            if ret['RETCODE'] == 200:
+                res.set_cookie('is_login', True, max_age=1800)
 
-        elif request.path == '/home/':
-            files = request.FILES.getlist('file')
-            for file in files:
-                abs_path = os.path.join(settings.BASE_DIR, 'statics', 'data', file.name)
-                with open(abs_path, 'wb') as f:
-                    for chunk in file.chunks():
-                        f.write(chunk)
-            ret = {'RETCODE': 200, "RETMSG": "SUCCESS"}
-
-            return JsonResponse(ret)
+            return res
