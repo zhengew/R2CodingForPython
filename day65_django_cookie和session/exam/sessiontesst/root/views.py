@@ -24,6 +24,10 @@ class RootView(View):
 
             return render(request, 'login.html')
 
+        elif request.path == '/logout/':
+            request.session.flush() # 清空cookie, 删除 django-session 表里这个 session 对应的记录
+            return redirect('login')
+
     def post(self, request, *args, **kwargs):
 
         if request.path == '/login/':
@@ -45,5 +49,6 @@ class RootView(View):
             if ret['RETCODE'] == 200:
                 request.session['is_login'] = True
                 request.session['username'] = loginName
+            return JsonResponse(ret)
 
-            return JsonResponse({"RETCODE": 200, "RETMSG": 'SUCCESS'})
+

@@ -48,7 +48,11 @@ $('.loginBtn').click(function(){
             csrfmiddlewaretoken: "{{ csrf_token }}",
         },
         success: function(response){
-            console.log(response)
+            if(response['RETCODE'] === 200){
+                location.href = "{% url 'home' %}"
+            }else{
+                $('.errormg').text(response['RETMSG'])
+            }
         }
     });
 });

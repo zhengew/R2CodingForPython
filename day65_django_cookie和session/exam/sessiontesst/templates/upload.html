@@ -31,6 +31,9 @@
                     <div class="form-group">
                         <button class="submitBtn btn btn-primary">提交</button>
                     </div>
+                    <div>
+                        <span class=".errormsg"></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -59,8 +62,13 @@
             contentType: false,
             success: function(response){
                 console.log(response)
+                if (response['RETCODE'] === 200){
+                    location.href = "{% url 'home' %}"
+                } else {
+                    $('.errormsg').css({color: 'red', fontSize: '14px'}).text(response['RETMSG'])
+                }
             },
-        });
-    });
+        })
+    })
 </script>
 </html>

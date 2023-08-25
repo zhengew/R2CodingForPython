@@ -24,6 +24,8 @@ urlpatterns = [
     path('', views.RootView.as_view(), name='root'),
     # 登录
     path('login/', views.RootView.as_view(), name='login'),
+    # 退出
+    path('logout/', views.RootView.as_view(), name='logout'),
     # app01 url
     path('app01/', include('app01.urls'), name='app01'),
 

@@ -8,4 +8,7 @@ from app01 import views
 
 urlpatterns = [
     path('', views.App01View.as_view(), name='index'),
+    path('home/', views.App01View.as_view(), name='home'),
+    path('upload/', views.App01View.as_view(), name='upload'),
+    # path('logout/', views.App01View.as_view(), name='logout'),
 ]
