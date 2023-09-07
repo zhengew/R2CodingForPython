@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cookie</title>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-xs-offset-3">
+                <div class="panel panel-body">
+                    <div class="form-group">
+                        <label for="password">用户名</label>
+                        <input type="text" class="form-control" name="username" id="username" placeholder="请输入用户名">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">密码</label>
+                        <input type="password" class="form-control" name="password" id="password" placeholder="请输入密码">
+                    </div>
+                    <div>
+                        <button class="btn-primary btn-block loginBtn">提交</button>
+                    </div>
+                    <div>
+                        <span class=" errormsg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+
+    $('.loginBtn').click(function() {
+        $('.errormsg').text('')
+        username = $('#username').val()
+        password = $('#password').val()
+        if (username === '' || password === '') {
+            $('.errormsg').css({color: 'red', fontSize: '14px',}).text('用户名或密码不能为空')
+        } else {
+            $.ajax({
+                url: '{% url 'login' %}',
+                type: 'post',
+                data: {
+                    csrfmiddlewaretoken: '{{ csrf_token }}',
+                    username: $('#username').val(),
+                    password: $('#password').val(),
+                },
+                success: function (response) {
+                    console.log(response)
+
+                    retcode = response['RETCODE']
+                    retmsg = response['RETMSG']
+
+                    if (retcode === 200){
+                        location.href = '{% url 'home' %}';
+                    } else {
+                        $('.errormsg').css({color: 'red', fontSize: '14px',}).text(retmsg)
+                    }
+
+                }
+
+            });
+        }
+    })
+</script>
+</html>
