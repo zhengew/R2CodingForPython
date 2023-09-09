@@ -1,0 +1,4 @@
+DEBUG   2023-09-07 23:37:54,129  /Users/erwei.zheng/PycharmProjects/djangoProject/middlewaretest/middlewaretest/logs/debug.log:mymiddleware.py:14 自定中间件请求来了
+DEBUG   2023-09-07 23:37:54,133  /Users/erwei.zheng/PycharmProjects/djangoProject/middlewaretest/middlewaretest/logs/debug.log:mymiddleware.py:19 自定义中间件响应来了
+DEBUG   2023-09-07 23:37:54,140  /Users/erwei.zheng/PycharmProjects/djangoProject/middlewaretest/middlewaretest/logs/debug.log:mymiddleware.py:14 自定中间件请求来了
+DEBUG   2023-09-07 23:37:54,149  /Users/erwei.zheng/PycharmProjects/djangoProject/middlewaretest/middlewaretest/logs/debug.log:mymiddleware.py:19 自定义中间件响应来了
