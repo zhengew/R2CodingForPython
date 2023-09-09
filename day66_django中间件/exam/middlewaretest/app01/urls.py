@@ -8,5 +8,6 @@ from app01 import views
 
 urlpatterns = [
     path('', views.App01Views.as_view(), name='app01'),
-
+    # 文件上传
+    path('upload/', views.App01Views.as_view(), name='upload'),
 ]

@@ -51,3 +51,4 @@ class ConfigHandler:
 
 if __name__ == '__main__':
     print(ConfigHandler.info_log_path)
+    print(ConfigHandler.root_path)

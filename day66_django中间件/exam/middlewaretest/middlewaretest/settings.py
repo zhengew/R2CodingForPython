@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     # 演示自定义中间件
-    'app01.utils.mymiddleware.MyMiddleWare'
+    'app01.utils.mymiddleware.SessionAuth'
 ]
 
 ROOT_URLCONF = 'middlewaretest.urls'

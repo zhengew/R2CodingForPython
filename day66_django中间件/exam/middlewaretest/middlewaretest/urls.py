@@ -19,7 +19,7 @@ from django.urls import path, include
 from appRoot import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls, name='admin'),
     path('', views.AppRootViews.as_view(), name='index'),
     path('login/', views.AppRootViews.as_view(), name='login'),
     path('logout/', views.AppRootViews.as_view(), name='logout'),
