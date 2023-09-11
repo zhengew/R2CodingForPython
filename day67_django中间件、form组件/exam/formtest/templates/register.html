@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<form action="" method="post">
+    {% csrf_token %}
+{#    用户名: <input type="text" name="username" placeholder="请输入用户名">#}
+{#    密码: <input type="password" name="password" placeholder="请输入密码">#}
+    <div>
+        <lable>{{ form_Obj.name.label }}</lable>
+        {{ form_Obj.name }}
+    </div>
+    <div>
+        <label for="">{{ form_Obj.password.label }}</label>
+        {{ form_Obj.password }}
+    </div>
+    <div>
+        <label for="">{{ form_Obj.sex.label }}</label>
+        {{ form_Obj.sex }}
+    </div>
+    <div>
+        <label for="">{{ form_Obj.city.label }}</label>
+        {{ form_Obj.city }}
+    </div>
+    <div>
+        <label for="">{{ form_Obj.hoby.label }}</label>
+        {{ form_Obj.hoby }}
+    </div>
+    <div>
+        <label for="">{{ form_Obj.girls.label }}</label>
+        {{ form_Obj.girls }}
+    </div>
+    <div>
+        <label for="">{{ form_Obj.status.label }}</label>
+        {{ form_Obj.status }}
+    </div>
+    <div>
+        <label for="">{{ form_Obj.birthday.label }}</label>
+        {{ form_Obj.birthday }}
+    </div>
+
+{#    {{ form_Obj.as_p }}#}
+
+    <input type="submit">
+</form>
+</body>
+</html>
