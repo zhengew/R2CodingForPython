@@ -12,44 +12,47 @@
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
 </head>
 <body>
-<form action="" method="post">
+<form action="" method="post" novalidate> <!-- 取消浏览器默认校验规则 -->
     {% csrf_token %}
 {#    用户名: <input type="text" name="username" placeholder="请输入用户名">#}
 {#    密码: <input type="password" name="password" placeholder="请输入密码">#}
     <div>
-        <lable>{{ form_Obj.name.label }}</lable>
-        {{ form_Obj.name }}
+        <lable for="">{{ form_obj.name.label }}</lable>
+        {{ form_obj.name }}
+        {{ form_obj.name.help_text }}
+        <span style="color: red; font-size: 14px">{{ form_obj.name.errors.0 }}</span>
     </div>
     <div>
-        <label for="">{{ form_Obj.password.label }}</label>
-        {{ form_Obj.password }}
+        <label for="">{{ form_obj.password.label }}</label>
+        {{ form_obj.password }}
+        <sapn style="color: red; font-size: 14px">{{ form_obj.password.errors.0 }}</sapn>
     </div>
-    <div>
-        <label for="">{{ form_Obj.sex.label }}</label>
-        {{ form_Obj.sex }}
-    </div>
-    <div>
-        <label for="">{{ form_Obj.city.label }}</label>
-        {{ form_Obj.city }}
-    </div>
-    <div>
-        <label for="">{{ form_Obj.hoby.label }}</label>
-        {{ form_Obj.hoby }}
-    </div>
-    <div>
-        <label for="">{{ form_Obj.girls.label }}</label>
-        {{ form_Obj.girls }}
-    </div>
-    <div>
-        <label for="">{{ form_Obj.status.label }}</label>
-        {{ form_Obj.status }}
-    </div>
-    <div>
-        <label for="">{{ form_Obj.birthday.label }}</label>
-        {{ form_Obj.birthday }}
-    </div>
+{#    <div>#}
+{#        <label for="">{{ form_obj.sex.label }}</label>#}
+{#        {{ form_obj.sex }}#}
+{#    </div>#}
+{#    <div>#}
+{#        <label for="">{{ form_obj.city.label }}</label>#}
+{#        {{ form_obj.city }}#}
+{#    </div>#}
+{#    <div>#}
+{#        <label for="">{{ form_obj.hoby.label }}</label>#}
+{#        {{ form_obj.hoby }}#}
+{#    </div>#}
+{#    <div>#}
+{#        <label for="">{{ form_obj.girls.label }}</label>#}
+{#        {{ form_obj.girls }}#}
+{#    </div>#}
+{#    <div>#}
+{#        <label for="">{{ form_obj.status.label }}</label>#}
+{#        {{ form_obj.status }}#}
+{#    </div>#}
+{#    <div>#}
+{#        <label for="">{{ form_obj.birthday.label }}</label>#}
+{#        {{ form_obj.birthday }}#}
+{#    </div>#}
 
-{#    {{ form_Obj.as_p }}#}
+{#    {{ form_obj.as_p }}#}
 
     <input type="submit">
 </form>
