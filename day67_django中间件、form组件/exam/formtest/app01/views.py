@@ -17,6 +17,7 @@ def mobile_validate(value):
 
 class LoginForm(forms.Form):
 
+
     # 文本框
     name = forms.CharField(
         required=True, # 默认必输
@@ -26,7 +27,7 @@ class LoginForm(forms.Form):
         help_text='这是输入用户名的地方，不能为空，最小6位字符',
         # validators=[RegexValidator(r'^金瓶梅', '没看过不能通过'), RegexValidator(r'红旭妹妹$', '没看过红旭妹妹不能通过'),],
 
-        validators=[mobile_validate], # 自定义校验函数
+        # validators=[mobile_validate], # 自定义校验函数
 
         error_messages={
             'required': '不能为空',
@@ -43,6 +44,16 @@ class LoginForm(forms.Form):
         # widget=forms.widgets.PasswordInput(attrs={'class': 'form-control'}),
         widget=forms.widgets.PasswordInput,
     )
+
+    # 确认密码
+    r_password = forms.CharField(
+        min_length=8,
+        max_length=10,
+        label='确认密码',
+        # widget=forms.widgets.PasswordInput(attrs={'class': 'form-control'}),
+        widget=forms.widgets.PasswordInput,
+    )
+
 
     # # 单选按钮
     # sex = forms.ChoiceField(
@@ -89,7 +100,30 @@ class LoginForm(forms.Form):
     #     widget=forms.widgets.TextInput(attrs={'type': 'Date'}),
     # )
 
+    # 演示 Hook 钩子
+    # 1. 局部狗子  clean_字段名称
+    def clean_name(self):
+        value = self.cleaned_data['name']
+        if 'zew' in value:
+            raise ValidationError('含有敏感词汇zew')
+        else:
+            return value
 
+    # 2. 全局钩子
+    def clean(self):
+        # 程序能走到该函数,前面校验已经通过了,所以可以从cleaned_data中取出密码和确认密码
+        # 字段校验通过以后才会走全局钩子
+        value = self.cleaned_data
+        print(f'value: {value}')
+        p1 = value.get('password', None)
+        p2 = value.get('r_password', None)
+        if p1 == p2:
+            return value
+        else:
+            self.add_error('r_password', '两次输入密码不一致！！') # 错误信息添加到 errors 对象里
+            raise ValidationError('两次输入的密码不一致 ')
+
+# 视图函数
 def index(request, *args, **kwargs):
 
     if request.method == 'GET':
@@ -117,6 +151,8 @@ def register(request, *args, **kwargs):
 
         # 演示 form 验证
         form_obj = LoginForm(request.POST)
+        print(form_obj.is_valid())
+        print(form_obj.fields)
         if form_obj.is_valid():  # 校验数据是否合法
             print('true')
             print(form_obj.cleaned_data)  # 通过校验的数据

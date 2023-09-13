@@ -14,6 +14,7 @@
 <body>
 <form action="" method="post" novalidate> <!-- 取消浏览器默认校验规则 -->
     {% csrf_token %}
+    {{ form_obj.errors }} <!-- 查看所有错误信息 -->
 {#    用户名: <input type="text" name="username" placeholder="请输入用户名">#}
 {#    密码: <input type="password" name="password" placeholder="请输入密码">#}
     <div>
@@ -27,6 +28,12 @@
         {{ form_obj.password }}
         <sapn style="color: red; font-size: 14px">{{ form_obj.password.errors.0 }}</sapn>
     </div>
+     <div>
+        <label for="">{{ form_obj.r_password.label }}</label>
+        {{ form_obj.r_password }}
+        <sapn style="color: red; font-size: 14px">{{ form_obj.r_password.errors.0 }}</sapn>
+    </div>
+
 {#    <div>#}
 {#        <label for="">{{ form_obj.sex.label }}</label>#}
 {#        {{ form_obj.sex }}#}
