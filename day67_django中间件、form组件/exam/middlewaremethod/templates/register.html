@@ -10,10 +10,72 @@
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <sscript src="{% static 'js/jquery.js' %}"></sscript>
+    <script src="{% static 'js/jquery.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background: url("{% static 'bg-img.png' %}");
+        }
+
+        .register-form {
+            position: relative;
+            top: 300px;
+        }
+
+    </style>
 </head>
 <body>
-<h1>测试注册</h1>
+<div class="container">
+    <div class="row col-sm-8 col-sm-offset-2">
+        <div class="panel panel-success register-form">
+            <div class="panel-heading">
+                &nbsp;<a href="{% url 'login' %}" class="pull-right">返回</a>
+            </div>
+            <div class="panel-body">
+
+                <div class="form-group">
+                    <lable class="username">用户名</lable>
+                    <input type="text" id="username" name="username" class="form-control" placeholder="请输入用户名">
+                </div>
+                <div class="form-group">
+                    <lable class="password">密码</lable>
+                    <input type="password" id="password" name="password" class="form-control" placeholder="请速入密码">
+                </div>
+                <div class="form-group">
+                    <lable class="r_password">确认密码</lable>
+                    <input type="password" id="r_password" name="r_password" class="form-control" placeholder="请再次输入密码">
+                </div>
+                <span class="error-msg" style="color: red; font-size: 14px; text-decoration: underline"></span>
+                <input type="submit" value="注册" class="btn btn-success btn-block register-btn">
+            </div>
+        </div>
+    </div>
+</div>
 </body>
+<script>
+    $('.register-btn').click(function(){
+        $.ajax({
+            url: "{% url 'register' %}",
+            type: 'post',
+            data: {
+                username: $('#username').val(),
+                password: $('#password').val(),
+                r_password: $('#r_password').val(),
+                csrfmiddlewaretoken: "{{ csrf_token }}",
+            },
+            success: function (response){
+                console.log(response)
+                retcode = response['RETCODE']
+                if (retcode === 200){
+                    location.href = "{% url 'login' %}";
+                } else {
+                    retmsg = response['RETMSG']
+                    $('.error-msg').text(retmsg)
+                }
+            },
+        });
+    });
+</script>
 </html>

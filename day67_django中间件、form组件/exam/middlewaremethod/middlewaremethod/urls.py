@@ -28,4 +28,6 @@ urlpatterns = [
     path('logout/', views.App01View.as_view(), name='logout'),
     # 注册
     path('register/', views.App01View.as_view(), name='register'),
+    # 主页
+    path('home/', views.App01View.as_view(), name='home'),
 ]

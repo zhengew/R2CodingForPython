@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+from django.urls import reverse
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -134,7 +135,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR / 'statics/bootstrap-3.3.7-dist/',
     BASE_DIR / 'statics/images/',
-    BASE_DIR / 'statics/css/'
+    BASE_DIR / 'statics/css/',
 ]
 
 # Default primary key field type
@@ -146,3 +147,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SESSION_COOKIE_NAME = 'SESSIONID'
 
 SESSION_COOKIE_AGE = 60 * 60
+
+# 白名单
+WHITE_URLS = [
+    # 登录
+    '/login/',
+    # admin
+    '/admin/',
+    # 注册
+    '/register/',
+]
