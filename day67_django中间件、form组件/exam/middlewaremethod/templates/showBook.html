@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>查看书籍</title>
+    <link rel="icon" href="{% static 'librarys.ico' %}">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            {#background: url("{% static 'bg-img.png' %}");#}
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row col-sm-8 col-sm-offset-2">
+        <div class="page-header">查看书籍<a href="{% url 'logout' %}" class="pull-right">退出</a></div>
+        <div class="panel panel-success">
+            <div class="panel-heading">&nbsp;
+                <a href="{% url 'addBook' %}" class="btn btn-primary">添加书籍</a>
+{#                <a href="{% url 'logout' %}" class="pull-right">退出</a>#}
+            </div>
+            <div class="panel-body">
+                <table class="table table-bordered table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>编号</th>
+                            <th>书籍名称</th>
+                            <th>价格</th>
+                            <th>出版日期</th>
+                            <th>出版社</th>
+                            <th>作者</th>
+                            <th>操作</th>
+                        <tr/>
+                    </thead>
+                    <tbody>
+
+                        {% for book in all_books %}
+                            <tr>
+                            <td>{{ forloop.counter }}</td>
+                            <td>{{ book.bname }}</td>
+                            <td>{{ book.price }}</td>
+                            <td>{{ book.publish_date | date:'Y-m-d' }}</td>
+                            <td>{{ book.publishs.name }}</td>
+                            <td>{{ book.get_all_authors }}</td>
+                            <td>
+                                <div class="">
+                                    <a href="{% url 'editBook' book.id %}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil text-center">编辑</a>
+                                    <a href="{% url 'delBook' book.id %}" class="btn btn-danger btn-sm glyphicon glyphicon-remove text-center">删除</a>
+                                </div>
+                            </td>
+                            </tr>
+                        {% endfor %}
+
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

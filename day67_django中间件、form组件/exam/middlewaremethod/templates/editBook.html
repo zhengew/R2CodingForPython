@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>编辑书籍</title>
+    <link rel="icon" href="{% static 'librarys.ico' %}">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row col-sm-8 col-sm-offset-2">
+        <div class="page-header">编辑书籍<a href="{% url 'showBook' %}" class="pull-right">返回</a></div>
+        <div class="panel panel-success">
+            <div class="panel-heading">&nbsp;
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="bname">书籍名称</label>
+                    <input type="text" class="form-control" id="bname" name="bname" value="{{ book_obj.bname }}" placeholder="请输入书籍名称">
+                </div>
+                <div class="form-group">
+                    <label for="price">价格</label>
+                    <input type="text" class="form-control" id="price" name="price" value="{{ book_obj.price }}" placeholder="请输入价格">
+                </div>
+                <div class="form-group">
+                    <label for="publishDate">出版日期</label>
+                    <input type="date" class="form-control" id="publishDate" name="publishDate" value="{{ book_obj.publish_date | date:'Y-m-d' }}" placeholder="请输入出版日期">
+                </div>
+                <div class="form-group">
+                    <label for="publisher">出版社</label>
+                    <select class="form-control" name="publisher" id="publisher">
+                        {% for publish in all_publishs %}
+                            {% if book_obj.publishs_id == publish.id %}
+                                <option value="{{ publish.id }}" selected>{{ publish.name }}</option>
+                            {% else %}
+                                <option value="{{ publish.id }}">{{ publish.name }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="authors">作者</label>
+                    <select class="form-control" name="authors" id="authors" multiple>
+                        {% for author in all_authors %}
+                            {% if author.name in book_author %}
+                                <option value="{{ author.id }}" selected>{{ author.name }}</option>
+                            {% else %}
+                                <option value="{{ author.id }}">{{ author.name }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                </div>
+                <button class="btn btn-success pull-right addBookBtn">提交</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $('.addBookBtn').click(function(){
+        $.ajax({
+            url: {% url 'addBook' %},
+            type: 'post',
+            data: {
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+                bname: $('#bname').val(),
+                price: $('#price').val(),
+                publish_date: $('#publishDate').val(),
+                publishs_id: $('#publisher :selected').val(),
+                authors: $('#authors').val().join(','),
+            },
+            success: function(response){
+                console.log(response)
+                if(response['RETCODE'] === 200){
+                    location.href = '{% url "showBook" %}';
+                }
+            },
+        });
+    });
+</script>
+</html>
