@@ -68,7 +68,7 @@
                 retcode = response['RETCODE']
                 retmsg = response['RETMSG']
                 if (retcode === 200){
-                    location.href = '{% url 'home' %}';
+                    location.href = '{% url 'showBook' %}';
                 } else {
                     $('.error-msg').text(retmsg);
                 }

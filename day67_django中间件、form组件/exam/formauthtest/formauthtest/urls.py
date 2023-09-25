@@ -1,5 +1,5 @@
 """
-URL configuration for middlewaremethod project.
+URL configuration for formauthtest project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -19,21 +19,11 @@ from django.urls import path
 from app01 import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls, name='admin'),
     # 根路径
     path('', views.App01View.as_view(), name='index'),
     # 登录
     path('login/', views.App01View.as_view(), name='login'),
-    # 退出
-    path('logout/', views.App01View.as_view(), name='logout'),
     # 注册
     path('register/', views.App01View.as_view(), name='register'),
-    # 查看书籍
-    path('showBook/', views.App01View.as_view(), name='showBook'),
-    # 添加书籍
-    path('addBook/', views.App01View.as_view(), name='addBook'),
-    # 删除书籍
-    path('delBook/<str:id>/', views.App01View.as_view(), name='delBook'),
-    # 编辑书籍
-    path('editBook/<str:id>/', views.App01View.as_view(), name='editBook'),
 ]

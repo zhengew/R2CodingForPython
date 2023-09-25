@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>注册</title>
+    <script src="{% static 'jquery.js' %}"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="{% static 'bootstrap.min.css' %}" rel="stylesheet">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static 'bootstrap.min.js' %}"></script>
+</head>
+<body>
+<form action="" method="post" novalidate>
+    {% csrf_token %}
+    {{ form_obj.errors }}
+    <div class="form-group">
+        <label for="">{{ form_obj.username.label }}</label>
+        {{ form_obj.username }}
+        
+    </div>
+    <input type="submit">
+</form>
+</body>
+</html>
