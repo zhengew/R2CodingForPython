@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0aadfe2d-c79d-473e-8a78-ddec2b16f2b2" name="Default Changelist" comment="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/app01/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/app01/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/app01/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/app01/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/app01/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/app01/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/middlewaremethod/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/middlewaremethod/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/middlewaremethod/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/middlewaremethod/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/day67_django中间件、form组件/exam/middlewaremethod/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,6 +294,7 @@
       <workItem from="1695009716771" duration="620000" />
       <workItem from="1695041380446" duration="598000" />
       <workItem from="1695562034951" duration="925000" />
+      <workItem from="1695684176671" duration="3273000" />
     </task>
     <task id="LOCAL-00001" summary="python day26_oop 继承中的super关键字, 封装 私有化成员｜私有化在类中是如何变形、类中变量的级别、类的装饰器 @property |getter|setter|deleter装饰器，反射｜反射三大器 hasattr|getattr|callable｜反射的应用场景">
       <created>1680939691736</created>
